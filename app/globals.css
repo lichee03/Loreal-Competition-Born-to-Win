@@ -14,7 +14,7 @@
   --primary-foreground: oklch(1 0 0);
   --secondary: oklch(0.65 0.15 160); /* Emerald-600 #10b981 */
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.97 0.02 200); /* Light cyan tint #ecfeff */
+  --muted: oklch(0.4 0.02 200); /* Light cyan tint #ecfeff */
   --muted-foreground: oklch(0.35 0 0);
   --accent: oklch(0.65 0.15 160); /* Emerald-600 #10b981 */
   --accent-foreground: oklch(1 0 0);
