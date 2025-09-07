@@ -70,27 +70,10 @@ def fetch_trend_details(trend_name):
 
     unique_creators = list({t["user"] for t in tweets if t["user"]})
     engagement = sum(t["retweets"] + t["likes"] + t["views"] for t in tweets)
-    category = detect_category(trend_name)
 
-    return engagement, unique_creators, category
-
+    return engagement, unique_creators
 
 
-def detect_category(trend_name):
-    """Assign category based on trend keywords."""
-    trend_lower = trend_name.lower()
-    if any(word in trend_lower for word in ["sport", "football", "soccer", "basketball"]):
-        return "Sports"
-    elif any(word in trend_lower for word in ["food", "drink", "cooking", "recipe"]):
-        return "Food"
-    elif any(word in trend_lower for word in ["health", "wellness", "fitness"]):
-        return "Health"
-    elif any(word in trend_lower for word in ["beauty", "skincare", "makeup"]):
-        return "Beauty"
-    elif any(word in trend_lower for word in ["lifestyle", "fashion", "travel"]):
-        return "Lifestyle"
-    else:
-        return "Lifestyle"
 
 
 def process_trends():
@@ -133,7 +116,7 @@ def process_trends():
             "engagement": engagement,
             "unique_creators": unique_creators,
             "audience_signals": None,
-            "category": category,
+            "category": None,
             "geo": "United States"
         })
 
