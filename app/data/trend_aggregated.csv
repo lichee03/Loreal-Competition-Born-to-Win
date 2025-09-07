@@ -1,0 +1,522 @@
+trend_id,volume,engagement,unique_creators,current_stage,growth_rate_7d,acceleration,sweet_spot_days_left,recommended_action,platform
+#3dwhitestrips,4,657411,['amberyeet'],emerging,33.61435786,2.314645312,7,Hop in now,tiktok
+#abigboldbeautifuljourney,3,753412,['bigboldbeautifuljourney'],emerging,45.09351328,4.977014137,7,Hop in now,tiktok
+#ad,29,2126767,"['christy_ix', 'joycethedentist', 'myblissfulhome', 'amberyeet', '_samanthajo_', 'mckennaiseating', 'phoebeanddan', 'heyjordanrobinson', 'jonathanbynoe']",peak,22.61280774,6.794906579,9,Leverage while peak,tiktok
+#adobepartner,5,1846639,"['__kemma', 'brookemonk_', 'outsideeric', 'jenerationdiy']",peak,44.03674246,-1.826458091,6,Leverage while peak,tiktok
+#adobephotoshoppartner,3,1650028,['rambosphotos'],emerging,30.18445563,6.134144055,1,Hop in now,tiktok
+#aeroforall,1,106504,['aeropostale'],emerging,13.17511474,-4.452233846,1,Hop in now,tiktok
+#applecidervinegar,5,877994,['jexor22'],peak,44.05194352,1.654820356,6,Leverage while peak,tiktok
+#autismawareness,2,9636296,['shundasworld'],emerging,39.57508989,-1.787616572,1,Hop in now,tiktok
+#bbq,5,826295,['cooking_with_fire'],peak,35.95287366,-2.65627705,1,Leverage while peak,tiktok
+#benandjerrys,14,409634,['benandjerrys'],peak,41.7769128,-7.435131358,3,Leverage while peak,tiktok
+#bikelife,5,4071086,['r6kidd'],peak,28.99589571,-1.405924314,8,Leverage while peak,tiktok
+#blink,6,102926,['blink'],peak,43.16390275,-5.382534851,4,Leverage while peak,tiktok
+#bluebuffalo,10,503821,"['waltandgusthebernese', 'milothepencildog']",peak,19.79301466,-8.260004823,4,Leverage while peak,tiktok
+#bluebuffalopartner,10,503821,"['waltandgusthebernese', 'milothepencildog']",peak,15.68314144,-0.279875537,2,Leverage while peak,tiktok
+#bmw,5,4071086,['r6kidd'],peak,46.84489621,7.310875629,8,Leverage while peak,tiktok
+#bombpop,3,146624,['phoebeanddan'],emerging,1.841668728,-0.400873053,2,Hop in now,tiktok
+#bombpopextremes,3,146624,['phoebeanddan'],emerging,48.36293174,1.72619001,7,Hop in now,tiktok
+#cancer,9,3300642,['mdmotivator'],peak,11.84781195,-8.29497385,8,Leverage while peak,tiktok
+#capcut,10,195310,['mikalaidler'],peak,49.8034229,-0.955624096,4,Leverage while peak,tiktok
+#car,9,3300642,['mdmotivator'],peak,4.914070381,8.789238471,1,Leverage while peak,tiktok
+#cascade_partner,15,1326466,"['thatsavagekitchen', 'hydro.nyc']",peak,5.99398411,8.359855979,9,Leverage while peak,tiktok
+#cascadeplatinumplus,15,1326466,"['thatsavagekitchen', 'hydro.nyc']",peak,17.63688282,2.360868044,1,Leverage while peak,tiktok
+#ceravepartner,2,544145,"['dasani.dior', 'imfreen']",emerging,0.637703516,0.863161511,9,Hop in now,tiktok
+#cereal,5,482176,['cerealuser04191906'],peak,32.02548771,-6.924901511,5,Leverage while peak,tiktok
+#cleaningredients,5,375131,['milothepencildog'],peak,42.21134092,3.753061128,6,Leverage while peak,tiktok
+#cliniquepartner,2,366033,['grwtzi'],emerging,40.28986027,-0.008249089,1,Hop in now,tiktok
+#closefriendsonly,2,309326,['carmeloanthony'],emerging,22.03109295,-4.799775991,8,Hop in now,tiktok
+#coldone,5,482176,['cerealuser04191906'],peak,49.65925348,-8.59110678,5,Leverage while peak,tiktok
+#colinfarrell,3,753412,['bigboldbeautifuljourney'],emerging,41.60346015,-2.585976539,7,Hop in now,tiktok
+#college,3,21448562,['benio0829'],emerging,38.22483126,0.123349035,1,Hop in now,tiktok
+#cooking,8,296942,['chacekitchen'],peak,40.05300532,1.314962698,6,Leverage while peak,tiktok
+#cottagecheese,3,4410034,['402.maxy'],emerging,38.84005311,6.746348592,8,Hop in now,tiktok
+#cow,10,2988164,"['blink', 'udderlystablevets']",peak,13.67073377,-2.327984794,4,Leverage while peak,tiktok
+#creativeportraits,3,1650028,['rambosphotos'],emerging,35.90084314,6.007521685,2,Hop in now,tiktok
+#crestpartner,4,657411,['amberyeet'],emerging,12.81996172,-6.978305567,7,Hop in now,tiktok
+#crestrealitycheckup,4,657411,['amberyeet'],emerging,12.10172749,5.739603218,4,Hop in now,tiktok
+#cruise,7,4374352,"['royalcaribbean', 'cbsnews']",peak,10.02303533,-1.186718623,4,Leverage while peak,tiktok
+#cruisetok,5,1131682,['royalcaribbean'],peak,34.63938254,-7.531119191,6,Leverage while peak,tiktok
+#cruisevlog,5,1131682,['royalcaribbean'],peak,26.60495457,-4.567046486,4,Leverage while peak,tiktok
+#crunchy,8,950158,['keilapacheco'],peak,37.81440546,-6.95789354,2,Leverage while peak,tiktok
+#dateideas,4,458280,['sylvia62338'],emerging,15.74670723,1.250043858,8,Hop in now,tiktok
+#daughter,9,3300642,['mdmotivator'],peak,11.71356908,-4.918550334,1,Leverage while peak,tiktok
+#dawn_partner,15,1021605,"['mikalaidler', 'cooking_with_fire']",peak,13.00399813,-8.155547199,3,Leverage while peak,tiktok
+#dawnpowersuds,10,195310,['mikalaidler'],peak,42.04447133,1.154538367,1,Leverage while peak,tiktok
+#dawnpowerwash,5,826295,['cooking_with_fire'],peak,15.01894105,-2.745273854,9,Leverage while peak,tiktok
+#dayinthelife,10,195310,['mikalaidler'],peak,34.1842158,-2.427436871,9,Leverage while peak,tiktok
+#dazspartner,3,214534,['cabagges'],emerging,6.396331043,-8.104667845,8,Hop in now,tiktok
+#dealforyoudays,5,877994,['jexor22'],peak,29.90336164,-5.176723348,9,Leverage while peak,tiktok
+#deltapartner,1,279279,['kbandkarla'],emerging,21.0306587,3.657429106,6,Hop in now,tiktok
+#dinner,8,296942,['chacekitchen'],peak,22.80127651,3.14277526,1,Leverage while peak,tiktok
+#dinnerideas,8,296942,['chacekitchen'],peak,35.80529271,5.974474707,6,Leverage while peak,tiktok
+#dishwasher,10,1094260,['thatsavagekitchen'],peak,19.52173059,-5.885403978,2,Leverage while peak,tiktok
+#disneychannel,3,223609,['disneywizardsseries'],emerging,17.14141632,6.525859553,8,Hop in now,tiktok
+#disneyplus,3,223609,['disneywizardsseries'],emerging,9.426553952,5.422766661,9,Hop in now,tiktok
+#diyhouse,6,14345801,['tiny_home_creations'],peak,35.26294063,-0.84940687,6,Leverage while peak,tiktok
+#diytips,5,232206,['hydro.nyc'],peak,16.57473036,7.077458389,6,Leverage while peak,tiktok
+#dogfoodreview,5,128690,['waltandgusthebernese'],peak,16.24714027,7.621946697,9,Leverage while peak,tiktok
+#dogsnacks,5,375131,['milothepencildog'],peak,26.99343979,-3.040320521,3,Leverage while peak,tiktok
+#dominoscreatorcollective,2,144802,['mckennaiseating'],emerging,28.27631139,-3.02120467,3,Hop in now,tiktok
+#dreamhouse,6,14345801,['tiny_home_creations'],peak,29.63035258,-0.796066085,2,Leverage while peak,tiktok
+#dropshipping,7,4224866,['ac_hampton'],peak,19.08320202,-3.177913972,9,Leverage while peak,tiktok
+#easydinnerideas,8,296942,['chacekitchen'],peak,38.04808208,-0.399991736,4,Leverage while peak,tiktok
+#ecommerce,7,4224866,['ac_hampton'],peak,9.46995403,1.169893153,6,Leverage while peak,tiktok
+#emptynest,3,21448562,['benio0829'],emerging,23.3034703,-0.1193446,9,Hop in now,tiktok
+#engagement,4,198390,['peacock'],emerging,28.62199281,6.647281396,3,Hop in now,tiktok
+#entrepreneur,7,4224866,['ac_hampton'],peak,10.12991184,7.571613067,7,Leverage while peak,tiktok
+#family,9,3300642,['mdmotivator'],peak,35.28813538,-7.173451601,3,Leverage while peak,tiktok
+#farmcall,4,2885238,['udderlystablevets'],emerging,26.64902224,-9.668340217,1,Hop in now,tiktok
+#fashion,6,681939,['shein_official'],peak,20.34715272,9.981617873,4,Leverage while peak,tiktok
+#fitcheck,3,3565755,['mrbhistory'],emerging,19.37039319,-2.249291807,6,Hop in now,tiktok
+#freakierfriday,2,1169870,['lindsaylohan'],emerging,32.73469161,-9.749333827,6,Hop in now,tiktok
+#fridgegoals,5,482176,['cerealuser04191906'],peak,3.95068436,1.911559743,5,Leverage while peak,tiktok
+#fridgeorganization,5,482176,['cerealuser04191906'],peak,21.38719944,-0.161496241,7,Leverage while peak,tiktok
+#funhouse,5,17086761,['thedailynelly'],peak,34.508945,-6.746787435,9,Leverage while peak,tiktok
+#funny,5,482176,['cerealuser04191906'],peak,0.400718321,-5.946200756,3,Leverage while peak,tiktok
+#fyp,35,50034247,"['gamedaygoofs', 'shein_official', 'thatsavagekitchen', 'benio0829', 'shundasworld', '402.maxy', 'breannamnicole', 'udderlystablevets']",peak,45.76928723,1.717861668,8,Leverage while peak,tiktok
+#fypシ,10,844199,"['orixnaomi', 'randiwilsonnn']",peak,29.78825198,1.503969306,3,Leverage while peak,tiktok
+#galaxyzflip7,2,232411,['hardfest'],emerging,0.394611303,-7.236421346,7,Hop in now,tiktok
+#galaxyzfold7,2,232411,['hardfest'],emerging,18.56825413,-2.025137925,9,Hop in now,tiktok
+#gerberpartner,1,161915,['d_rench'],emerging,43.43253797,1.697370184,1,Hop in now,tiktok
+#glycolicgloss,3,172919,['lorealparisusa'],emerging,48.54357215,3.186993466,7,Hop in now,tiktok
+#gonudehoney,2,366033,['grwtzi'],emerging,36.72465692,-5.554562206,6,Hop in now,tiktok
+#gowithgoli,5,877994,['jexor22'],peak,29.14172844,-5.640476267,5,Leverage while peak,tiktok
+#grillcleanup,5,826295,['cooking_with_fire'],peak,28.27036195,3.036180367,4,Leverage while peak,tiktok
+#guthealth,5,877994,['jexor22'],peak,20.87090103,-2.120040144,1,Leverage while peak,"tiktok, instagram"
+#handmade,6,14345801,['tiny_home_creations'],peak,26.30432823,7.679633208,7,Leverage while peak,tiktok
+#hdslowsunday,3,214534,['cabagges'],emerging,36.23588387,-0.05176336,9,Hop in now,tiktok
+#healthcare,5,462748,['randiwilsonnn'],peak,43.76042129,0.362935129,4,Leverage while peak,tiktok
+#healthydogshappydogs,5,128690,['waltandgusthebernese'],peak,12.37943137,3.439549827,8,Leverage while peak,tiktok
+#healthysmile,7,100436,['joycethedentist'],peak,22.60838341,3.199513941,4,Leverage while peak,tiktok
+#helpme,5,1906808,['gamedaygoofs'],peak,7.645722967,2.465784665,9,Leverage while peak,tiktok
+#hiltonpartner,2,111740,['christy_ix'],emerging,13.16716268,-1.77261342,2,Hop in now,tiktok
+#homedepotpartner,3,330571,['dadadvicefrombo'],emerging,39.66502783,0.400965466,3,Hop in now,tiktok
+#hotelvibes,5,3536692,['naturecallsmehome'],peak,33.8192348,6.250297155,2,Leverage while peak,tiktok
+#house,5,17086761,['thedailynelly'],peak,39.66993459,3.870042481,6,Leverage while peak,tiktok
+#hydroboost,2,374689,['katiefanggg'],emerging,2.549716641,8.359504914,3,Hop in now,tiktok
+#hyundai,9,3300642,['mdmotivator'],peak,12.55679934,6.361510047,7,Leverage while peak,tiktok
+#hyundaipartner,9,3300642,['mdmotivator'],peak,47.44586943,-4.964757788,5,Leverage while peak,tiktok
+#icecream,5,113370,['benandjerrys'],peak,23.5268976,-4.960813842,6,Leverage while peak,tiktok
+#igpartner,2,309326,['carmeloanthony'],emerging,18.71979877,-5.841851827,3,Hop in now,tiktok
+#inspiration,13,4906805,"['shein_official', 'ac_hampton']",peak,11.18536116,9.508664489,3,Leverage while peak,tiktok
+#justinflom,5,17086761,['thedailynelly'],peak,7.13182526,4.408603741,2,Leverage while peak,tiktok
+#jwmarriottdesertsprings,5,3536692,['naturecallsmehome'],peak,13.4680242,9.887472776,6,Leverage while peak,tiktok
+#kindness,9,3300642,['mdmotivator'],peak,3.145344592,6.846929279,6,Leverage while peak,tiktok
+#knorrito,8,296942,['chacekitchen'],peak,36.54305425,-3.505906522,6,Leverage while peak,tiktok
+#knorrpartner,8,296942,['chacekitchen'],peak,4.393024963,-8.994480239,2,Leverage while peak,tiktok
+#knorrunlimitedtimemenu,8,296942,['chacekitchen'],peak,19.13517818,-9.5290694,5,Leverage while peak,tiktok
+#kpopdemonhunters,2,1426798,['kpopdemonhuntersnetflix'],emerging,7.453532977,-8.980481473,7,Hop in now,tiktok
+#larocheposaypartner,2,466417,['thejonnycakes'],emerging,20.4457126,-6.149418735,1,Hop in now,tiktok
+#larocheposayusa,2,466417,['thejonnycakes'],emerging,46.82684652,-3.491459855,2,Hop in now,tiktok
+#layers,4,96467,['benandjerrys'],emerging,7.401917878,5.804722563,3,Hop in now,tiktok
+#levelup,10,1094260,['thatsavagekitchen'],peak,20.53619757,3.069225391,2,Leverage while peak,tiktok
+#lollaaccused,1,218859,['lollapalooza'],emerging,3.626957909,-9.773133086,7,Hop in now,tiktok
+#longdistance,4,458280,['sylvia62338'],emerging,44.20353649,-8.867890255,4,Hop in now,tiktok
+#longdistancerelationship,4,458280,['sylvia62338'],emerging,46.66564568,1.4155337,8,Hop in now,tiktok
+#lorealparis,3,172919,['lorealparisusa'],emerging,29.71740814,8.493644476,6,Hop in now,tiktok
+#luxuryforless,5,3536692,['naturecallsmehome'],peak,5.27141139,-9.534618547,1,Leverage while peak,tiktok
+#madebygoogle,2,297625,['googlepixel'],emerging,34.13020816,-3.686031078,5,Hop in now,tiktok
+#madewithlightroom,2,1019910,['brookemonk_'],emerging,13.37672102,-1.715042769,9,Hop in now,tiktok
+#magic,5,17086761,['thedailynelly'],peak,18.61172114,9.78838731,8,Leverage while peak,tiktok
+#magician,5,17086761,['thedailynelly'],peak,14.73922613,7.90988126,3,Leverage while peak,tiktok
+#makeiticonic,2,135176,['lollapalooza'],emerging,22.36440101,8.711221335,5,Hop in now,tiktok
+#margotrobbie,3,753412,['bigboldbeautifuljourney'],emerging,39.12098358,-0.632189582,8,Hop in now,tiktok
+#matcha,5,113370,['benandjerrys'],peak,11.35624873,0.436332735,4,Leverage while peak,tiktok
+#matchalatte,5,113370,['benandjerrys'],peak,19.26804384,8.036481817,6,Leverage while peak,tiktok
+#mclarenmastercard,2,387457,['mastercard'],emerging,18.84986034,-3.112009353,7,Hop in now,tiktok
+#mealinspo,8,296942,['chacekitchen'],peak,11.75970322,2.66848204,9,Leverage while peak,tiktok
+#medicalassistant,5,462748,['randiwilsonnn'],peak,37.61250062,-4.849849684,1,Leverage while peak,tiktok
+#medicalhumor,5,462748,['randiwilsonnn'],peak,43.739569,4.13782529,2,Leverage while peak,tiktok
+#medstudent,5,462748,['randiwilsonnn'],peak,38.11204583,-0.102819827,5,Leverage while peak,tiktok
+#milkshake,5,199797,['benandjerrys'],peak,17.41625976,-4.823236627,4,Leverage while peak,tiktok
+#millionairemindset,7,4224866,['ac_hampton'],peak,27.63362141,3.480187105,2,Leverage while peak,tiktok
+#mindset,7,4224866,['ac_hampton'],peak,12.00396176,-8.288621931,1,Leverage while peak,tiktok
+#miniature,6,14345801,['tiny_home_creations'],peak,0.155276919,8.340890377,3,Leverage while peak,tiktok
+#minibricks,6,14345801,['tiny_home_creations'],peak,1.520988156,4.855344739,5,Leverage while peak,tiktok
+#momlife,10,195310,['mikalaidler'],peak,27.48083887,-3.935628239,9,Leverage while peak,tiktok
+#momsbelike,10,195310,['mikalaidler'],peak,22.62066751,-6.176147459,1,Leverage while peak,tiktok
+#money,9,3300642,['mdmotivator'],peak,38.22121415,-3.597705168,7,Leverage while peak,tiktok
+#moomoments,6,102926,['blink'],peak,16.97901061,-2.039440185,8,Leverage while peak,tiktok
+#mother,9,3300642,['mdmotivator'],peak,27.2199315,-7.135359914,7,Leverage while peak,tiktok
+#motherhoodunfiltered,10,195310,['mikalaidler'],peak,1.400154252,-0.626550426,4,Leverage while peak,tiktok
+#motivation,7,4224866,['ac_hampton'],peak,15.60064631,8.575756576,4,Leverage while peak,tiktok
+#motorcycle,5,4071086,['r6kidd'],peak,44.32707283,-5.80342765,4,Leverage while peak,tiktok
+#movie,4,123987,['remy_solomon'],emerging,34.52883595,4.370691876,9,Hop in now,tiktok
+#mukbang,8,950158,['keilapacheco'],peak,45.68073444,7.256167798,3,Leverage while peak,tiktok
+#mukbangeatingshow,8,950158,['keilapacheco'],peak,31.69356183,-5.055806903,6,Leverage while peak,tiktok
+#mylivemystory,2,213731,['tiktok'],emerging,26.86198632,1.217651226,3,Hop in now,tiktok
+#neutrogenapartner,4,589322,"['jaimesskin', 'katiefanggg', 'miaamartinii']",emerging,21.09752543,6.249254966,6,Hop in now,tiktok
+#newgirl,4,198390,['peacock'],emerging,31.33081521,8.359867255,4,Hop in now,tiktok
+#nextlevelgloss,3,172919,['lorealparisusa'],emerging,8.399198429,2.389613378,6,Hop in now,tiktok
+#nightmoovision,6,102926,['blink'],peak,29.10688065,5.657357362,4,Leverage while peak,tiktok
+#nowincewhitening,7,100436,['joycethedentist'],peak,10.68272986,7.813670687,7,Leverage while peak,tiktok
+#olaypartner,2,163080,['_samanthajo_'],emerging,6.790359403,3.574201384,2,Hop in now,tiktok
+#oldspicepartner,2,138186,['jonathanbynoe'],emerging,0.593623789,7.349962058,3,Hop in now,tiktok
+#pasta,10,1094260,['thatsavagekitchen'],peak,13.24704672,-6.165846606,9,Leverage while peak,tiktok
+#pastalover,10,1094260,['thatsavagekitchen'],peak,4.329515251,5.45299149,1,Leverage while peak,tiktok
+#pastatiktok,10,1094260,['thatsavagekitchen'],peak,10.71428981,5.064734774,3,Leverage while peak,tiktok
+#philadelphiacreamcheese,3,199033,['myblissfulhome'],emerging,40.60582214,-6.05208393,7,Hop in now,tiktok
+#photoshootwithstrangers,3,1650028,['rambosphotos'],emerging,25.56021717,-5.307186013,3,Hop in now,tiktok
+#plumber,5,232206,['hydro.nyc'],peak,3.387008501,-3.553939149,7,Leverage while peak,tiktok
+#plumbertips,5,232206,['hydro.nyc'],peak,34.80070781,-7.781147691,2,Leverage while peak,tiktok
+#priceless,2,387457,['mastercard'],emerging,27.56487846,-6.593213959,3,Hop in now,tiktok
+#pubgmobile,1,140953,['ttlive_gip'],emerging,7.475477662,-8.681819155,1,Hop in now,tiktok
+#razr,2,135176,['lollapalooza'],emerging,37.42402629,2.598147769,7,Hop in now,tiktok
+#recipe,10,1094260,['thatsavagekitchen'],peak,26.94122502,5.381678771,9,Leverage while peak,tiktok
+#relationship,4,458280,['sylvia62338'],emerging,8.110822902,0.411003636,1,Hop in now,tiktok
+#royalcaribbean,2,3242670,['cbsnews'],emerging,10.63128191,-7.655418741,6,Hop in now,tiktok
+#s1k,5,4071086,['r6kidd'],peak,45.01438891,7.210703636,1,Leverage while peak,tiktok
+#saveinstyle,6,681939,['shein_official'],peak,41.39086771,4.636116021,5,Leverage while peak,tiktok
+#scammed,2,7971110,['breannamnicole'],emerging,38.45842381,2.918797106,3,Hop in now,tiktok
+#scoopapalooza,5,199797,['benandjerrys'],peak,0.305011749,7.767837147,9,Leverage while peak,tiktok
+#searchlightpartner,4,123987,['remy_solomon'],emerging,49.59979096,0.207652083,2,Hop in now,tiktok
+#searchlightpictures,4,123987,['remy_solomon'],emerging,7.294886658,-8.46727946,6,Hop in now,tiktok
+#securitymoonitoring,6,102926,['blink'],peak,2.154065163,-4.365188396,3,Leverage while peak,tiktok
+#sensodyne,7,100436,['joycethedentist'],peak,19.85388575,4.038613657,4,Leverage while peak,tiktok
+#sensodyneclinicalwhite,7,100436,['joycethedentist'],peak,27.91048477,-3.798467154,4,Leverage while peak,tiktok
+#shein,6,681939,['shein_official'],peak,43.23104062,6.567805956,8,Leverage while peak,tiktok
+#sheinforall,6,681939,['shein_official'],peak,14.52234554,6.167803766,8,Leverage while peak,tiktok
+#shrek,4,96467,['benandjerrys'],emerging,3.474055095,-1.014367138,8,Hop in now,tiktok
+#skirtsteaktacos,5,826295,['cooking_with_fire'],peak,36.89266694,1.370434671,4,Leverage while peak,tiktok
+#statefarmpartner,1,607234,['daniel.labelle'],emerging,39.23821124,-9.29026259,7,Hop in now,tiktok
+#stealing,5,1906808,['gamedaygoofs'],peak,47.44811439,3.719712857,9,Leverage while peak,tiktok
+#strawberrymatchalatte,5,113370,['benandjerrys'],peak,36.50328257,-4.292471025,3,Leverage while peak,tiktok
+#strawberryshake,5,199797,['benandjerrys'],peak,9.945389864,6.277996131,4,Leverage while peak,tiktok
+#streetbike,5,4071086,['r6kidd'],peak,2.200845453,3.149968157,6,Leverage while peak,tiktok
+#summerpowerperiod,5,128690,['waltandgusthebernese'],peak,9.042947006,-2.669813142,5,Leverage while peak,tiktok
+#sundae,4,96467,['benandjerrys'],emerging,10.43231716,-8.993891207,7,Hop in now,tiktok
+#talentifirsttaste,3,253820,['healthylittlepeach'],emerging,49.65283262,-7.534875091,9,Hop in now,tiktok
+#talentipartner,3,253820,['healthylittlepeach'],emerging,2.283092822,7.124324814,3,Hop in now,tiktok
+#talentisorbetto,3,253820,['healthylittlepeach'],emerging,2.440504019,7.037610928,4,Hop in now,tiktok
+#taylorswift,4,198390,['peacock'],emerging,35.35973886,-5.650060418,1,Hop in now,tiktok
+#teacherfit,3,3565755,['mrbhistory'],emerging,5.112189375,-5.30282988,7,Hop in now,tiktok
+#teacheroutfit,2,4634749,['tamerahwilliams'],emerging,14.78533376,9.297201435,6,Hop in now,tiktok
+#teachersoftiktok,5,8200504,"['mrbhistory', 'tamerahwilliams']",peak,27.3492866,-9.057918632,7,Leverage while peak,tiktok
+#teamwater,4,660972,['tiktokcreators'],emerging,48.03917743,5.337027472,5,Hop in now,tiktok
+#teethwhitening,7,100436,['joycethedentist'],peak,1.758365514,-5.722764898,6,Leverage while peak,tiktok
+#tenders,8,950158,['keilapacheco'],peak,19.26767932,-5.942856729,4,Leverage while peak,tiktok
+#tennis,5,1906808,['gamedaygoofs'],peak,49.15194988,3.311263731,4,Leverage while peak,tiktok
+#thatsavagekitchen,10,1094260,['thatsavagekitchen'],peak,15.76762045,-0.994954695,2,Leverage while peak,tiktok
+#thatsdazs,3,214534,['cabagges'],emerging,14.32396082,-4.428467381,4,Hop in now,tiktok
+#theroses,4,123987,['remy_solomon'],emerging,33.85050661,0.357054991,8,Hop in now,tiktok
+#throwback,2,1169870,['lindsaylohan'],emerging,0.385188063,8.65059598,7,Hop in now,tiktok
+#tinyhouse,6,14345801,['tiny_home_creations'],peak,45.01415067,-3.814061978,8,Leverage while peak,tiktok
+#toddlermom,10,195310,['mikalaidler'],peak,29.26425417,-9.165814136,4,Leverage while peak,tiktok
+#traveltok,5,3536692,['naturecallsmehome'],peak,32.5844089,2.847306592,4,Leverage while peak,tiktok
+#treattime,5,375131,['milothepencildog'],peak,45.79879832,3.796172709,8,Leverage while peak,tiktok
+#vetsoftiktok,4,2885238,['udderlystablevets'],emerging,28.52081177,-8.959762598,6,Hop in now,tiktok
+#viral,8,6316842,"['gamedaygoofs', '402.maxy']",peak,35.61494546,1.181423211,8,Leverage while peak,tiktok
+#waterpark,5,1131682,['royalcaribbean'],peak,49.91654541,2.336770933,2,Leverage while peak,tiktok
+#waterslide,5,1131682,['royalcaribbean'],peak,0.840525829,7.755130647,6,Leverage while peak,tiktok
+#waywo,3,330571,['dadadvicefrombo'],emerging,7.920902047,-1.072539789,6,Hop in now,tiktok
+#wedding,4,198390,['peacock'],emerging,32.34003376,-2.620818789,9,Hop in now,tiktok
+#weekendreset,5,3536692,['naturecallsmehome'],peak,18.82983788,-8.982671047,6,Leverage while peak,tiktok
+#weekendvibes,5,199797,['benandjerrys'],peak,29.50317618,-8.099104847,9,Leverage while peak,tiktok
+#wendyspartner,1,318423,['ricotaquito'],emerging,0.954473047,-6.521924383,5,Hop in now,tiktok
+#whatareyouworkingon,3,330571,['dadadvicefrombo'],emerging,20.73675869,5.333810828,4,Hop in now,tiktok
+#whatnot,5,381451,['orixnaomi'],peak,2.855705003,1.877009219,1,Leverage while peak,tiktok
+#whatnotapp,5,381451,['orixnaomi'],peak,18.11078143,-2.420601438,9,Leverage while peak,tiktok
+#whatnothaul,7,521883,"['orixnaomi', 'victowia_']",peak,33.53438014,-7.237862425,3,Leverage while peak,tiktok
+#whatnotpartner,7,521883,"['orixnaomi', 'victowia_']",peak,1.271476249,-4.309529649,1,Leverage while peak,tiktok
+#whitesmile,7,100436,['joycethedentist'],peak,14.20274502,9.807002609,6,Leverage while peak,tiktok
+#wholetthecowout,6,102926,['blink'],peak,20.04098271,-6.052656281,4,Leverage while peak,tiktok
+#wingstop,8,950158,['keilapacheco'],peak,23.60604828,-0.112235462,2,Leverage while peak,tiktok
+#wingstopmukbang,8,950158,['keilapacheco'],peak,49.02666851,2.19640197,2,Leverage while peak,tiktok
+#wingstoppartner,8,950158,['keilapacheco'],peak,40.75474801,-1.889682553,2,Leverage while peak,tiktok
+#wingstoptenders,8,950158,['keilapacheco'],peak,22.01799048,6.120196065,5,Leverage while peak,tiktok
+#wizardsbeyond,3,223609,['disneywizardsseries'],emerging,15.40489518,7.197256701,8,Hop in now,tiktok
+#workingmom,10,195310,['mikalaidler'],peak,32.53927844,-9.261675431,8,Leverage while peak,tiktok
+#workingmomlife,10,195310,['mikalaidler'],peak,9.523552375,0.235538558,5,Leverage while peak,tiktok
+#zerosugar,5,877994,['jexor22'],peak,4.918239996,-2.393496289,5,Leverage while peak,tiktok
+#sustainablefashion,450000,18500,"elliotduprey, zaratrendsetter, leshawnbridgewater, vogueindia, thebohemiandreamlife",emerging,38,23,7,Hop in now,instagram
+#fitnesschallenge,430000,20000,"jennyfisherfitness, shainamarie.b, justinagustin, iamerike, madeline_moves",emerging,31,16,9,Hop in now,instagram
+#petsoftiktok,410000,17500,"yonghui9913, wesavinganimal, mocha_che2025, furacaobucky, yonghui9913",emerging,29,14,9,Hop in now,instagram
+#homedecor,400000,14000,"ownbyfemme, one.interior.mag, elledecorationfr, one.interior.mag, elledecorationfr",emerging,25,10,7,Hop in now,instagram
+#gamingclips,390000,15000,"exodusv17, retrogamingnow, fnbr.reels, mrstartech, tech_guy_009",emerging,30,15,6,Hop in now,instagram
+#mentalhealthmatters,380000,11000,"notcommonfacts, meredith.vanness, suicidepreventionawarenes, kings__community, chaoticallyjasmine",stable,16,1,5,Maintain position,instagram
+#travelvlog,370000,12000,"ridetriptours, kaon.ashi, nickwalkerfitness, nickwalkerfitness, meganhomme",emerging,22,7,5,Hop in now,instagram
+#makeuptutorial,360000,11500,"sandiebasra_, iamkaylabeauty, yasmin.ghssan, havzhin.salon, girlyyrelatable",stable,12,-3,6,Maintain position,instagram
+#techreviews,350000,12500,"marek_hajn, techgusoficial, kagantech, androidauthority, tayllorlloyd",emerging,28,13,9,Hop in now,instagram
+#foodhacks,340000,10500,"hacks.365, cookingwithmurph, ma_petite_bouchee, withlovestacy_, ma_petite_bouchee",stable,10,-5,3,Maintain position,instagram
+#asmrcommunity,330000,10000,"foodie.on.wheelz, indianasmr_bhumika, sparkleberry_crunch_asmr, rebeccas.asmr, muvacruncha_asmr",stable,7,-8,5,Maintain position,instagram
+#ecoliving,320000,15500,"becca.loveless, sswagger.hk, sswagger.hk, hereafterfarms, we_are_watching_a_movie",emerging,24,9,8,Hop in now,instagram
+#parentingtips,310000,12000,"zehn_graphi, modernparentsguide, jennagallarzo, instituteofchildpsych, parentnormal",emerging,23,8,8,Hop in now,instagram
+#crypto2025,300000,9000,"blueedgecrypto, my_crypto_guy, cripto.ico, blueedgecrypto, leonard_richard_xrp_",declining,-5,-20,2,Consider exit,instagram
+#bookstagram,290000,11000,"bellafazzati, emmasamary, authorangelasnyder, steffdepikiti, haileesbooks",stable,13,-2,6,Maintain position,instagram
+#budgetingtips,280000,12500,"jimmythefinancialcoach, mariadjonsson, economikat, f__zine, economikat",emerging,27,12,8,Hop in now,instagram
+#urbanfarming,270000,12000,"marketing.growmatics, traviscnews, plantedinthegarden, youngwill2, lukasjamoul",emerging,21,6,9,Hop in now,instagram
+#viralvideos,260000,9500,"mennaayman.11, goncalotraveler, lachimolala_bts15, dileepfeeds, larobenz_",stable,4,-11,5,Maintain position,instagram
+#celebritylifestyle,250000,11500,"ncl.tv, chronograph_2022, hasnaa_saifaldeen, vivaromania, ayevi",stable,24,9,5,Maintain position,instagram
+#memeoftheday,240000,14000,"related.zz, yourfridayguy, 333raccoonsinatrenchcoat, npcanxity, daduelking",stable,4,-11,5,Maintain position,instagram
+#skincare,3500000,14000,"emilylucyrajch, trolls.zx, vischilling, _hiteshi_, spaleonelabello",peak,12,-3,3,Leverage while peak,instagram
+#sustainablebeauty,2800000,15000,"iamannacasey, 4bassett, jknhomelux, chengdu_china, andy.monaghan",emerging,30,15,5,Hop in now,instagram
+#cleanskincare,2500000,15500,"drericberg, arybiolove, wakeupandreadthelabels, dezdmc, madisonbrown.pac",emerging,12,-3,5,Hop in now,instagram
+#beautyhacks,2400000,11500,"thaisbrazoficial, makeupby_elliee, selfcare3385, darlydistudios, amicamagazine",declining,-10,-25,1,Consider exit,instagram
+#mensgrooming,2200000,12000,"onpointfreshco, miggycarbonilla, _progrooming, peaceoot, timmy_spagnolo",emerging,15,0,9,Hop in now,instagram
+#nailart,2100000,16000,"by.yailene, pressonsslayedbyval, crisanianeri, weekend_nails, heajiheaji",emerging,35,20,5,Hop in now,instagram
+#organicmakeup,2000000,13500,"cassandramcclure, scoopwhoop, kashkhanofficial, kwanusa9, alejandlores",emerging,20,5,7,Hop in now,instagram
+#beautygadgets,1900000,17500,"5.min.crafts, 5.min.crafts, ladypanda_official, thehouseofsequins, thehouseofsequins",emerging,40,25,9,Hop in now,instagram
+#beautycommunity,1850000,11000,"beauty.n.furbabyfanatic, yesstyle, belleza_con_estilo01, makeuptechniqes, ohmymichie",stable,40,25,3,Maintain position,instagram
+#veganbeauty,1700000,12000,"jasmindg77, peta2, vegnews, giovannicosmetics, drbronner",emerging,28,13,5,Hop in now,instagram
+#bodypositivity,1600000,14000,"meganjaynecrabbe, ambahanba, subversivesocialite, kirasabin, her.thirties",emerging,15,0,9,Hop in now,instagram
+#antiaging,1500000,11500,"askayurveda_24, elixirofscience, runningfervor, valeriiaveksler, dramirkaram",stable,5,-10,5,Maintain position,instagram
+#fragrance,1400000,10500,"chicgirlmoment, elletaiwan, alia.sam, oliviaolfactory, clementineberet",stable,7,-8,3,Maintain position,instagram
+#skincareroutine,1350000,15500,"skinmedica, ohmymichie, aisyy14_, amandinha1, sepidehhayati",peak,12,-3,2,Leverage while peak,instagram
+#beautyunboxing,1300000,16000,"jennybdoll, ta.shiya, lexiijohnson, karacraig, sonne_testet",emerging,25,10,7,Hop in now,instagram
+#cosplaymakeup,1250000,15000,,emerging,20,5,7,Hop in now,instagram
+#wellnessandbeauty,1200000,11500,"karlapatriciavr, dt.anushijain, melissalebor, callmeblondieee_pl, taprimedia",stable,8,-7,5,Maintain position,instagram
+#specialeffects,1150000,15500,,emerging,30,15,7,Hop in now,instagram
+#makeupforbeginners,1100000,11000,,stable,20,5,5,Maintain position,instagram
+#wellness,8200000,15000,,emerging,18,3,5,Hop in now,instagram
+#minimalism,7500000,16500,,emerging,15,4,8,Hop in now,instagram
+#selfcare,7200000,15500,"dimplejangdaofficial, her.thirties, divas_thoughts, vibinwithciicii, shesospwrful",emerging,14,4,6,Hop in now,instagram
+#diyhomedecor,6000000,12000,,emerging,20,5,7,Hop in now,instagram
+#mindfulness,5800000,17500,"hustlingfacts, hustlingfacts, hustlingfacts, jennagallarzo, hustlingfacts",emerging,28,13,6,Hop in now,instagram
+#sustainableliving,5500000,16000,,emerging,24,9,5,Hop in now,instagram
+#parentinghacks,5200000,14000,,emerging,20,5,8,Hop in now,instagram
+#healthyrecipes,4900000,11500,,stable,5,-10,3,Maintain position,instagram
+#gardeningtips,4600000,12500,,emerging,19,4,6,Hop in now,instagram
+#fitnessmotivation,4400000,11000,,stable,4,-11,3,Maintain position,instagram
+#ecofriendlyproducts,4200000,15000,,emerging,26,11,7,Hop in now,instagram
+#familylife,4000000,12000,"marked.real, mindandchild, elternhumor247, mansoorskm789, calicut_foodude",stable,22,7,6,Maintain position,instagram
+#meditationmusic,3500000,15500,"lincolnjesser, dimplejangdaofficial, gurbanikathaeveryday, beynaamusic, lincolnjesser",emerging,21,6,9,Hop in now,instagram
+#organizingtips,3300000,11500,"myorganizinginterior, myorganizinginterior, practical_perfection, homeinspirehacks, elizabethhomen",emerging,18,3,7,Hop in now,instagram
+#digitalnomadlife,3100000,11000,"travelwithtaliya, yharmantrivero, katesnexttrip, hertravelempire.co, daisystraveldiaries",stable,6,-9,4,Maintain position,instagram
+#luxurylifestyle,2900000,10000,,declining,-15,-30,2,Consider exit,instagram
+#outdooradventures,2800000,10500,"ferlattez, bootsandfins, matt_shannon_photography, thepinnacleoutfitters, jessie_bull",stable,3,-12,3,Maintain position,instagram
+#declutter,2600000,16000,"raniamvr, lemonsandlucy, la.vally, tessaenorton, mai_zimmy",emerging,17,2,5,Hop in now,instagram
+#footballhighlights,1500000,15000,"_mlfootball, cfbalerts, _mlfootball, football_memorie_, insidemoments_",emerging,12,-3,9,Hop in now,instagram
+#athleteworkout,1200000,14000,"plyomorph, kahsva_, kpstrength, plyomorph, plyomorph",emerging,15,0,6,Hop in now,instagram
+#basketballdunk,900000,16500,"yam_cityx, nba_live_update123, topdunkcentral, toprecruitzz, tinnarios",peak,18,3,3,Leverage while peak,instagram
+#extremesports,850000,17500,"redbullairforce, _rickmercs, carylcordtmoller, aly.corvin, carlotti_longboard",emerging,20,5,5,Hop in now,instagram
+#womeninsports,800000,20000,"sixteenthsports, tauriel_ig, overtimechicks, livsriott, startuppakistansp",emerging,25,10,8,Hop in now,instagram
+#sportsnutrition,700000,12000,"bulldogfuel, player_scout, marck_hahn, marketing.growmatics, ryan_matto",stable,10,-5,4,Maintain position,instagram
+#motorsports,680000,12500,"autointerstrada, lemans15, sickntuned, motorstardom, motorstardom",emerging,14,-1,8,Hop in now,instagram
+#yogaforathletes,650000,11500,"endbackpain, yoga_eauphoria, yoga_eauphoria, yoga_eauphoria, endbackpain",stable,11,-4,3,Maintain position,instagram
+#fantasyfootball,600000,15500,"vikingzfanpage, vikingzfanpage, greenvillefantasyfootball, vikingzfanpage, sal_vetri",emerging,16,1,7,Hop in now,instagram
+#mentalhealthsports,550000,16000,"contendunt_, manup_mensmentalhealth, ilaria.apnea, bikeable_life, calvintrieu.co",emerging,22,7,5,Hop in now,instagram
+#sportsgear,530000,11000,"fantasywrestlers.ai, champions_sports_official, dublintown_, sergefortini, gq_korea",stable,9,-6,5,Maintain position,instagram
+#streetbasketball,500000,17500,"coachchris_2, givingbuckets824, marthreenez, marthreenez, ligas_callejeras_tab",emerging,19,4,9,Hop in now,instagram
+#sportschallenge,470000,19000,"joellemardinian, theloudestagency, rehabexercise, michaeleckert_fit, challosportsclub",emerging,23,8,9,Hop in now,instagram
+#sportstravel,450000,10500,"visitdetroit, visitdetroit, tsa, sportscapade, gulliverssportstravel",stable,8,-7,4,Maintain position,instagram
+#adaptivesports,420000,15000,"giulialamarca, ka_smad, frauforschung, asfvision, daniellevizcarra22",emerging,20,5,7,Hop in now,instagram
+#sportsfashion,400000,12000,"bananaball, creativeye1, wgsnbrasil, houstondynamo, ikading",stable,12,-3,3,Maintain position,instagram
+#marathontips,380000,11500,"kirstyhendey, sophsruns, carlethkeys, quierorun, sebastiancamposg",declining,7,-8,2,Consider exit,instagram
+#sportsdocumentary,370000,12500,"reelrock, chrisanorton16, screenrant, victoryroadplus, farihaarazak",stable,10,-5,6,Maintain position,instagram
+#fitnessrecovery,360000,14000,"mrolympiallc, the_benshepherd, jakeclayfit, the_average_joe89, bengreenfieldfitness",emerging,13,-2,6,Hop in now,instagram
+#esportstraining,350000,18500,"trustgaming, prince.1of1, racingunleashed_official, evalgames, h2toons_",emerging,15,0,6,Hop in now,instagram
+#mentalhealth,5000000,15500,"chosen_2_reign, exploring.therapy, serotoninmemes, chuckdrawsthings, chosen_2_reign",emerging,20,5,9,Hop in now,instagram
+#homeworkout,4200000,20000,"aquinitofit, aquinitofit, workout_athletics, justinagustin, justinagustin",stable,5,-10,3,Maintain position,instagram
+#plantbased,3900000,15000,"chefshanef, doutorbarakat, tappedinwellness, vegantreats, rotaveg",emerging,22,7,9,Hop in now,instagram
+#sleeptips,3000000,16000,"just_chill_mama, unilad, deol_amrit, quotesandhealing, getthegloss",emerging,18,3,5,Hop in now,instagram
+#meditation,2700000,14000,"meccadreams, womanknowthyself, yoga_international, yogaeyal, lucia.terapeut",stable,8,-7,3,Maintain position,instagram
+#immuneboost,2500000,19000,"dimplejangdaofficial, naturethecure, dr_ra7eem_power_every_night, ketosimple.ig, naturethecure",stable,6,-9,3,Maintain position,instagram
+#womenshealth,2400000,12500,"the.busy.mom.method, project.s.lifestyle, lifegreenhealthy, meredith.vanness, jocelyn_wittstein_md",emerging,15,0,5,Hop in now,instagram
+#intermittentfasting,2200000,20000,"aajtak, phillips_nutrition, phillips_nutrition, phillips_nutrition, avatarjonny",declining,-5,-20,0,Consider exit,instagram
+#mentalwellness,2000000,14000,"healingsoulutions_, quotesandhealing, the.trauma.educator, my.neral, the.grief.hub",emerging,20,5,5,Hop in now,instagram
+#yoga,1900000,17500,"womanknowthyself, yoga_eauphoria, medicina_del_alma, rathelightbearer, ricardobordin_",stable,2,-13,4,Maintain position,instagram
+#stressmanagement,1600000,15000,"wonderled.life, selfcarexpress, mindandchild, peakperformancewithjulia, voteinorout",stable,7,-8,4,Maintain position,instagram
+#telehealth,1500000,15500,"morgansandiego, run.nrg, therapist.memes.fordramaqueens, balleralert, businessinsider",emerging,10,-5,6,Hop in now,instagram
+#chronicpain,1450000,15500,"themigrainenetwork, recoverpain, jim_bostock, hannahbluish, dysautonomiafact",emerging,13,-2,9,Hop in now,instagram
+#healthyaging,1400000,18500,"upskills.ro, healthyhormoneshub, cristinatomasi, doclogues, habitos.vitales",emerging,14,-1,7,Hop in now,instagram
+#detox,1350000,11500,"saude_bem__estar10, everythingdragraces, drjoshaxe, toxfreedoc, ms.smirnov451092",declining,-7,-22,0,Consider exit,instagram
+#supplements,1300000,12500,"elixirofscience, thestomachdoc, stack3dnews, drtodd_newyorkcityy, adawellmed",emerging,11,-4,9,Hop in now,instagram
+#aromatherapy,1200000,15000,"scienceofessentials, magic__candles____, sunsoakedlaundry, poopyturdsmcgee, scienceofessentials",emerging,15,0,8,Hop in now,instagram
+#stressrelief,1100000,16000,"wonderled.life, miosquishy, bitchyquotes, audreaturgeman, zafa_fathi",stable,8,-7,6,Maintain position,instagram
+#veganfood,11000000,23000,"nutricion.sonia, nutricion.sonia, vegnews, tanotto_official, rotaveg",emerging,20,5,8,Hop in now,instagram
+#mealprep,9500000,20000,"thechefylyt_tv, careeseeats, kirstykaminski, fitnutfitness, leslie_stokes_",stable,5,-10,3,Maintain position,instagram
+#foodphotography,9000000,21000,"khyati240915, georgewangjr, biaoinchina, joanna_k_k, mae_klong_huapla",emerging,13,-2,8,Hop in now,instagram
+#foodie,8800000,19000,,stable,22,7,4,Maintain position,instagram
+#kombucha,8000000,24000,"salomelafermentee, gutharmonywithkaitlin, jiho_table, bradtjonas, roshellezielinski",emerging,30,15,6,Hop in now,instagram
+#sourdoughbread,7800000,18000,"marielesterbaker, cristinavaleije, sourdough_explained, caitlinmariedasilva, nitamaster7",emerging,15,0,7,Hop in now,instagram
+#comfortfood,7500000,15000,"bobbyg.eats, shehnilanoman, stfumatthew, thereciperebel, mariabonadio_",stable,22,7,4,Maintain position,instagram
+#streetfood,7100000,16000,,emerging,22,7,7,Hop in now,instagram
+#easyrecipes,7000000,15500,"alabasterfox, loveexlauren, roberto_avellan, roberto_avellan, pinchofyum",stable,10,-5,5,Maintain position,instagram
+#organicfood,6800000,14000,"mech.eng.world, greenearthorganics1, manonlagreve, greenearthorganics1, boydbrown3",emerging,22,7,9,Hop in now,instagram
+#dessertlover,6400000,13500,"slcfoodie, slcfoodie, tuzluveofkeli2, bobbyg.eats, sarahkrafft",stable,10,0,4,Maintain position,instagram
+#holidayrecipes,6000000,12000,"sherryhour, chef.eatchahand, acquired_by_andrea, cookingkatielady, rachelparker_blog",emerging,12,-3,8,Hop in now,instagram
+#foodstyling,5800000,13000,"eatinghealthytoday, ronis_recipes, healthymealtoday, enjoythebiitee, gpongco",emerging,22,7,9,Hop in now,instagram
+#fermentation,5600000,15000,"what.i.eat.by.helene, pro__kit, rafuel55, cultured.guru, cultivating_roots_",emerging,20,5,5,Hop in now,instagram
+#plantbasedsnacks,5500000,14500,"daniellamonet, the_oatmilk_diaries, weareveganuary, theveganzombie, vegancommunity",emerging,22,7,7,Hop in now,instagram
+#coffeeart,5300000,11000,"lyndacartereverything, yakupayd1n, donebyaydan, rocketespresso, cansupo",emerging,14,-1,9,Hop in now,instagram
+#baking,5000000,12000,"maurizio, thebakefeed, gedebey_21_77, antonio.bachour, jolinfromscratch",stable,10,-5,4,Maintain position,instagram
+#dairyfree,4800000,11500,"thestomachdoc, peta, peta, vegnews, justinmschuble",emerging,19,4,7,Hop in now,instagram
+Bill Gates,145000,1483981,"['invitrogen', 'MichiganPK', 'JoWiseconative', 'Jekklez1980', 'scherer_karla', 'carlyvanheerden', 'LeBonTravel', 'TRohanian', 'zacblack117', 'DAmericasFuture', 'ygbsmpeople', 'SBleftCA', 'Richard10221751', 'blucat88', 'GlendaOleson', 'Patrici54126290', 'grok', 'david_sisye']",emerging,10.23428114,6.185027304,10.23428114,Hop in now,twitter
+Chargers,103000,812681,"['ChargersMemes', 'KMASports', 'Philipp_Swl', 'tiMCrow666', 'Rheal_Tboy', 'TheMeatDragon', 'himmovie', 'CaribbeanTitan', 'Landis_welch777', 'burdknowsball', 'grok', 'Dielon_13', 'DreamOfTy_', 'Ojibwe_Viking', 'friezsnake', 'burst_sports', 'itsmfrip', 'BobDeLacyJr', 'Jonathanstewar1', 'basedcaliber']",emerging,7.890030194,4.768293102,7.890030194,Hop in now,twitter
+#DICE_THEMYSTICROLL,29000,2330,"['kkanansi', '22andjunii', 'Laboonrental', 'KimMatalinn', 'vickynakai', 'seasid3_', 'cherishjapo', 'jpgfphone97', 'aa_aasc', 'somondae', 'pajinkoo', 'Anna07016', 'reanhipp_o', 'jintotheyin', 'ScorpiiPong', 'cherrierubyp', 'ntps_', 'barneymkk', 'Chanattt__', 'BoMMeKuN']",stable,0.080342057,0.048554247,0.080342057,Maintain position,twitter
+Pacheco,103000,895,"['J_M_clucellas', 'jenpiacenti', 'DFBrothers', 'nhuzue', 'jmeyers217', 'pacheco_goulart', 'onlydeelight', 'KingOfLeawood', 'YZR_Fantasy', 'nuclearffnolan', 'hijadeyutas', 'PDBetss', '_BushaT', 'cssavedme', 'bronson_OG', 'chrislr15r', 'Andrew_Gass', 'Evandro578540']",stable,0.008689236,0.005251288,0.008689236,Maintain position,twitter
+COVID-19,45000,172,"['tampa_npa', 'ikeguchitf64', 'tatiann69922625', 'twiddessofmusic', 'P1231032850', 'Pamelall', 'BrownM37465', 'Do_Not__Comply', 'epw_in', 'TheNationNews', 'grok', 'MillerWebuzr', 'beemoneey_', 'ymori117']",stable,0.003822137,0.002309886,0.003822137,Maintain position,twitter
+#FanBenefitTourwithgulf,298667,206,"['Kanawut_Nora', 'TeamKanaItaly', 'Srt_aeea', 'YOU12301489', 'Trust_UUUU', 'M86858694', 'umi16756200', 'Pbsunflower14', 'JaitipJu', 'aon_baon', 'pvGulf', 'BebeSwk', 'phaengnet', 'Dolly85382269', 'suenoi41', 'bg041217', 'GKanawut81513']",stable,0.000689729,0.000416834,0.000689729,Maintain position,twitter
+#LetsGlowPING,18000,600,"['Courtneyy069', 'whuwhu_', 'MMoonlover11', 'PtrSupport', 'butterntp', 'melodyxixi9', 'yingbenlkn', 'Anna141995', 'meanmean1m', 'lxxkmook', 'ss501_wiwit', 'utriibellinda88', 'gsn_s284', 'JuthathipS39695']",stable,0.033331482,0.020143684,0.033331482,Maintain position,twitter
+Western United,9762,191612,"['wests_glory', 'The_JBS', 'NickGalatas', 'PengAmy1', 'maphumanintent', 'ArthurKiousis', 'the_stumpy', 'GileArkinon', 'IsraelMilitaryC', 'joeylynchy', 'AmericaInvests', 'georgechocola', 'abcsport', 'footballvic', 'thewswpost', 'CosmicMatt92', 'DPhimphisane', 'azulabetter', 'herwaysports']",emerging,19.62634436,11.86106518,19.62634436,Hop in now,twitter
+Phase 3,92000,8480,"['mb__billions', 'domauto', 'Donkers49', 'kss012493', 'Deadnads', 'Palash433', 'rec777777', 'eRotation', 'grok', 'RPRealtyPlus', 'Erman_Akkus', 'vivarevleb', '_____jd____', 'Rony_201000', 'geng_gold', 'optimist9_3', 'MetroRailToday_', 'toresaidk', 'Valakus']",stable,0.092172911,0.055704154,0.092172911,Maintain position,twitter
+#21stPingBDMerit,34521,8100,"['knulekk_KN', 'SUPPORTMEENPING', 'nnnnnn_niiii', 'yingbenlkn', 'TYommana', 'NOK_1212', 'Arriya2P45880', 'pinocchioohh', 'MeowWoody67166', 'dymppp', 'Thida_aiw', 'aoynaka_igot7', 'YakuboeGi', 'wrphririmilint1', 'nok5joke', 'DawanSangt88']",stable,0.234632988,0.141799059,0.234632988,Maintain position,twitter
+#IdolFactoryRespectFB,33000,908,"['JulsFernanda', 'PSac_FreenBecky', 'whatifering', 'Mariam61804259', 'Vayo_Bleu0805', 'BelovedxFB', 'FernandaSocola', 'sky_n_freen', 'PhuongThao1217', 'FB_enthusiast', 'LauraD4vil4', 'thisisdobleu', 'miduR_', 'prado_nilda', 'pattyta503_']",stable,0.027514318,0.016628115,0.027514318,Maintain position,twitter
+Tchouameni,13000,507,"['jeen_yuhsssss', 'pelonpuskk', 'piobren0', 'muchsaucejaymiu', 'S2ASTAM', 'RealMadridTBest', 'LwazmeroDlams', 'kiko8898', 'pmadridistabd', 'karimalex_', 'Wick9422', 'saysyl_sangwa', 'raph59block', 'JabberCR', 'BeckhamLindo', 'mukhtar_gubio', 'FGuilhermeM', 'thandokuhlehm', 'thewhi8s', 'gbtipsterbr']",stable,0.038997,0.023567607,0.038997,Maintain position,twitter
+Deputy PM,34000,416,"['Parijat_Karan', 'CF680E1A4', 'hoare_', 'Adam00872774', '3agleQ', 'Derbyshire78850', 'johnredwood', 'streets', 'JamesRoberts330', 'grok', 'greeneconomyact', 'Whatspctoday', 'Gumbrell01', 'RaviShank06', 'aishamusic', 'viewfromnz', 'Wright4037', 'PGSW14', 'DianaMincher', 'grahampointer72']",stable,0.012234934,0.00739411,0.012234934,Maintain position,twitter
+Collingwood,345221,184466,"['AusFrAnNoZ', 'dl_ferrar0', 'robert75096586', 'EZprofitsAI', 'verynormalman', 'CollingwoodcpcC', 'AmericaInvests', 'BillRossiter1', 'steedencentral', 'CortinoVictor', 'PaulCar05391684', 'DickBranson', 'e_squirrelson', 'michele71438447', 'grok', 'Liam2799', 'TrentBrace', 'big_gus13', 'corkers898']",stable,0.534340222,0.322925354,0.534340222,Maintain position,twitter
+Cam Newton,233334,686,"['FreeWillie21', 'MasonMammoth', 'GilmourTim', 'showdedoop', 'Nameiseric71294', '1tonyg', 'Mamadean163', 'KeglovicLe83808', 'ksitomer3', 'AshleyTXBurner', 'CaiuaNasc', 'dirtybagpipes', 'monforda1', 'dirtydansutter', 'bodizz104', 'jordanlittel', 'Drew_This14', 'chsm25866965', 'ScAr801', 'MdToufik380006']",stable,0.002939979,0.001776759,0.002939979,Maintain position,twitter
+From CNBLUE UN Support,2333222,10265,"['wnyeffects', 'JYHBestRockStar', 'lovely_eyla', 'w_anggra', 'lizhimin778863', 'CNBLUE_UN_Spt', 'sg_shirleyc', 'dinimollababy', 'AmkaLurun', 'Ainnahah']",stable,0.004399494,0.002658808,0.004399494,Maintain position,twitter
+Department of War,102000,63,"['MaxxWinter', 'ectanker', '_sab_shubh_ho_', 'AboundingMyths', 'laughing747', 'sarahyokokawa', 'CrescentFeed', 'AzorInfo', 'rk_suganthan', 'freethought2023', '12OnYourSide', 'Kwame19888891', 'dawnu56', 'SeaLion_799', 'TheSecretPony', 'Warrior6677799', 'KCRG', 'KarylTheCat', 'VKMYR', 'WillUK1776']",stable,0.000617641,0.000373268,0.000617641,Maintain position,twitter
+John Cena,42000,414,"['PepeMC26', 'SOFIRESAPPHIRE', 'TheeSaltine', 'ChadBec82312937', 'KokoKareem_', 'ThomasWrrld', 'Ryan_Griffith21', 'countchrisHBZ', 'wtflmaoooooi', 'GregHatlen', 'Verbalycal', 'iitsTemper', 'WS_WolfStar', 'ChristFaithNow', 'g7s19p16', 'HakaiShins12', 'DontBAMark', 'MarsJones277', 'VARcelona2don', 'Nephzee_King']",stable,0.009856908,0.005956964,0.009856908,Maintain position,twitter
+Chris Jones,27905,38861,"['BarrWilf', 'FloydcheckHook', 'doubtfireissexy', 'maleek223', 'ThisMyMoniker', 'JohnBorchert24', 'PresidentXavi', 'TheMeatDragon', 'luckyse7ens1', 'WavyKahlil', 'pgsween', 'SoFi', 'MillsonLar24639', 'alltoocharles', 'newyorkgiantman', 'ryguy829', 'kyoumacapital', 'ArrowheadPride', 'KCAvsFan9']",stable,1.392567907,0.841590181,1.392567907,Maintain position,twitter
+Douglas Alexander,44466,590,"['Shetlander1978', 't20696678', 'KAlmsivi', 'Doogsta', 'NConway2', 'GASPurves', 'pmci1978', 'Alexand60844330', 'JoshuaMWilkes', 'MarkCairns67', '2351onthelist', 'alexandermckay2', 'RickyCa69392149', 'photoclassic', 'Camz99', 'MoFloMoJo']",stable,0.013268266,0.008018598,0.013268266,Maintain position,twitter
+Ed Sheeran,5679,1554,"['colette0529', 'lukavideos31', 'khaleejtimes', 'Chan68696869', 'channelrradio', 'maryam_fcb', 'cclolita22', 'AiraShinonome', 'BrowningHat', 'lbero_game', 'Hitchcocksbaby', 'TrumplicanWINN', 'Saffron_Sniper1', 'marinangrrr', 'quiksilver4238', 'MrKerberos62', 'YourEyesOn1009', 'MetaverseGamer1', 'meloperfect_']",stable,0.273591549,0.165343435,0.273591549,Maintain position,twitter
+#idolFactoryTH,66000,1089,"['BrosZa88', 'PSac_FreenBecky', 'IDF_Latino', 'iribe00', 'ParulNi84747170', 'AlFB_LOVE', 'BABE_OFC', 'FB_enthusiast', 'CUABU_FB', 'sal_freenbeck', 'R_ImUrS', 'FreenBeckyITA', 'yyds_fbswift', 'irazema_ma', 'Leccis2', '3579Lupita']",stable,0.01649975,0.009971526,0.01649975,Maintain position,twitter
+Duchess of Kent,18000,404,"['kamjoe3', 'MeganHa40250780', 'omega_paladin', 'brozovicbasic', 'utahagen', 'JohnMcK42214', 'pluckiepluck', 'geraldi79421313', 'brndwashington', 'MrsFHarbottle', 'troyrecord', 'Geraldi67883608', 'paulnickersonuk', 'truckindiesel', 'KRMGtulsa', 'day156324', 'Anthea143289202', '9aCedarCourt']",stable,0.022443198,0.013563414,0.022443198,Maintain position,twitter
+#DICE_THEFIRSTCONCERT,7533,4793,"['thisheartformk', 'krpkcncn', 'DICE_SONRAY', 'lixy_tttt', 'stmygfxo', 'miinnmin_z', '4everkurabloom', 'marshmallowithy', 'Krub_she', 'farhaurie', 'DDDrreeaamm', 'woowdres', 'pppgreenppp', 'lovumydream', 'cherishjapo', 'Anna07016', 'pihtman20x3']",stable,0.636182639,0.384473217,0.636182639,Maintain position,twitter
+ADLK IN CHENGDU,24000,4270,"['BrookeDavi7034', 'Angeline411427', 'min9999_r', 'Lisalisa2731997', 'AA6922423517396', 'NgamWanalee', 'aneung3127', 'RinBuy49755', 'ChampA2323', 'pjung_pookluk', 'yi_mo81996', 'suputtar0210', 'mewxpn', 'AL11_27']",stable,0.177909254,0.107518406,0.177909254,Maintain position,twitter
+Thomas Legrand,33334,5055,"['FredericN764', 'Break08Stephane', 'ToutcramerV2', 'BenjaminBakouch', 'PoliceRealites', 'sphthomas', 'herstalle', 'KadoKero', 'F_Desouche', 'AlpesTango', 'grok', 'ONCLE_ARCHIBALD', 'Ray17La', 'JFcinetv', 'paoloarieldov', 'ACTUFSI', 'PalaczMarc', 'jerome_buisson', 'lauhadj2']",stable,0.151642418,0.091644199,0.151642418,Maintain position,twitter
+Guthrie,25662,1653,"['RJB242', 'kjh1138', 'hutcho66', 'MG_Farma', '1312since1997', 'guthrie_cd', 'luckyredtoo', 'viaconcommand', 'pjohnson_sports', 'MathewBowden', 'ixnaqisah1', 'dipre_frank', 'leeroyzzzz', 'LongMacVampyr', 'FarukalSaymaok', 'JChiz721', 'ForrestsMind', 'denjhshelmetta', 'JExodus21']",stable,0.064411799,0.03892689,0.064411799,Maintain position,twitter
+#The_DECADE_of_DAY6,246666,32719,"['lunaweb3_', 'maumfd6', 'Nadycasylva', '_deoksu6', 'from_ddungdin', 'Soso__3244', 'floresslovely', 'MindZeaBetter', 'from_haei', 'KITTY_1010_CAT', 'yourbuddyOT6', 'MonstaJooMin', 'ZeeBrym53411', 'Guun_bam_', 'teachdresscode', 'myday0826', 'dowoongdowoong', 'iamaneugeu', 'PortalDAY6BR']",stable,0.132644415,0.080162868,0.132644415,Maintain position,twitter
+E-ID,433322,461,"['acama_girl', 'matthiasebneter', 'SuisseFederee', 'USchuepbach', 'UeliDer', 'Asinokoat', 'KuedeHuber', 'ChilchbergerBL', 'RudolfSchenker3', 'RenateGautschy', 'Cooky4422548977', 'daniel_gugger', 'Pirouette15']",stable,0.001063872,0.000642944,0.001063872,Maintain position,twitter
+Michael Cole,2224,614,"['_StrongestHanma', 'LivDomRox', 'Salem3Janet', 'NoahTheBlessed1', 'solrocknroll', 'rendale', 'TLH_Updates', 'factsmanhimself', 'wrestlingn_', 'RaptorFGC', 'BrownNeo__', '411wrestling', 'AhmadMuhammad97', 'JtGWrites', 'HarleyQ2You', 'TFann24', 'SalemAlharbii98', 'ItsMiguelNava24']",stable,0.275955056,0.166771807,0.275955056,Maintain position,twitter
+#WishJimmyAllWell2025,4333,4918,"['nmlanpp', 'jimsealuvr', 'SworldP', 'Macchiato311', 'pabexw0', 'inlovemesomuch', 'meiy__k2', 'Maprang307', 'Twinwow_', 'mlltpttnms', '_Molony_', 'jaysaderd', 'janthamanee76', 'qwemildss', 'avosya_', 'evelyn48__', 'FNfirst2', 'notmybbn', 'cbwrp_']",stable,1.1347485,0.685778547,1.1347485,Maintain position,twitter
+Prophet Muhammad,37000,543,"['__Aisha_q56', 'experzvibes', 'xc_nigeria', 'ASIFAFG04166411', 'muslim_1065', 'TheNationNews', 'GTVNewsPk', 'NewsNowJK', 'TheKashmiriyat', 'Rosesharmaharsh', 'Nasir1015', 'AnatomyOfSufism', 'jabir298', 'tahirmbs', 'Efkar_1', 'AMCOSKILLBD', 'SHABNUM26', 'IbaLawalHO']",stable,0.014675279,0.008868918,0.014675279,Maintain position,twitter
+Collins,12000,210,"['AndreCFC1092', 'JaghoIvan', 'Promisetheguy', 'streetupdate24_', 'EdnaKB2', 'EZE970', 'David2398292847', 'StefanH38016719', 'spn1473315', 'PelumiAbiola7', 'iamAsurveyor', 'Living3Dream', 'HUSHUBBY', 'Shelli1961', 'JayOfTheDeadMF', 'NguyetDiem17065']",stable,0.017498542,0.01057514,0.017498542,Maintain position,twitter
+Hollow Knight,89000,143,"['o0mrm0o', 'Clownthesociety', 'EdgarEC_', '1CrazyFoxx1', 'KoutaPhantom', 'random_fedora', 'giovannirdamico', 'josh_co225', 'game_tvstation', 'RaccoonDuD', 'GreenGuyAnjo', 'sunnyman601', 'Bergino_Lviv', 'ImNotThisP3rson', 'vvolfer_x', 'youve_got', '701delta', 'TheRealDanberhe', 'PshyCover', 'DarthMicroT']",stable,0.001606724,0.000971014,0.001606724,Maintain position,twitter
+MEMOIR LAST CHAPTER,193000,7,"['aoulways', 'sn013048', 'Msuttarot', '_dalbitkkot', 'FoxyJulie666', 'iimcream5', 'nobody6know', 'LilyHung821', 'xysweet2', 'teerakjaaa21', 'wdystaydream', 'tikktk1a', 'suttiluck02', 'ppprunprinzz', 'cherrymoonlo', 'ConnieHepo', 'Dani_5902', 'Verup6', 'jellyn0oom']",stable,3.63E-05,2.19E-05,3.63E-05,Maintain position,twitter
+Junmyeon,1333,1880,"['chanyeolliee02', 'lovexo_9', 'chan__yori', 'SeKaiPouts', 'imarriednanami', 'ctrlcentered', 'jhyunflwr', 'cherrymyeoni', 'HANNAHYUN98', '789Sahiba', 'phanci_png', 'elr7s', 'yanandyeol', 'noonananashop', 'iivvgoswimming', 'Noma_exol', 'g_luvs_exoahof', 'nhihao_', 'onddubu']",stable,1.409295352,0.851699314,1.409295352,Maintain position,twitter
+Hampton,11000,185018,"['SoIomonHill', 'jsbtarheel95', 'RichSharp95', 'AmericaInvests', 'TheFFHustle', 'grok', 'PDBetss', 'internet_james_', 'ozk4rh', 'JBforThr33', 'CantStopMilroe', 'SprayberryJay', '13BrianSmith', 'cjwynes', 'Bakxr', 'Shuggshot', 'burdknowsball', 'bigwiggles1', 'bankrollaction', 'xSPANNx']",emerging,16.81828925,10.16403368,16.81828925,Hop in now,twitter
+IdolFactory Treat FB Better,29000,1422,"['Aredek66', 'PSac_FreenBecky', 'whatifering', 'Mariam61804259', 'Vayo_Bleu0805', 'BelovedxFB', 'S_F_T_J', 'freenkybymamits', 'sky_n_freen', 'FB_enthusiast', 'PhuongThao1217', 'Fb4ever123894', 'miduR_', 'prado_nilda', 'pausiniannerys', 'VoHan2273']",stable,0.049032792,0.029632678,0.049032792,Maintain position,twitter
+#BamBam_Concert_HOMETOWN,239000,135,"['Pimpai242', 'Luck_BB1a', 'Jomkuanchanok', 'mazu4377', 'Au40236042', 'Suni50211277S', 'JadeEmeral75443', 'NPanpiriya', 'SuwasiriT33551', 'Zulizz_B1', 'tuna09toto', 'As_nida9497', 'ThisisChollyBB', 'BBammie52', '1a_lili0302']",stable,0.000564851,0.000341364,0.000564851,Maintain position,twitter
+Perth,18000,454,"['Perth_Traffic', 'guin261', 'hosperth', 'WITCHGRINDER', 'annapham112017', 'adelaideweeddd', 'judges119', 'MakeMacan', 'MrTbloke', 'Golden7PP', 'ianScot22628261', 'GoldCoastSUNS', 'emptycab', 'DaveDantu11', 'hypotenucse', 'rweckert']",stable,0.025220821,0.015242054,0.025220821,Maintain position,twitter
+#WeLove3000Cry,2148,500,"['BeydaMancias', 'Kattiana2023', 'lea1379303', 'crychingon', 'Cryboyer007', 'MarMatiascry', 'sharo53726', 'XBiebsCry', 'mmtdurden', 'Wary_Dom', 'arley2901', 'Karlaapmv_x', 'Maritza29960475', 'Saturniana11']",stable,0.232666356,0.140610537,0.232666356,Maintain position,twitter
+#StarAcademy,56644,4797,"['voguesfetish', 'FrostyQuinn94', 'MademoiDamee', 'ArnaqueDuCO2', 'electvod', 'Djou_m_', 'MINIKAMOON', 'David430Davis', '7Incorruptibles', 'CsapeForce4', 'khalifa_w20971', 'lenieteam', 'wri34k', 'u_teenagers', 'AllianceForce7', 'Khilaky_2', 'birdy_5847']",stable,0.084685321,0.051179073,0.084685321,Maintain position,twitter
+Tory,29000,1454,"['epicrell', 'sportmarketing1', '11cemetarygates', 'HodmanJohn', 'DigbyStrong', 'logic_b0mb', 'AnnBurnip', 'sailwithrob', 'gerdmullah', 'himajinSKY2', 'RandellSid69961', 'cheesewipe70442', 'picklesdesu', '4thxjuly', 'Sulla7890', 'Todayxtoday', 'Callan4077', 'tommy54w', 'markythesparky9', 'MamMie_Tory']",stable,0.050136202,0.030299517,0.050136202,Maintain position,twitter
+#Lingling7YActressJourney,229000,935,"['clrkort', 'PrivilegeBoah', 'Time4Moonlight', 'KlayleeJir70471', 'PrincessnLO', 'Incanto0711', 'shepherdv', 'SoulAnd99965', 'si23541', 'Sa_ke15', 'MaCarmen_jara', 'llk0511511', 'LO_YellowAries']",stable,0.004082952,0.002467508,0.004082952,Maintain position,twitter
+Nate Eaton,22222,3556,"['DGensicki', 'LordLambdaThree', 'TruckBon', 'RickPierce02', 'Ronnyvee55', 'Kid_From_Quincy', 'RyanHallBallin', 'JMoney617_', 'Sopee_', 'Ringo1256', 'iinangelo', 'sarahsideline', 'J_Reed20', 'jonesythedude', 'RanseyO', 'PoisonHan_', 'MM_Enjoyer', 'alexjweiner']",stable,0.160014399,0.096703756,0.160014399,Maintain position,twitter
+Big Brother,23000,1445,"['RoiskyRoyce', 'vetoliscious', 'floolp', 'jakob_va', 'ikedadaiki_', 'TommyJrB', 'bb__bestie', 'ObinnaXLE', 'JordanBrace8', 'PatsFan0687', 'didCarly', 'tf0620', 'AMOU_JERRY', 'TheChikory', 'EmenugaChijioke', 'stonecoldblk', 'JokersBBUpdates', 'ivypetalz', 'ClamChowderLord']",stable,0.062823356,0.037966923,0.062823356,Maintain position,twitter
+Cars 4,33677,184363,"['LightslicerGP', 'Dylan_Flp', 'Vasillios12', 'TheCarsFan', 'quetan_ta', 'spiderdoraemon', 'OMODARATAN21', 'freemanaa9816', 'grok', 'udeochusp', 'AmericaInvests', 'TheBetterPath_', 'Manan_k13', 'SpiderApples41', 'Kalesbi_95', 'reden_vercetti', 'Calvin3D2Y', '_ggonz4', 'FilmCapitalist', 'HurricaneTemple']",emerging,5.474285884,3.30835231,5.474285884,Hop in now,twitter
+#ZeeNuNewCrazyInLoveConcert,54000,211,"['winktmw', 'DarlingAana', 'gamlkiop', 'pemai28halove', 'givernymone_t', 'myzunshinee', 'doublenunuchan', 'pen_mha', 'Fangseven', 'cutiewnn', 'suprslphth', 'LS1998LS', 'p_kaekae', 'Whale1796', 'pranck_09', 'DubeyzaHuanca', 'yzyzeenunew', 'znn20069', 'alexandria_5529']",stable,0.003907335,0.002361375,0.003907335,Maintain position,twitter
+Boris,20000,442,"['alex40327746', 'KlausWahrheit', 'pages_and', 'Yarper8888', 'NickDav75301704', 'Mojca77748727', 'JouniRahk', 'LaterTruma80538', '2000_beep', 'Sandiag42664598', 'Zynismusexperte', 'FehringerMartin', 'eRotation', 'EhliNadene9107', 'therealgiggerl', 'Zeitungsjunge2', 'EvenLuckier', 'Nonodrivr', 'Pietbull47', 'onlysushine']",stable,0.022098895,0.013355337,0.022098895,Maintain position,twitter
+Rooney,10000,384,"['catchypiccolino', 'Mr__Billy', 'geniustesha10', 'jamrick_', 'sanjeev911', '_beingNumb', 'AFC_Cookie_', 'DaveDave70990', 'WayneAndersonJ1', 'MosesEdafe26199', 'wancrnls', 'ndet_0', 'LBeaunoir01', 'ToonPolls', 'DJF5315', 'Eidristaiwo', 'honestm4tty', 'MrXtrade', 'malo_UTD', 'Gren90']",stable,0.03839616,0.023204493,0.03839616,Maintain position,twitter
+billybabe is home,43546,8452,"['elfromU', 'pongthaijaroen6', 'MumuTofu9498__', 'billybabebr', 'lovealwz', 'SSS_25982', 'YuIro0609', 'myyoukook97', 'sasm7909', 'anwaachi', 'Sarayu_try', 'kwan_tap85']",stable,0.194089145,0.117296627,0.194089145,Maintain position,twitter
+Worthy,52000,448,"['wannabejake9', '0xabys', 'RickieRicCardo', 'D_OSheil', 'KapilV_B', 'prettyinpa1n', 'melodante12548', 'jake_jons', 'abby_love4ever', 'elchurcho64', 'GothamHero_', 'tarat_211', 'abellanam', '7amadabsi', 'amykhaingmin']",stable,0.008615219,0.005206557,0.008615219,Maintain position,twitter
+Charlotte Cardin,333,2008,"['Altesse64', 'okayyy0210', 'WEPremiere', 'wri34k', 'cclolita22', 'SamSolissss', 'emmaaaaa13', 'db_matilde', 'BFMTV', 'Dilatelarathe', 'voguesfetish', 'gossy16', 'CallMeLovatics', 'lenieteam', 'kalisa828893', 'easiertobabylon', 'Khilaky_2', 'BFMTV_People', 'LeMagStarAc', 'S0MAERICAN']",emerging,6.011976048,3.633302182,6.011976048,Hop in now,twitter
+#anpoconf_Tokyo,98763,2417,"['bandainokairai1', 'hatara9_9ruma', 'mu_fantom', 'Sogekisyu01', 'KISARAG21575259', '4_ykk', 'F100TMW', 'MasaruJsdf', 'anpoconf', 'CdZwn0', 'LeeV23313810', '560_krush', 'KAME65437759']",stable,0.02447248,0.014789799,0.02447248,Maintain position,twitter
+Alice Springs,38444,1611,"['Oracle285684417', 'CherryA55893558', 'Maggie_Perry6', 'entropy_enjoyer', 'Skyjacksonic68', 'Stayseaok', 'bluenaomi', 'RoadknightThe', 'AubertAustralia', 'jarodhitchcock', 'AUSNIAN', 'Orange_Guy_420', 'TonBased1', 'oxley8150', 'ReadyPen3', 'markede05626239', 'hereticaliberal', 'bandtistbraden', 'Oliver1330776']",stable,0.041904019,0.025324446,0.041904019,Maintain position,twitter
+Socceroos,119974,9427,"['serieAchronpod', 'jordanspurcell', 'SBSSportau', 'Socceroos', 'AlexfromMelb', 'maimaidenden', 'cmail_sport', 'Footbal64150902', 'codefootballau', 'CCMariners', 'RaneroAndres', 'wswanderersfc', 'USMNTfanatics16', 'arcadia441', 'CosmicMatt92', 'heraldsunsport', 'Adopta1Indigena', 'RocBSyd']",stable,0.078574703,0.047486157,0.078574703,Maintain position,twitter
+#ThatSummerSeries,12000,1723,"['aiishizes', 'kkhunkonmek', 'ploy_sonsawan02', 'nnuttobaekly', 'yywwppgmnfwnst', 'squarrium', '_5thmonth', 'candy_bombam', 'firstsnowiie', 'melinmin', 'vvaternnn', 'rubyilesi', 'AllPrince_7', 'mayymsy', 'caidideo', 'TicketsMeena', 'pstmnrp', 'fferndammm', 'WinnySatangBR']",stable,0.143571369,0.086766508,0.143571369,Maintain position,twitter
+LETS LIGHT IT UP,88422,414,"['V4MPIREW4Y', 'Brd01234', 'luiscortezxo', 'machinegunkalvo', 'yoshiofblue56', 'DillonPillay08', 'shesafansirrr', 'mikmercersk', 'HighSpotPodcast', 'CoachOllie_5', 'TheePhoenixYT', 'AllEliteLeo', 'notyourpoms', 'JaaliPasha', 'minion1_20', 'ahaf21', 'ManiaFLM', 'CrypticIrisMKW', 'quency_____']",stable,0.00468204,0.002829563,0.00468204,Maintain position,twitter
+#TheLastDriveIn,24555,102,"['uncool_mutant', 'Mythos_13', 'seattlescreams', 'EyE_dIg_GrAvEs', 'ManWithPez', 'SJBPS4', 'JayOfTheDeadMF', 'idsblake', 'NathanLive', 'soapreporter', 'theshadowknows3', 'Markdful', 'JLuB9', 'mlwaller', 'SeanWhitmore']",stable,0.004153771,0.002510307,0.004153771,Maintain position,twitter
+queendom the series ep5,25555,47594,"['storebetweenus', 'AkoMontoo', 'patheinfatuati', 'riminus27', 'LucyLeigut', 'WeTVThailand', 'darlentinaur', 'canzhiting0815', 'AG0R_mx', 'GiniiG', 'wiljustbwl', 'j7heii']",stable,1.862341524,1.12549509,1.862341524,Maintain position,twitter
+#ReverieTour,89000,5290,"['RJTA4xx', 'Pjoaor', 'lalali2024', 'buatong9', 'jm2ushop', 'tjbiko', 'kpoprain_', 'fundaybuddy', 'Babycharoom2', 'lucirinat', 'papatity', 'chnyeolliecious', 'lydmrmr', 'Mapranggg1708', 'stalonmemer']",stable,0.059437534,0.035920723,0.059437534,Maintain position,twitter
+Foreign Secretary,22000,5274,"['ckombos', 'dyatlov75', 'Chubbyinurhed', 'SenatorWong', 'Chinaembmanila', 'UKDefJournal', 'Baylonious', 'jonw101961', 'TheCryptoBull11', 'DDIndialive', 'AndrewGoldthor3', 'jim_sheen36986', 'IndiaBeyond7', 'Stephen87386723', 'adha_naan', 'airnewsalerts', 'Defencematrix1', 'comradeKrack', 'jumping89', 'DailyBeijing']",stable,0.239716377,0.144871175,0.239716377,Maintain position,twitter
+Bronx,87642,262,"['JRPrince8', 'Buttermilksky1', 'andreeeaau', 'SheepoLeMouton', 'TheStrikeOutFr', 'Denny_Bronx_', 'JBroomestix', 'Bronx_wrangler', 'JHUNG619', 'spaciba', 'bronx_works_pro', 'beanytwitte_r', 'Ernesttt369317', 'ymaiga54', 'KEIBASUKO', 'AFR0ninja42O', 'Max_Khalanga', 'itutheprince']",stable,0.0029894,0.001806626,0.0029894,Maintain position,twitter
+Radiohead,280864,509,"['_replicant_xcx_', 'AlvnG_', 'spel_acchiotto', 'kibeniis', 'sky2fa1l', 'Kiba_Aussie', 'laker1989', 'luxaeternakls', 'Kumakuma9', 'kirbysssssayhi', 'triviahct', 'Uzoma_Jude_C', 'GlitchTheCode', 'Jona76818364', 'R30225542', 'lidzigsezim', 'ditzdain', 'viribidibam', 'sandeshpath', 'Mauro1391']",stable,0.001812259,0.001095228,0.001812259,Maintain position,twitter
+#TJBB_FC,2300,668,"['xx_rily_xx', 'taki_kun012o', 'antares_1108', 'shinobu_bbpp', 'swtk_d0c0b', 'ks_ron14', '__llmmxl', 'N6rkt59', 'Utan_21316', 'drms__jz', 'Love24LDH831110', '3RSFL', 'matsubomeans1', 'tomo7559', 'pompom_orange']",stable,0.290308561,0.175446263,0.290308561,Maintain position,twitter
+Winter Party,29800,1189,"['teketeke_ahaha', 'puregenki', 'thluv3', 'DNA_Queen', 'ake_tag', 'satoimomon3103', '_ko_kan_aka_', 'rdap_rin5_nm00', 'mik_K_otorihiki', 'noir_1412', 'cha_10HR', 'eieinawk', 'Natthx4468', 'otona_den5219', 'mame2528T', 'A_yumj', 'yunyun_knights', 'tL55ZO4IagRFnGM', 'zahura__totoi']",stable,0.03989799,0.024112114,0.03989799,Maintain position,twitter
+#BCLions,88700,14234,"['PatBulmer1', 'DJHeerMusic', 'richinvancity', 'FarhanLaljiTSN', 'BCLionsDen', 'ravira', 'RiderCharm', 'T_Peters27', 'BobCobbMaestro1', 'CFL_News', 'AnnefromOntario', 'RoarReport', 'IvyArunan1096', 'fredthealien316', 'JaonsVan', 'BCLions', 'mvbenter', 'GlennYoung_PE']",stable,0.160471697,0.096980121,0.160471697,Maintain position,twitter
+Middle East,32000,50,"['TimurYarbay', 'Doggiesman', 'gizmo25536825', 'PhillaDayZilla', 'JohnSmi77078444', 'residential1', 'Joem1899', 'Beefnoodle9', 'DanteNDigitalis', 'JaydereidX83034', 'godse437', 'EndoceneHunter', 'TheBaronVonByte', 'khoshakhlag', 'AkaLazarus', 'dkbanik', 'keye_duncan', 'SunShine86914', 'blower_stephen']",stable,0.001562451,0.000944258,0.001562451,Maintain position,twitter
+#SymphoNare,973500,12436,"['Assyu_inaire', 'takki_pt', 'ZhT40pcpPHIqihH', 'kamasima', 'MIC_301_655_722', 'raga0727', 'plane_ul_n', 'Rela_rila', 'enenperapera', 'badspeedplay666', 'rindarinda0220', 'Neneko_K3', 'bunny_1111', 'Lv0_NoSKILL', 'SYMPHOGEAR', 'takeove30553150', 'rui_boss_cha', 'kanegon_373', 'oite_0120']",stable,0.012774512,0.007720201,0.012774512,Maintain position,twitter
+Scotland,64000,626,"['Hippychippy56', 'FRings4Ever', 'jmck26911962', 'Scottielad1975', 'BrianMcL6', 'ochawarichan', 'teachdresscode', 'bettybop49', 'SarveshMeet', 'ClaraJones62690', 'grok', 'MarydeVille1', 'Woman_AHF', 'normsdeguerre', 'iam_me_only01', 'RossMcGarrie4', 'mm_tiger', 'Angel41527796', 'Sirlebert']",stable,0.009781097,0.005911148,0.009781097,Maintain position,twitter
+Seth,22000,170,"['crimsonmanic24', 'jitendr16246295', 'TheGaffer_86', 'DHerd25', 'DilSeMemes', 'TerriPaul214940', 'Priyang87', 'AyoMaudy_', 'BABYMETALFAN97', 'TheGodImizz23', 'fucking_scary', 'superagent_g', 'HoosierColt1986', 'tribal_lunatic', 'GibsonMenace77', 'SMRJSL', 'ARaelkk5813', 'HuskusFan', 'mantse_ii', 'luka_meah']",stable,0.007726922,0.004669719,0.007726922,Maintain position,twitter
+Home Secretary,95000,704,"['grok', 'RichardBunning', 'JackJaack1243', 'Eurasian68', 'BitcoinAgent_C', 'Defencematrix1', 'Peaceou97195237', 'latestly', 'lindasweet1234', 'Hogueless42', 'PoornimaNimo', 'GeorgeRobley', 'c_b_l_2005', 'gilo747', '72LeoTheLion', 'bairter2015', 'LarryDJonesJr', 'Theseus2323']",stable,0.007410448,0.004478461,0.007410448,Maintain position,twitter
+#ZeeNuNew2ndConcert,47000,223,"['DarlingAana', 'gamlkiop', 'pemai28halove', 'kitnemzonzon', 'myzunshinee', 'doublenunuchan', 'pen_mha', 'Fangseven', 'maysymyy', 'suprslphth', 'ohananadda', 'p_kaekae', 'Tippawanmai1', 'skyxtacle', 'pranck_09', 'sealticket246', 'yzyzeenunew', 'znn20069', 'alexandria_5529']",stable,0.00474458,0.002867359,0.00474458,Maintain position,twitter
+Wimbledon,89000,166,"['KamalUttrakhand', 'Uxair11khan', 'casino29', 'marioorozgon', 'DforDvnsh_', 'theKORisneverD', 'NickAhlborn', 'HalSear', 'omega_paladin', 'Ridwaan_Bello', 'TennisInthePar1', 'anonymo47425352', 'ReportDeportes', '_Spurrr', 'LeonBestTips', 'addylew_27', 'Ynsslbr', 'troyrecord', 'esasperatAnto']",stable,0.001865148,0.001127191,0.001865148,Maintain position,twitter
+BLONDE JIMIN,67000,598,"['escapismjjk', 'angelstar1632', 'jjyamanikkyu', 'nstyjjj', 'CloudLilac1', 'oh_itsdidi', 'jiminievol', 'pjmsmono', 'Ldiyaa_', 'Annette63376048', 'jeonpar46401335', 'pjmchaos_', 'moonstruckenha', 'namuskitchen_11', 'vmibear', 'Preciousjiminy', 'nugajeon', 'jmnbestiee', 'pookiejiminnn']",stable,0.00892524,0.005393916,0.00892524,Maintain position,twitter
+Lucas Digne,9762,6106,"['Apollo11_1618', 'stade_fred1969', 'CompsJeune', 'adler_p', 'amiral_bgm', 'YougoParigo', 'um_Fel', 'LAA1308', 'scorkpkiller', 'grok', 'ChillyJayJay', 'nocntxtreplyguy', 'ElChoricito', 'LambDonner', 'lucas_gzc', 'pain_za3tar', 'bilkiki', 'jean_blaize', '_2Lille']",stable,0.625422514,0.377970399,0.625422514,Maintain position,twitter
+Quentin Johnston,987222,187461,"['AsaArnold4', 'RotoBallerNFL', 'FDRbrn', 'TheFindalorian', 'RichSharp95', 'AmericaInvests', 'qwiket_nfl', 'boltzgalaxy', 'StewieG_18', 'FFPC', 'DerwinWorld', 'GameBlazersFF', 'SleezBomb', 'hcf_m2h', 'TheMightyJ10', '4WhomJBellTolls', 'ChargersCountry', 'AzspNews', 'JaredVeggie', 'RicoGennero']",stable,0.189887189,0.1147572,0.189887189,Maintain position,twitter
+Love Upon a Time Q11,12000,2332,"['lovesiraphop', 'malamindahlink', 'rndjww96', 'flow2098', 'Lattekim__', 'usernameisgiven', 'YmTaekook76898', 'capibaracarrot', 'ntjjrcp', 'dmdboys_latam', 'forluatupdate']",stable,0.19431714,0.117434415,0.19431714,Maintain position,twitter
+##shorts,9739,37255097,,peak,-0.111,0.667,,Maintain visibility,youtube
+##makeup,4091,70248158,,declining,0,-0.333,,Too late,youtube
+##yoga,3075,1352141,,emerging,1,0.333,,Hop on now,youtube
+##facelift,2407,616522,,peak,0,0.667,,Maintain visibility,youtube
+##beauty,2038,44001722,,declining,0,0,,Too late,youtube
+##skincare,1868,7972476,,peak,0,1,,Maintain visibility,youtube
+##youtubeshorts,1745,10299515,,emerging,0.5,0.333,,Hop on now,youtube
+##trending,1630,7264627,,declining,-0.1,-0.714,,Too late,youtube
+##wrinkles,1616,103202,,emerging,0.333,0.333,,Hop on now,youtube
+##faceyoga,1555,1467940,,emerging,0.333,0.333,,Hop on now,youtube
+##makeuptutorial,1534,2256057,,emerging,2,0.333,,Hop on now,youtube
+##hair,1421,8973108,,peak,0,0.333,,Maintain visibility,youtube
+##viral,1308,9761164,,declining,0,-0.714,,Too late,youtube
+##hairstyle,1307,9304776,,emerging,0.5,0.333,,Hop on now,youtube
+##facialyoga,1245,327236,,emerging,1,0.333,,Hop on now,youtube
+##antiaging,1174,705318,,declining,0,-0.333,,Too late,youtube
+#makeup,954,70248158,,declining,0,-0.333,,Too late,youtube
+##39,925,0,,,,,,,youtube
+##grwm,915,7970465,,peak,0.2,0,,Maintain visibility,youtube
+##haircare,844,1249917,,peak,0,0.333,,Maintain visibility,youtube
+##glowingskin,831,1040581,,peak,0,0.333,,Maintain visibility,youtube
+##fashion,809,6730420,,peak,1,0,,Maintain visibility,youtube
+#shorts,803,37255097,,peak,-0.111,0.667,,Maintain visibility,youtube
+##ytshorts,762,7057467,,declining,0,0,,Too late,youtube
+##viralvideo,757,1136088,,emerging,1,0.333,,Hop on now,youtube
+##short,748,3085219,,peak,0.5,0,,Maintain visibility,youtube
+##lipstick,676,24472980,,peak,0,0.333,,Maintain visibility,youtube
+##fyp,624,654153,,emerging,1,0.333,,Hop on now,youtube
+##facial,595,54929,,peak,0,0.333,,Maintain visibility,youtube
+##shortsfeed,588,1324977,,peak,1,0,,Maintain visibility,youtube
+##skincareroutine,536,205523,,peak,0.25,-0.333,,Maintain visibility,youtube
+##glowup,533,399275,,declining,0,-0.333,,Too late,youtube
+##hairtransformation,503,329450,,peak,1,0,,Maintain visibility,youtube
+##shortvideo,503,1508,,emerging,1,0.333,,Hop on now,youtube
+##haircut,499,2248394,,declining,-0.083,0,,Too late,youtube
+#makeup tutorial,495,32478748,,declining,0,0,,Too late,youtube
+#beauty,494,44001722,,declining,0,0,,Too late,youtube
+##makeupshorts,490,3169393,,emerging,1,0.333,,Hop on now,youtube
+##makeupartist,488,282102,,emerging,1,0.333,,Hop on now,youtube
+##ootd,453,51261,,peak,1,0,,Maintain visibility,youtube
+##trendingshorts,445,1121510,,emerging,1,0.333,,Hop on now,youtube
+##fit,441,0,,emerging,1,0.333,,Hop on now,youtube
+##blush,432,20016807,,emerging,1,0.333,,Hop on now,youtube
+##beautytips,418,465660,,peak,0,0.333,,Maintain visibility,youtube
+##aesthetic,414,926663,,peak,1,0,,Maintain visibility,youtube
+##contour,409,1296477,,emerging,2,0.667,,Hop on now,youtube
+##viralshorts,394,1611614,,emerging,0.5,1,,Hop on now,youtube
+##makeuphacks,392,170397,,emerging,1,0.333,,Hop on now,youtube
+##haircolor,380,3171571,,peak,0.5,0,,Maintain visibility,youtube
+##hairstyles,377,6320100,,peak,0.2,1,,Maintain visibility,youtube
+##youtube,371,4461517,,declining,0,-0.333,,Too late,youtube
+#hair,361,8973108,,peak,0,0.333,,Maintain visibility,youtube
+##style,357,989715,,peak,0.5,0,,Maintain visibility,youtube
+##makeuptips,349,136585,,peak,0,0.333,,Maintain visibility,youtube
+##shortsvideo,328,216066,,declining,0,0,,Too late,youtube
+##styling,308,2366831,,emerging,1,0.333,,Hop on now,youtube
+#skincare,305,7972476,,peak,0,1,,Maintain visibility,youtube
+##makeuplook,302,1409546,,emerging,2,0.333,,Hop on now,youtube
+##beautiful,291,1456638,,peak,1,0,,Maintain visibility,youtube
+##facemassage,285,961208,,declining,0,-0.333,,Too late,youtube
+##face,284,142391,,emerging,1,0.333,,Hop on now,youtube
+##transformation,282,6031336,,emerging,2,0.667,,Hop on now,youtube
+##subscribe,277,1527773,,emerging,1,0.333,,Hop on now,youtube
+##love,273,1160242,,emerging,1,0.333,,Hop on now,youtube
+#trending,264,7264627,,declining,-0.1,-0.714,,Too late,youtube
+##sugarfamily,263,0,,,,,,,youtube
+##tiktok,259,9011417,,emerging,1,0.667,,Hop on now,youtube
+##foryou,255,14493,,peak,0.333,0,,Maintain visibility,youtube
+#viral,254,9761164,,declining,0,-0.714,,Too late,youtube
+##eyeliner,250,18843938,,emerging,1,0.333,,Hop on now,youtube
+##reels,247,2493396,,emerging,1,0.667,,Hop on now,youtube
+#hairstyle,243,9304776,,emerging,0.5,0.333,,Hop on now,youtube
+##eyes,241,1113766,,emerging,1,0.333,,Hop on now,youtube
+##hack,241,1191419,,declining,0,0,,Too late,youtube
+##makeuptransformation,241,141467,,emerging,1,0.333,,Hop on now,youtube
+#hair transformation,240,5429774,,declining,0,-0.25,,Too late,youtube
+##curlyhair,237,252072,,emerging,1,0.333,,Hop on now,youtube
+##ad,237,64627,,emerging,1,0.333,,Hop on now,youtube
+##selfcare,234,135417,,emerging,0.5,0.333,,Hop on now,youtube
+##wigs,233,1166548,,emerging,0.5,1,,Hop on now,youtube
+##hairtutorial,232,27516,,peak,1,0,,Maintain visibility,youtube
+##longhair,228,25950,,emerging,1,0.333,,Hop on now,youtube
+##tutorial,228,2836758,,emerging,1,0.333,,Hop on now,youtube
+##ashortaday,225,766883,,emerging,1,0.333,,Hop on now,youtube
+#how to,223,10125966,,declining,0,0,,Too late,youtube
+##foundation,222,21132165,,emerging,1,0.333,,Hop on now,youtube
+##hairstyling,220,2489887,,emerging,1,0.333,,Hop on now,youtube
+#youtube shorts,218,6985495,,peak,-0.111,0.333,,Maintain visibility,youtube
+#hair tutorial,213,9032643,,peak,0,0.333,,Maintain visibility,youtube
+##bridalmakeup,208,1207479,,emerging,1,0.333,,Hop on now,youtube
+#makeup shorts,205,21973575,,peak,0.5,0,,Maintain visibility,youtube
+##trend,205,4389064,,emerging,0.5,0.667,,Hop on now,youtube
+##makeuplover,203,133955,,emerging,1,0.333,,Hop on now,youtube
+##naturalhair,203,10324,,emerging,1,0.333,,Hop on now,youtube
+##eyemakeup,201,1229973,,emerging,1,0.333,,Hop on now,youtube
+##eyeshadow,198,18019208,,peak,0.333,0,,Maintain visibility,youtube
+##beautyproducts,197,159,,emerging,1,0.333,,Hop on now,youtube
+##outfit,197,644671,,peak,1,0,,Maintain visibility,youtube
+#fashion,195,6730420,,peak,1,0,,Maintain visibility,youtube
+##concealer,195,20083921,,declining,0,0,,Too late,youtube
