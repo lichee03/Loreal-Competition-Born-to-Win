@@ -164,7 +164,9 @@ export function TrendRadar() {
                   key={platform}
                   size="sm"
                   variant={
-                    selectedPlatform === platform ? "default" : "outline"
+                    selectedPlatform === platform
+                      ? "default_gradient"
+                      : "outline_gradient"
                   }
                   onClick={() => setSelectedPlatform(platform)}
                 >
