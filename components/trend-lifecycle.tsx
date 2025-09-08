@@ -163,7 +163,7 @@ export function TrendLifecycle() {
                 </div>
                 <div>
                   <span className="text-muted-foreground">Confidence:</span>
-                  <div className="font-medium text-accent">
+                  <div className="font-medium text-primary">
                     {item.confidence}%
                   </div>
                 </div>
