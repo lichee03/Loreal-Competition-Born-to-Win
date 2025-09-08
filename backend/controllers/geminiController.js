@@ -31,7 +31,11 @@ export async function askGemini(req, res) {
   try {
     const csvData = await loadCsvData();
     // Add instruction for plain, short output
-    const context = `Here is some trend data:\n${JSON.stringify(csvData, null, 2)}\n
+    const context = `Here is some trend data:\n${JSON.stringify(
+      csvData,
+      null,
+      2
+    )}\n
 When you answer, reply in plain text only (no Markdown, no bold), and keep your answer as short and concise as possible for chatbot display. Give two new lines for every new sentence for nice format.
 User question: ${prompt}`;
 
