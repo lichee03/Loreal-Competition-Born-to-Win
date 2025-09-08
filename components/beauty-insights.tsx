@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
@@ -24,51 +25,6 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-import { useState } from "react";
-
-const audienceDataByPlatform = {
-  youtube: [
-    { segment: "Gen Z", percentage: 58, color: "bg-primary" },
-    { segment: "Millennials", percentage: 35, color: "bg-accent" },
-    { segment: "Gen X", percentage: 7, color: "bg-secondary" },
-  ],
-  twitter: [
-    { segment: "Gen Z", percentage: 72, color: "bg-primary" },
-    { segment: "Millennials", percentage: 23, color: "bg-accent" },
-    { segment: "Gen X", percentage: 5, color: "bg-secondary" },
-  ],
-  instagram: [
-    { segment: "Gen Z", percentage: 68, color: "bg-primary" },
-    { segment: "Millennials", percentage: 27, color: "bg-accent" },
-    { segment: "Gen X", percentage: 5, color: "bg-secondary" },
-  ],
-  tiktok: [
-    { segment: "Gen Z", percentage: 78, color: "bg-primary" },
-    { segment: "Millennials", percentage: 19, color: "bg-accent" },
-    { segment: "Gen X", percentage: 3, color: "bg-secondary" },
-  ],
-};
-
-const geographicDataByPlatform = {
-  twitter: [
-    { region: "North America", trends: 15, growth: "+28%" },
-    { region: "Europe", trends: 12, growth: "+22%" },
-    { region: "Asia Pacific", trends: 18, growth: "+52%" },
-    { region: "Latin America", trends: 8, growth: "+35%" },
-  ],
-  instagram: [
-    { region: "North America", trends: 22, growth: "+31%" },
-    { region: "Europe", trends: 18, growth: "+25%" },
-    { region: "Asia Pacific", trends: 28, growth: "+48%" },
-    { region: "Latin America", trends: 12, growth: "+42%" },
-  ],
-  tiktok: [
-    { region: "North America", trends: 35, growth: "+45%" },
-    { region: "Europe", trends: 28, growth: "+38%" },
-    { region: "Asia Pacific", trends: 42, growth: "+67%" },
-    { region: "Latin America", trends: 18, growth: "+55%" },
-  ],
-};
 
 const topBeautyProducts = [
   { product: "Rare Beauty Blush", mentions: 2840 },
@@ -107,9 +63,65 @@ const productMapping = [
   },
 ];
 
+// audienceInsight.tsx (or inside your existing component file)
+
+function generateInsight(platformData: any) {
+  if (!platformData) return "";
+
+  let majoritySegment = "";
+  let maxPercentage = 0;
+
+  for (const [segment, value] of Object.entries(platformData)) {
+    if ((value as number) > maxPercentage) {
+      maxPercentage = value as number;
+      majoritySegment = segment;
+    }
+  }
+
+  return `${majoritySegment} is the dominant audience segment for this platform (${maxPercentage.toFixed(
+    1
+  )}%).`;
+}
+
 export function BeautyInsights() {
   const [audiencePlatform, setAudiencePlatform] = useState("youtube");
   const [geographicPlatform, setGeographicPlatform] = useState("twitter");
+
+  const [audienceData, setAudienceData] = useState<any>(null);
+  const [geoData, setGeoData] = useState<any>(null);
+
+  // Load JSON file
+  useEffect(() => {
+    fetch("/extended_trend_aggregated.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setAudienceData(data.audience_breakdown);
+        setGeoData(data.geo_trends);
+      });
+  }, []);
+
+  if (!audienceData || !geoData) {
+    return <div className="p-6">Loading insights...</div>;
+  }
+
+  // --- transform audience data into progress bar format ---
+  const formatAudienceData = (platform: string) => {
+    const platformData = audienceData[platform] || {};
+    return Object.entries(platformData).map(([segment, value]) => ({
+      segment,
+      percentage: Math.round(value as number),
+    }));
+  };
+
+  // --- transform geo data into list format ---
+  const formatGeoData = (platform: string) => {
+    const geo = geoData[platform] || {};
+    return Object.entries(geo).map(([region, obj]: any) => ({
+      region,
+      trends: obj.active_trends,
+      growth: `${obj.avg_growth}%`,
+    }));
+  };
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -127,26 +139,21 @@ export function BeautyInsights() {
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="youtube">YouTube</SelectItem>
-              <SelectItem value="twitter">Twitter</SelectItem>
-              <SelectItem value="instagram">Instagram</SelectItem>
-              <SelectItem value="tiktok">TikTok</SelectItem>
+              {Object.keys(audienceData).map((platform) => (
+                <SelectItem key={platform} value={platform}>
+                  {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </div>
 
         <div className="space-y-4">
-          {audienceDataByPlatform[
-            audiencePlatform as keyof typeof audienceDataByPlatform
-          ].map((segment, index) => (
+          {formatAudienceData(audiencePlatform).map((segment, index) => (
             <div key={index} className="space-y-2">
               <div className="flex justify-between text-sm">
-                <span className="text-foreground font-medium">
-                  {segment.segment}
-                </span>
-                <span className="text-muted-foreground">
-                  {segment.percentage}%
-                </span>
+                <span className="font-medium">{segment.segment}</span>
+                <span>{segment.percentage}%</span>
               </div>
               <Progress value={segment.percentage} className="h-2" />
             </div>
@@ -155,9 +162,8 @@ export function BeautyInsights() {
 
         <div className="mt-6 p-3 bg-muted/50 rounded-lg">
           <p className="text-xs text-muted-foreground">
-            <strong className="text-foreground">Insight:</strong> Gen Z drives
-            majority of beauty trend adoption across all platforms, with highest
-            engagement on TikTok.
+            <strong className="text-foreground">🧿Insight:</strong>{" "}
+            {generateInsight(audienceData[audiencePlatform])}
           </p>
         </div>
       </Card>
@@ -177,36 +183,28 @@ export function BeautyInsights() {
               <SelectValue />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="twitter">Twitter</SelectItem>
-              <SelectItem value="instagram">Instagram</SelectItem>
-              <SelectItem value="tiktok">TikTok</SelectItem>
+              {Object.keys(geoData).map((platform) => (
+                <SelectItem key={platform} value={platform}>
+                  {platform.charAt(0).toUpperCase() + platform.slice(1)}
+                </SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </div>
 
         <div className="space-y-4">
-          {geographicDataByPlatform[
-            geographicPlatform as keyof typeof geographicDataByPlatform
-          ].map((region, index) => (
+          {formatGeoData(geographicPlatform).map((region, index) => (
             <div
               key={index}
-              className="flex items-center justify-between p-3 rounded-lg border border-border"
+              className="flex items-center justify-between p-3 rounded-lg border"
             >
               <div>
-                <div className="font-medium text-foreground">
-                  {region.region}
-                </div>
+                <div className="font-medium">{region.region}</div>
                 <div className="text-sm text-muted-foreground">
                   {region.trends} active trends
                 </div>
               </div>
-              <Badge
-                variant={
-                  region.growth.startsWith("+") ? "default" : "secondary"
-                }
-              >
-                {region.growth}
-              </Badge>
+              <Badge>{region.growth}</Badge>
             </div>
           ))}
         </div>
