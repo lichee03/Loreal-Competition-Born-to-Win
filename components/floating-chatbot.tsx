@@ -18,7 +18,7 @@ interface Message {
 export function FloatingChatbot() {
   const [isOpen, setIsOpen] = useState(false)
   const [isMinimized, setIsMinimized] = useState(false)
-  const [messages, setMessages] = useState<Message[]>([
+  const initialBotMessage: Message[] = [
     {
       id: "1",
       content:
@@ -27,14 +27,16 @@ export function FloatingChatbot() {
       timestamp: new Date(),
       suggestions: [
         "What's trending in skincare right now?",
-        "Analyze #CleanGirl movement",
+        "Analyze #Makeup trend",
         "Show me Gen Z beauty preferences",
         "Predict next viral makeup trend",
       ],
     },
-  ])
+  ]
+  const [messages, setMessages] = useState<Message[]>(initialBotMessage)
   const [inputValue, setInputValue] = useState("")
   const [isTyping, setIsTyping] = useState(false)
+  const [error, setError] = useState<string | null>(null)
   const messagesEndRef = useRef<HTMLDivElement>(null)
 
   const scrollToBottom = () => {
@@ -58,58 +60,52 @@ export function FloatingChatbot() {
     setMessages((prev) => [...prev, userMessage])
     setInputValue("")
     setIsTyping(true)
+    setError(null)
 
-    // Simulate AI response
-    setTimeout(() => {
+    try {
+      const res = await fetch("http://localhost:5000/api/gemini", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt: content }),
+      })
+      if (!res.ok) {
+        throw new Error("Failed to get response from Gemini API")
+      }
+      const data = await res.json()
       const botResponse: Message = {
         id: (Date.now() + 1).toString(),
-        content: generateBotResponse(content),
+        content: data.result || "Sorry, I couldn't find an answer.",
         sender: "bot",
         timestamp: new Date(),
-        suggestions: generateSuggestions(content),
+        // Optionally, you can generate suggestions here if needed
       }
       setMessages((prev) => [...prev, botResponse])
+    } catch (err: any) {
+      setError(err.message || "Something went wrong.")
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: (Date.now() + 2).toString(),
+          content: "Sorry, there was an error connecting to the AI.",
+          sender: "bot",
+          timestamp: new Date(),
+        },
+      ])
+    } finally {
       setIsTyping(false)
-    }, 1500)
+    }
   }
 
-  const generateBotResponse = (userInput: string): string => {
-    const input = userInput.toLowerCase()
-
-    if (input.includes("skincare") || input.includes("skin")) {
-      return "🔍 **Current Skincare Trends Analysis:**\n\n• **#SkinCycling** - 847% growth, Peak phase (2-3 weeks remaining)\n• **Slugging** - Declining (-23% this month)\n• **Skin Minimalism** - Emerging (+156% mentions)\n\n**L'Oréal Opportunity:** Launch retinol education content to ride the #SkinCycling wave. Optimal engagement window: Next 10 days."
-    }
-
-    if (input.includes("cleangirl") || input.includes("clean girl")) {
-      return "📊 **#CleanGirl Movement Deep Dive:**\n\n**Lifecycle Status:** Mature (18 months active)\n**Current Phase:** Stable plateau\n**Audience:** 67% Gen Z, 28% Millennial\n\n**Key Insights:**\n• Evolved into 'Effortless Glam' micro-trends\n• High engagement in morning routines\n• Opportunity: Clean beauty product positioning"
-    }
-
-    if (input.includes("gen z") || input.includes("genz")) {
-      return "🎯 **Gen Z Beauty Preferences (Q4 2024):**\n\n**Top Categories:**\n1. Lip products (73% engagement)\n2. Brow styling (68%)\n3. Skin tints (61%)\n\n**Behavior Patterns:**\n• 3.2x more likely to try viral trends\n• Prefer authentic, unfiltered content\n• Value sustainability messaging (+45% engagement)"
-    }
-
-    if (input.includes("predict") || input.includes("next") || input.includes("viral")) {
-      return "🔮 **Next Viral Trend Prediction:**\n\n**High Probability (85% confidence):**\n**'Dopamine Makeup'** - Bright, mood-boosting colors\n\n**Early Signals:**\n• +234% mentions in past 2 weeks\n• Celebrity adoption (3 major influencers)\n• Peak timing: 3-4 weeks from now\n\n**Action Plan:** Prepare colorful eyeshadow content and partner with micro-influencers in wellness space."
-    }
-
-    return "I can help you analyze beauty trends, predict viral movements, and identify opportunities for L'Oréal brands. Try asking about specific trends, demographics, or competitive analysis!"
-  }
-
-  const generateSuggestions = (userInput: string): string[] => {
-    const suggestions = [
-      "Show competitor analysis for this trend",
-      "What's the optimal engagement timing?",
-      "Break down by demographic segments",
-      "Find similar emerging trends",
-      "Generate content strategy recommendations",
-    ]
-    return suggestions.slice(0, 3)
-  }
-
+  // Render the floating button if the chatbot is closed
   if (!isOpen) {
     return (
       <Button
-        onClick={() => setIsOpen(true)}
+        onClick={() => {
+          setIsOpen(true)
+          setTimeout(() => {
+            messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+          }, 0)
+        }}
         className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 pulse-glow z-50"
         size="icon"
       >
@@ -120,7 +116,7 @@ export function FloatingChatbot() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      <Card className={`w-96 shadow-2xl transition-all duration-300 ${isMinimized ? "h-14" : "h-[500px]"}`}>
+      <Card className={`w-96 shadow-2xl transition-all duration-300 ${isMinimized ? "h-14" : "h-[500px]"} p-0 flex flex-col`}>
         <CardHeader className="p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
@@ -134,7 +130,17 @@ export function FloatingChatbot() {
                 variant="ghost"
                 size="icon"
                 className="w-6 h-6 text-primary-foreground hover:bg-primary-foreground/20"
-                onClick={() => setIsMinimized(!isMinimized)}
+                onClick={() => {
+                  setIsMinimized((prev) => {
+                    const next = !prev
+                    if (next === false) {
+                      setTimeout(() => {
+                        messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
+                      }, 0)
+                    }
+                    return next
+                  })
+                }}
               >
                 <Minimize2 className="w-3 h-3" />
               </Button>
@@ -142,7 +148,11 @@ export function FloatingChatbot() {
                 variant="ghost"
                 size="icon"
                 className="w-6 h-6 text-primary-foreground hover:bg-primary-foreground/20"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  setIsOpen(false)
+                  setIsMinimized(false)
+                  setMessages(initialBotMessage)
+                }}
               >
                 <X className="w-3 h-3" />
               </Button>
@@ -215,6 +225,9 @@ export function FloatingChatbot() {
                     </div>
                   </div>
                 )}
+                {error && (
+                  <div className="text-xs text-red-500">{error}</div>
+                )}
                 <div ref={messagesEndRef} />
               </div>
             </CardContent>
@@ -271,3 +284,4 @@ export function FloatingChatbot() {
     </div>
   )
 }
+
