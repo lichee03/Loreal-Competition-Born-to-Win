@@ -211,7 +211,7 @@ export function BeautyInsights() {
               className="p-4 rounded-lg border border-border bg-muted/12"
             >
               <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium text-foreground">{item.trend_id}</h4>
+                <h4 className="font-medium text-foreground">{item.trend_id.replace(/^##?/, "#")}</h4>
                 <Badge
                   variant={
                     item.current_stage === "emerging"
