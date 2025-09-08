@@ -124,7 +124,7 @@ export function FloatingChatbot() {
     return (
       <Button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 pulse-glow z-50 bg-gradient-to-br from-background via-primary/60 to-background text-primary-foreground"
+        className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 pulse-glow z-50 bg-gradient-to-br from-background via-secondary/30 text-primary-foreground"
         size="icon"
       >
         <MessageCircle className="w-6 h-6" />
