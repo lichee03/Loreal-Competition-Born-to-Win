@@ -157,7 +157,7 @@ export function TrendRadar() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Radar Display */}
         <div className="lg:col-span-2">
-          <Card className="p-6 bg-card">
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
             <div className="flex gap-2 mb-4 justify-center">
               {["YouTube", "Instagram", "Twitter", "TikTok"].map((platform) => (
                 <Button
@@ -248,7 +248,7 @@ export function TrendRadar() {
 
         {/* Trend Details */}
         <div className="space-y-4">
-          <Card className="p-6">
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
             <h3 className="font-semibold text-foreground mb-4">
               Trend Details
             </h3>
@@ -314,7 +314,7 @@ export function TrendRadar() {
           </Card>
 
           {/* Live Activity */}
-          <Card className="p-6">
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
             <h3 className="font-semibold text-foreground mb-4">
               Live Activity
             </h3>

@@ -1,8 +1,16 @@
-"use client"
+"use client";
 
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Area, AreaChart } from "recharts"
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Area,
+  AreaChart,
+} from "recharts";
 
 const lifecycleData = [
   { day: 0, mentions: 120, engagement: 85, phase: "Emerging" },
@@ -15,29 +23,46 @@ const lifecycleData = [
   { day: 24, mentions: 2100, engagement: 750, phase: "Declining" },
   { day: 28, mentions: 1450, engagement: 520, phase: "Declining" },
   { day: 31, mentions: 890, engagement: 340, phase: "Fading" },
-]
+];
 
 const predictiveData = [
-  { trend: "#SkinCycling", currentPhase: "Emerging", peakIn: 14, confidence: 92 },
+  {
+    trend: "#SkinCycling",
+    currentPhase: "Emerging",
+    peakIn: 14,
+    confidence: 92,
+  },
   { trend: "#GlassSkin", currentPhase: "Peak", peakIn: 0, confidence: 98 },
-  { trend: "#CleanGirl", currentPhase: "Declining", peakIn: -7, confidence: 89 },
+  {
+    trend: "#CleanGirl",
+    currentPhase: "Declining",
+    peakIn: -7,
+    confidence: 89,
+  },
   { trend: "#KBeauty", currentPhase: "Growing", peakIn: 8, confidence: 85 },
-]
+];
 
 export function TrendLifecycle() {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* Lifecycle Chart */}
-      <Card className="p-6">
+      <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="mb-6">
-          <h3 className="text-xl font-semibold text-foreground mb-2">Trend Lifecycle: #SkinCycling</h3>
-          <p className="text-sm text-muted-foreground">Real-time analysis of trend momentum and engagement patterns</p>
+          <h3 className="text-xl font-semibold text-foreground mb-2">
+            Trend Lifecycle: #SkinCycling
+          </h3>
+          <p className="text-sm text-muted-foreground">
+            Real-time analysis of trend momentum and engagement patterns
+          </p>
         </div>
 
         <div className="h-80">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={lifecycleData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+              <CartesianGrid
+                strokeDasharray="3 3"
+                stroke="hsl(var(--border))"
+              />
               <XAxis
                 dataKey="day"
                 stroke="hsl(var(--muted-foreground))"
@@ -45,7 +70,12 @@ export function TrendLifecycle() {
                 tickLine={false}
                 axisLine={false}
               />
-              <YAxis stroke="hsl(var(--muted-foreground))" fontSize={12} tickLine={false} axisLine={false} />
+              <YAxis
+                stroke="hsl(var(--muted-foreground))"
+                fontSize={12}
+                tickLine={false}
+                axisLine={false}
+              />
               <Tooltip
                 contentStyle={{
                   backgroundColor: "hsl(var(--card))",
@@ -84,18 +114,30 @@ export function TrendLifecycle() {
       </Card>
 
       {/* Predictive Analysis */}
-      <Card className="p-6">
+      <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="mb-6">
-          <h3 className="text-xl font-semibold text-foreground mb-2">AI Predictions</h3>
-          <p className="text-sm text-muted-foreground">Machine learning models predict optimal engagement timing</p>
+          <h3 className="text-xl font-semibold text-foreground mb-2">
+            AI Predictions
+          </h3>
+          <p className="text-sm text-muted-foreground">
+            Machine learning models predict optimal engagement timing
+          </p>
         </div>
 
         <div className="space-y-4">
           {predictiveData.map((item, index) => (
-            <div key={index} className="p-4 rounded-lg border border-border bg-muted/30">
+            <div
+              key={index}
+              className="p-4 rounded-lg border border-border bg-muted/30"
+            >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-medium text-foreground">{item.trend}</h4>
-                <Badge variant={item.currentPhase === "Peak" ? "default" : "secondary"} className="text-xs">
+                <Badge
+                  variant={
+                    item.currentPhase === "Peak" ? "default" : "secondary"
+                  }
+                  className="text-xs"
+                >
                   {item.currentPhase}
                 </Badge>
               </div>
@@ -107,18 +149,20 @@ export function TrendLifecycle() {
                     {item.peakIn > 0
                       ? `${item.peakIn} days`
                       : item.peakIn === 0
-                        ? "Now"
-                        : `${Math.abs(item.peakIn)} days ago`}
+                      ? "Now"
+                      : `${Math.abs(item.peakIn)} days ago`}
                   </div>
                 </div>
                 <div>
                   <span className="text-muted-foreground">Confidence:</span>
-                  <div className="font-medium text-accent">{item.confidence}%</div>
+                  <div className="font-medium text-accent">
+                    {item.confidence}%
+                  </div>
                 </div>
               </div>
 
               {item.peakIn > 0 && item.peakIn <= 14 && (
-                <div className="mt-3 p-2 bg-accent/10 rounded text-xs text-accent font-medium">
+                <div className="mt-3 p-2 bg-accent/60 rounded text-xs text-primary font-medium">
                   🎯 Sweet Spot Alert: Optimal engagement window
                 </div>
               )}
@@ -127,5 +171,5 @@ export function TrendLifecycle() {
         </div>
       </Card>
     </div>
-  )
+  );
 }
