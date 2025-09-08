@@ -1,0 +1,158 @@
+{
+  "Consumer Products": [
+    {
+      "brand": "L'Oréal Paris",
+      "description": "The world’s number one beauty brand, empowering women at every age to fulfil their personal beauty aspirations."  
+    },
+    {
+      "brand": "Garnier",
+      "description": "A mass-market brand pioneering green beauty through green science, packaging, sourcing and manufacturing."  
+    },
+    {
+      "brand": "Maybelline New York",
+      "description": "Trendsetting cosmetic innovations from New York brought to a global audience."  
+    },
+    {
+      "brand": "NYX Professional Makeup",
+      "description": "Professional and advanced makeup products, tools and techniques accessible to all."  
+    },
+    {
+      "brand": "3CE by Stylenanda",
+      "description": "A trendy Korean makeup brand, popular in Asia."  
+    },
+    {
+      "brand": "Essie",
+      "description": "Iconic nail brand offering a wide range of polish colors and formulas."  
+    },
+    {
+      "brand": "Mixa",
+      "description": "A skincare brand rooted in pharmacy tradition with gentle formulas."  
+    }
+  ],
+  "L'Oréal Luxe": [
+    {
+      "brand": "Lancôme",
+      "description": "Luxury skincare, makeup and fragrance brand with iconic lines like Génifique and Absolue."  
+    },
+    {
+      "brand": "Yves Saint Laurent Beauté",
+      "description": "High-end makeup and fragrance brand known for bold, creative style."  
+    },
+    {
+      "brand": "Armani Beauty",
+      "description": "Luxurious cosmetics and fragrances from the Armani fashion house."  
+    },
+    {
+      "brand": "Kiehl’s Since 1851",
+      "description": "Prestigious skincare brand famed for Ultra Facial and Calendula lines."  
+    },
+    {
+      "brand": "Helena Rubinstein",
+      "description": "Historic ultra-premium skincare brand leading in anti-aging."  
+    },
+    {
+      "brand": "Aēsop",
+      "description": "Premium Australian beauty brand known for botanical ingredients and design."  
+    },
+    {
+      "brand": "Biotherm",
+      "description": "Luxury skincare brand featuring formulas enriched with pure thermal plankton."  
+    },
+    {
+      "brand": "Valentino",
+      "description": "Prestigious fragrance and beauty line under the Valentino fashion house."  
+    },
+    {
+      "brand": "Prada",
+      "description": "Luxury beauty collections from the Prada fashion house."  
+    },
+    {
+      "brand": "Shu Uemura",
+      "description": "Professional-grade cosmetics and haircare with an artistic heritage."  
+    },
+    {
+      "brand": "IT Cosmetics",
+      "description": "Makeup and skincare brand with clinically-inspired formulas."  
+    },
+    {
+      "brand": "Mugler",
+      "description": "Iconic fragrance and beauty brand known for bold scents."  
+    },
+    {
+      "brand": "Ralph Lauren Beauty",
+      "description": "Beauty and fragrance line under the Ralph Lauren fashion brand."  
+    },
+    {
+      "brand": "Urban Decay",
+      "description": "Edgy makeup brand known for bold colors and artistry."  
+    },
+    {
+      "brand": "Azzaro",
+      "description": "Luxury fragrance brand with strong sartorial inspiration."  
+    },
+    {
+      "brand": "Maison Margiela",
+      "description": "Niche fragrance and beauty brand translated from Maison Martin Margiela."  
+    },
+    {
+      "brand": "Viktor & Rolf",
+      "description": "Avant-garde fragrance and beauty brand with artistic DNA."  
+    },
+    {
+      "brand": "Takami",
+      "description": "Premium Japanese skincare focusing on beauty tech."  
+    },
+    {
+      "brand": "Diesel",
+      "description": "Youthful, urban fragrance and beauty brand from the Diesel fashion label."  
+    },
+    {
+      "brand": "Carita",
+      "description": "Professional skincare and salon brand with a legacy of expertise."  
+    }
+  ],
+  "Dermatological Beauty": [
+    {
+      "brand": "La Roche-Posay",
+      "description": "Dermocosmetic pioneer with products for sensitive and anti-aging skin."  
+    },
+    {
+      "brand": "CeraVe",
+      "description": "Dermatologist-developed skincare with ceramides for barrier repair."  
+    },
+    {
+      "brand": "Vichy",
+      "description": "Skincare brand enriched with Vichy volcanic water for efficacy and tolerance."  
+    },
+    {
+      "brand": "SkinCeuticals",
+      "description": "Advanced skincare backed by clinical research; top in antioxidant serums."  
+    },
+    {
+      "brand": "Skinbetter Science",
+      "description": "High-performance clinical skincare solutions under dermatological innovation."  
+    }
+  ],
+  "Professional Products": [
+    {
+      "brand": "L'Oréal Professionnel",
+      "description": "Salon professional haircare and styling products."  
+    },
+    {
+      "brand": "Kérastase",
+      "description": "Premium haircare brand delivering salon-grade, high-performance treatments."  
+    },
+    {
+      "brand": "Redken",
+      "description": "Professional hair color and care rooted in science and innovation."  
+    },
+    {
+      "brand": "Matrix",
+      "description": "Full-spectrum haircare and color for diverse salon needs."  
+    },
+    {
+      "brand": "Pureology",
+      "description": "Salon haircare with vegan formulas tailored for color-treated hair."  
+    }
+  ]
+}
