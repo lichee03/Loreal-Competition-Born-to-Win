@@ -276,9 +276,15 @@ export function TrendRadar() {
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Audience:</span>
+                    <span className="text-muted-foreground">Volume:</span>
                     <span className="text-foreground">
-                      {selectedTrend.unique_creators}
+                      {selectedTrend.volume}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Engagement:</span>
+                    <span className="text-foreground">
+                      {selectedTrend.engagement}
                     </span>
                   </div>
                   <div className="flex justify-between">
@@ -286,7 +292,7 @@ export function TrendRadar() {
                     <span
                       className={
                         selectedTrend.growth_rate_7d > 0
-                          ? "text-accent"
+                          ? "text-primary"
                           : "text-destructive"
                       }
                     >
@@ -295,9 +301,16 @@ export function TrendRadar() {
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Days to Peak:</span>
-                    <span className="text-foreground">
-                      {selectedTrend.sweet_spot_days_left}
+                    <span className="text-muted-foreground">Acceleration:</span>
+                    <span
+                      className={
+                        selectedTrend.growth_rate_7d > 0
+                          ? "text-primary"
+                          : "text-destructive"
+                      }
+                    >
+                      {selectedTrend.acceleration > 0 ? "+" : ""}
+                      {selectedTrend.acceleration}%
                     </span>
                   </div>
                 </div>
@@ -399,21 +412,19 @@ export function TrendRadar() {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-muted-foreground">
-                      Audience Driving It:
+                      Volume:
                     </span>
                     <span className="text-sm font-semibold text-foreground">
-                      {selectedTrend.unique_creators}
+                      {selectedTrend.volume}
                     </span>
                   </div>
 
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-muted-foreground">
-                      Days Before Saturation:
+                      Engagement:
                     </span>
                     <span className="text-sm font-semibold text-foreground">
-                      {selectedTrend.sweet_spot_days_left === 0
-                        ? "Saturated"
-                        : `${selectedTrend.sweet_spot_days_left} days`}
+                      {selectedTrend.engagement}
                     </span>
                   </div>
 
@@ -433,12 +444,37 @@ export function TrendRadar() {
                     <span
                       className={`text-sm font-semibold ${
                         selectedTrend.growth_rate_7d > 0
-                          ? "text-accent"
+                          ? "text-primary"
                           : "text-destructive"
                       }`}
                     >
                       {selectedTrend.growth_rate_7d > 0 ? "+" : ""}
                       {selectedTrend.growth_rate_7d}%
+                    </span>
+                  </div>
+
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      Acceleration:
+                    </span>
+                    <span
+                      className={`text-sm font-semibold ${
+                        selectedTrend.acceleration > 0
+                          ? "text-primary"
+                          : "text-destructive"
+                      }`}
+                    >
+                      {selectedTrend.acceleration > 0 ? "+" : ""}
+                      {selectedTrend.acceleration}%
+                    </span>
+                  </div>
+
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      Recomemded Actions:
+                    </span>
+                    <span className="text-sm font-semibold text-foreground">
+                      {selectedTrend.recommended_action}
                     </span>
                   </div>
                 </div>
