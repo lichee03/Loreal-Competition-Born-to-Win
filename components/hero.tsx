@@ -21,7 +21,7 @@ export function Hero() {
 
         <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto text-pretty">
           TrendLens analyzes hashtags, audio snippets, and visual content across
-          TikTok, Instagram, and YouTube to give L'Oréal the perfect timing for
+          TikTok, Instagram, Twitter and YouTube to give L'Oréal the perfect timing for
           trend engagement.
         </p>
 

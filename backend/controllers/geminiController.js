@@ -8,7 +8,7 @@ dotenv.config();
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
-const CSV_PATH = path.join(process.cwd(), "../app/data/trend_both_youtube_updated.csv");
+const CSV_PATH = path.join(process.cwd(), "../app/data/trend_with_loreal_mapping.csv");
 
 // Helper: Load CSV and return as array of objects (first 10 rows for brevity)
 function loadCsvData() {

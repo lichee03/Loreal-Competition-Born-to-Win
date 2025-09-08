@@ -25,6 +25,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 import { useState } from "react";
+import { cn } from "@/lib/utils"
 
 const audienceDataByPlatform = {
   youtube: [
@@ -71,16 +72,16 @@ const geographicDataByPlatform = {
 };
 
 const topBeautyProducts = [
-  { product: "Rare Beauty Blush", mentions: 2840 },
-  { product: "Fenty Beauty Foundation", mentions: 2650 },
-  { product: "Charlotte Tilbury Lipstick", mentions: 2420 },
-  { product: "Glossier Cloud Paint", mentions: 2180 },
-  { product: "Drunk Elephant Serum", mentions: 1950 },
-  { product: "The Ordinary Niacinamide", mentions: 1820 },
-  { product: "Maybelline Sky High Mascara", mentions: 1680 },
-  { product: "Sol de Janeiro Cream", mentions: 1540 },
-  { product: "Laneige Lip Mask", mentions: 1420 },
-  { product: "Glow Recipe Cleanser", mentions: 1280 },
+  { product: "Lipstick", mentions: 4683 },
+  { product: "Blush", mentions: 3913 },
+  { product: "Foundation", mentions: 3862 },
+  { product: "Serum", mentions: 3610 },
+  { product: "Contour", mentions: 3044 },
+  { product: "Concealer", mentions: 2568 },
+  { product: "Eyeshadow", mentions: 2339 },
+  { product: "Eyeliner", mentions: 2220 },
+  { product: "Comb", mentions: 1909 },
+  { product: "Mascara", mentions: 1756 },
 ];
 
 const productMapping = [
@@ -237,8 +238,8 @@ export function BeautyInsights() {
                     item.opportunity === "High"
                       ? "default"
                       : item.opportunity === "Medium"
-                      ? "secondary"
-                      : "outline"
+                        ? "secondary"
+                        : "outline"
                   }
                 >
                   {item.opportunity}
@@ -274,9 +275,12 @@ export function BeautyInsights() {
           <h3 className="font-semibold text-foreground">
             Top 10 Beauty Products Mentioned
           </h3>
+          <Badge variant="outline" className="text-xs">
+            YouTube Only
+          </Badge>
         </div>
 
-        <div className="h-[300px] w-full">
+        <div className="h-[360px] w-full">
           <ChartContainer
             config={{
               mentions: {
@@ -289,12 +293,16 @@ export function BeautyInsights() {
             <ResponsiveContainer width="100%" height="100%">
               <BarChart
                 data={topBeautyProducts}
-                margin={{ top: 20, right: 30, left: 20, bottom: 80 }}
+                margin={{ top: 20, right: 30, left: 20, bottom: 10 }}
               >
-                <CartesianGrid
-                  strokeDasharray="3 3"
-                  stroke="hsl(var(--border))"
-                />
+                <defs>
+                  <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor="oklch(0.769 0.188 70.08)" stopOpacity={0.3} />
+                    <stop offset="100%" stopColor="oklch(0.769 0.188 70.08)" stopOpacity={1} />
+                  </linearGradient>
+                </defs>
+
+                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
                 <XAxis
                   dataKey="product"
                   angle={-45}
@@ -307,7 +315,7 @@ export function BeautyInsights() {
                 <ChartTooltip content={<ChartTooltipContent />} />
                 <Bar
                   dataKey="mentions"
-                  fill="hsl(var(--primary))"
+                  fill="url(#barGradient)"
                   radius={[4, 4, 0, 0]}
                 />
               </BarChart>
