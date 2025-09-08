@@ -303,7 +303,7 @@ export function BeautyInsights() {
                   dataKey="mentions"
                   fill="url(#barGradient)"
                   radius={[4, 4, 0, 0]}
-                  barSize={50}
+                  // barSize={50}
                 />
               </BarChart>
             </ResponsiveContainer>
