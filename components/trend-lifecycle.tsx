@@ -337,7 +337,7 @@ export function TrendLifecycle() {
       </Card>
 
       {/* Predictive Analysis */}
-      <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
+      <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background h-[550px] flex flex-col">
         <div className="mb-6">
           <h3 className="text-xl font-semibold text-foreground mb-2">
             AI Predictions
@@ -363,7 +363,7 @@ export function TrendLifecycle() {
           </div>
         </div>
 
-        <div className="space-y-4">
+        <div className="overflow-y-auto flex-1 pr-2 space-y-4">
           {trendData
             .filter((item) => item.platform === predictionPlatform)
             .map((item, index) => (

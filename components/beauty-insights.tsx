@@ -25,20 +25,8 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
+import topBeautyProducts from "@/app/data/top_10_products.json";
 
-// mock data for top beauty products -- TOBE Delete
-const topBeautyProducts = [
-  { product: "Lipstick", mentions: 4683 },
-  { product: "Blush", mentions: 3913 },
-  { product: "Foundation", mentions: 3862 },
-  { product: "Serum", mentions: 3610 },
-  { product: "Contour", mentions: 3044 },
-  { product: "Concealer", mentions: 2568 },
-  { product: "Eyeshadow", mentions: 2339 },
-  { product: "Eyeliner", mentions: 2220 },
-  { product: "Comb", mentions: 1909 },
-  { product: "Mascara", mentions: 1756 },
-];
 
 function generateInsight(platformData: any) {
   if (!platformData) return "";
@@ -205,7 +193,7 @@ export function BeautyInsights() {
       </Card>
 
       {/* Product Category Mapping - YouTube Only */}
-      <Card className="p-6 lg:col-span-2 bg-gradient-to-br from-background via-muted/20 to-background">
+      <Card className="p-6 lg:col-span-2 bg-gradient-to-br from-background via-muted/20 to-background h-[555px] flex flex-col">
         <div className="flex items-center gap-2 mb-4">
           <Package className="w-5 h-5 text-secondary" />
           <h3 className="font-semibold text-foreground">
@@ -216,7 +204,7 @@ export function BeautyInsights() {
           </Badge>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-4  overflow-y-auto">
           {trendData.map((item, index) => (
             <div
               key={index}
@@ -229,8 +217,8 @@ export function BeautyInsights() {
                     item.current_stage === "emerging"
                       ? "default"
                       : item.current_stage === "peak"
-                      ? "secondary"
-                      : "outline"
+                        ? "secondary"
+                        : "outline"
                   }
                 >
                   {item.current_stage}
@@ -308,11 +296,14 @@ export function BeautyInsights() {
                   stroke="hsl(var(--foreground))"
                 />
                 <YAxis stroke="hsl(var(--foreground))" fontSize={11} />
-                <ChartTooltip content={<ChartTooltipContent />} />
+                <ChartTooltip
+                  content={<ChartTooltipContent />}
+                />
                 <Bar
                   dataKey="mentions"
                   fill="url(#barGradient)"
                   radius={[4, 4, 0, 0]}
+                  barSize={50}
                 />
               </BarChart>
             </ResponsiveContainer>
