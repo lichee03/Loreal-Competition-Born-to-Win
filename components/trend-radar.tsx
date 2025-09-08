@@ -116,9 +116,9 @@ export function TrendRadar() {
   const getStageColor = (stage: string) => {
     switch (stage.toLowerCase()) {
       case "emerging":
-        return "bg-accent";
-      case "peak":
         return "bg-primary";
+      case "peak":
+        return "bg-accent";
       case "declining":
         return "bg-destructive";
       case "stable":
@@ -225,11 +225,11 @@ export function TrendRadar() {
             {/* Legend */}
             <div className="flex justify-center gap-6 mt-6 flex-wrap">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-accent"></div>
+                <div className="w-3 h-3 rounded-full bg-primary"></div>
                 <span className="text-sm text-muted-foreground">Emerging</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-primary"></div>
+                <div className="w-3 h-3 rounded-full bg-accent"></div>
                 <span className="text-sm text-muted-foreground">Peak</span>
               </div>
               <div className="flex items-center gap-2">
@@ -256,7 +256,12 @@ export function TrendRadar() {
                   <h4 className="font-medium text-foreground">
                     {selectedTrend.trend_id}
                   </h4>
-                  <Badge variant="secondary" className="mt-1">
+                  <Badge
+                    variant="secondary"
+                    className={`${getStageColor(
+                      selectedTrend.current_stage
+                    )} text-white`}
+                  >
                     {getStageLabel(selectedTrend.current_stage)}
                   </Badge>
                 </div>
@@ -304,6 +309,58 @@ export function TrendRadar() {
                 Click on a trend dot to view detailed insights
               </p>
             )}
+          </Card>
+
+          {/* Live Activity */}
+          <Card className="p-6">
+            <h3 className="font-semibold text-foreground mb-4">
+              Live Activity
+            </h3>
+            <div className="space-y-3">
+              {["emerging", "peak", "declining", "stable"].map((stage) => {
+                const trendsForStage = trends
+                  .filter(
+                    (t) =>
+                      t.platform.toLowerCase() ===
+                        selectedPlatform.toLowerCase() &&
+                      t.current_stage?.toLowerCase() === stage
+                  )
+                  .sort((a, b) => b.growth_rate_7d - a.growth_rate_7d);
+
+                if (trendsForStage.length === 0) return null;
+
+                const topTrend = trendsForStage[0];
+
+                return (
+                  <div
+                    key={topTrend.trend_id}
+                    className="flex items-center gap-3"
+                  >
+                    <div
+                      className={`w-2 h-2 rounded-full animate-pulse ${
+                        stage === "emerging"
+                          ? "bg-primary"
+                          : stage === "peak"
+                          ? "bg-accent"
+                          : stage === "declining"
+                          ? "bg-destructive"
+                          : "bg-muted"
+                      }`}
+                    ></div>
+                    <span className="text-sm text-muted-foreground">
+                      {topTrend.trend_id}{" "}
+                      {stage === "emerging"
+                        ? "emerging"
+                        : stage === "peak"
+                        ? "reaching peak engagement"
+                        : stage === "declining"
+                        ? "showing decline signals"
+                        : "stable signals"}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
           </Card>
         </div>
       </div>
@@ -382,6 +439,19 @@ export function TrendRadar() {
                       {selectedTrend.growth_rate_7d}%
                     </span>
                   </div>
+                </div>
+
+                <div className="flex gap-2 pt-2">
+                  <Button size="sm" className="flex-1">
+                    View Campaign Ideas
+                  </Button>
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="flex-1 bg-transparent"
+                  >
+                    Export Report
+                  </Button>
                 </div>
               </div>
             </div>
