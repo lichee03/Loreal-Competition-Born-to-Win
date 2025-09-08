@@ -2,13 +2,15 @@ import pandas as pd
 import os
 
 # input CSV path
-csv_path = os.path.join("app", "data", "trend_with_loreal_mapping.csv")
+csv_path = os.path.join("app", "data", "trend_aggregated.csv")
 
 # output JSON path
-json_path = os.path.join("public", "trend_with_loreal_mapping.json")
+json_path = os.path.join("public", "trend_aggregated.json")
 
-# read CSV with Windows-1252 encoding (fix for UnicodeDecodeError)
-df = pd.read_csv(csv_path, encoding="cp1252")
+# safest option: utf-8 with errors ignored
+df = pd.read_csv(csv_path, encoding="latin1")
+
+
 
 # convert to JSON (list of objects)
 df.to_json(json_path, orient="records", indent=2)

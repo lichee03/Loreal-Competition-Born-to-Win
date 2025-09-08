@@ -398,7 +398,7 @@ export function TrendLifecycle() {
                   </div>
                   <div>
                     <span className="text-muted-foreground">Engagement:</span>
-                    <div className="font-medium text-accent">
+                    <div className="font-medium text-primary">
                       {item.engagement.toLocaleString()}
                     </div>
                   </div>
