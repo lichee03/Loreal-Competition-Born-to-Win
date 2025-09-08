@@ -1,21 +1,16 @@
 import pandas as pd
 import os
 
-# folder where your CSVs live
-data_folder = os.path.join("app", "data")
+# input CSV path
+csv_path = os.path.join("app", "data", "trend_with_loreal_mapping.csv")
 
-# loop through all files in app/data
-for filename in os.listdir(data_folder):
-    if filename.endswith(".csv"):
-        csv_path = os.path.join(data_folder, filename)
-        json_path = os.path.join(
-            data_folder, filename.replace(".csv", ".json")
-        )
+# output JSON path
+json_path = os.path.join("public", "trend_with_loreal_mapping.json")
 
-        # read csv
-        df = pd.read_csv(csv_path)
+# read CSV with Windows-1252 encoding (fix for UnicodeDecodeError)
+df = pd.read_csv(csv_path, encoding="cp1252")
 
-        # convert to JSON (list of objects)
-        df.to_json(json_path, orient="records", indent=2)
+# convert to JSON (list of objects)
+df.to_json(json_path, orient="records", indent=2)
 
-        print(f"Converted {filename} → {os.path.basename(json_path)}")
+print(f"Converted {os.path.basename(csv_path)} → {os.path.basename(json_path)}")

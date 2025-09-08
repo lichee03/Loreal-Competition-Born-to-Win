@@ -26,6 +26,7 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart";
 
+// mock data for top beauty products -- TOBE Delete
 const topBeautyProducts = [
   { product: "Rare Beauty Blush", mentions: 2840 },
   { product: "Fenty Beauty Foundation", mentions: 2650 },
@@ -38,32 +39,6 @@ const topBeautyProducts = [
   { product: "Laneige Lip Mask", mentions: 1420 },
   { product: "Glow Recipe Cleanser", mentions: 1280 },
 ];
-
-const productMapping = [
-  {
-    trend: "#SkinCycling",
-    category: "Skincare",
-    brands: ["CeraVe", "La Roche-Posay"],
-    opportunity: "High",
-    audience: "Gen Z",
-  },
-  {
-    trend: "#GlassSkin",
-    category: "Skincare",
-    brands: ["Lancôme", "Kiehl's"],
-    opportunity: "Medium",
-    audience: "Millennials",
-  },
-  {
-    trend: "#CleanGirl",
-    category: "Makeup",
-    brands: ["Maybelline", "Urban Decay"],
-    opportunity: "Low",
-    audience: "Gen Z",
-  },
-];
-
-// audienceInsight.tsx (or inside your existing component file)
 
 function generateInsight(platformData: any) {
   if (!platformData) return "";
@@ -90,13 +65,32 @@ export function BeautyInsights() {
   const [audienceData, setAudienceData] = useState<any>(null);
   const [geoData, setGeoData] = useState<any>(null);
 
-  // Load JSON file
+  const [trendData, setTrendData] = useState<any[]>([]);
+
+  // Load JSON file -- for Audience and Geo data
   useEffect(() => {
     fetch("/extended_trend_aggregated.json")
       .then((res) => res.json())
       .then((data) => {
         setAudienceData(data.audience_breakdown);
         setGeoData(data.geo_trends);
+      });
+  }, []);
+
+  // Load JSON file -- for Product Category Mapping
+  useEffect(() => {
+    fetch("/trend_with_loreal_mapping.json")
+      .then((res) => res.json())
+      .then((data) => {
+        // keep only youtube trends with numeric growth rate
+        const youtubeTrends = data
+          .filter(
+            (t: any) => t.platform === "youtube" && t.growth_rate_7d != null
+          )
+          .sort((a: any, b: any) => b.growth_rate_7d - a.growth_rate_7d)
+          .slice(0, 6);
+
+        setTrendData(youtubeTrends);
       });
   }, []);
 
@@ -124,7 +118,7 @@ export function BeautyInsights() {
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* Audience Segmentation */}
       <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="flex items-center justify-between mb-4">
@@ -211,7 +205,7 @@ export function BeautyInsights() {
       </Card>
 
       {/* Product Category Mapping - YouTube Only */}
-      <Card className="p-6 lg:col-span-2 xl:col-span-1 bg-gradient-to-br from-background via-muted/20 to-background">
+      <Card className="p-6 lg:col-span-2 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="flex items-center gap-2 mb-4">
           <Package className="w-5 h-5 text-secondary" />
           <h3 className="font-semibold text-foreground">
@@ -223,42 +217,46 @@ export function BeautyInsights() {
         </div>
 
         <div className="space-y-4">
-          {productMapping.map((item, index) => (
+          {trendData.map((item, index) => (
             <div
               key={index}
-              className="p-4 rounded-lg border border-border bg-muted/30"
+              className="p-4 rounded-lg border border-border bg-muted/12"
             >
               <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium text-foreground">{item.trend}</h4>
+                <h4 className="font-medium text-foreground">{item.trend_id}</h4>
                 <Badge
                   variant={
-                    item.opportunity === "High"
+                    item.current_stage === "emerging"
                       ? "default"
-                      : item.opportunity === "Medium"
+                      : item.current_stage === "peak"
                       ? "secondary"
                       : "outline"
                   }
                 >
-                  {item.opportunity}
+                  {item.current_stage}
                 </Badge>
               </div>
 
               <div className="space-y-1 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-muted-foreground">Category:</span>
-                  <span className="text-foreground">{item.category}</span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-muted-foreground">Brands:</span>
-                  <span className="text-foreground">
-                    {item.brands.join(", ")}
+                  <span className="text-muted-foreground">Growth (7d):</span>
+                  <span className="text-primary">
+                    +{(item.growth_rate_7d * 100).toFixed(1)}%
                   </span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">
-                    Primary Audience:
+                    Best L'Oréal Product:
                   </span>
-                  <span className="text-foreground">{item.audience}</span>
+                  <span className="text-foreground">
+                    {item.best_loreal_product}
+                  </span>
+                </div>
+                <div className="flex justify-between">
+                  <span className="text-muted-foreground">Best Brands:</span>
+                  <span className="text-foreground">
+                    {item.best_brands?.replace(/[\[\]']/g, "")}
+                  </span>
                 </div>
               </div>
             </div>
@@ -266,6 +264,7 @@ export function BeautyInsights() {
         </div>
       </Card>
 
+      {/* Top Beauty Products Mentioned */}
       <Card className="p-6 lg:col-span-2 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="flex items-center gap-2 mb-4">
           <TrendingUp className="w-5 h-5 text-primary" />
