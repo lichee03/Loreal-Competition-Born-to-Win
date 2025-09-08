@@ -8,7 +8,10 @@ dotenv.config();
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
-const CSV_PATH = path.join(process.cwd(), "../app/data/trend_both_youtube_updated.csv");
+const CSV_PATH = path.join(
+  process.cwd(),
+  "../app/data/trend_with_loreal_mapping.csv"
+);
 
 // Helper: Load CSV and return as array of objects (first 10 rows for brevity)
 function loadCsvData() {
@@ -31,7 +34,11 @@ export async function askGemini(req, res) {
   try {
     const csvData = await loadCsvData();
     // Add instruction for plain, short output
-    const context = `Here is some trend data:\n${JSON.stringify(csvData, null, 2)}\n
+    const context = `Here is some trend data:\n${JSON.stringify(
+      csvData,
+      null,
+      2
+    )}\n
 When you answer, reply in plain text only (no Markdown, no bold), and keep your answer as short and concise as possible for chatbot display. Give two new lines for every new sentence for nice format.
 User question: ${prompt}`;
 
