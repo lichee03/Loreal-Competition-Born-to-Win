@@ -1,23 +1,33 @@
-"use client"
+"use client";
 
-import { useState, useRef, useEffect } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Send, Bot, User, Sparkles, TrendingUp, Target, MessageCircle, X, Minimize2 } from "lucide-react"
+import { useState, useRef, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  Send,
+  Bot,
+  User,
+  Sparkles,
+  TrendingUp,
+  Target,
+  MessageCircle,
+  X,
+  Minimize2,
+} from "lucide-react";
 
 interface Message {
-  id: string
-  content: string
-  sender: "user" | "bot"
-  timestamp: Date
-  suggestions?: string[]
+  id: string;
+  content: string;
+  sender: "user" | "bot";
+  timestamp: Date;
+  suggestions?: string[];
 }
 
 export function FloatingChatbot() {
-  const [isOpen, setIsOpen] = useState(false)
-  const [isMinimized, setIsMinimized] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     {
       id: "1",
@@ -32,32 +42,32 @@ export function FloatingChatbot() {
         "Predict next viral makeup trend",
       ],
     },
-  ])
-  const [inputValue, setInputValue] = useState("")
-  const [isTyping, setIsTyping] = useState(false)
-  const messagesEndRef = useRef<HTMLDivElement>(null)
+  ]);
+  const [inputValue, setInputValue] = useState("");
+  const [isTyping, setIsTyping] = useState(false);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" })
-  }
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
-    scrollToBottom()
-  }, [messages])
+    scrollToBottom();
+  }, [messages]);
 
   const handleSendMessage = async (content: string) => {
-    if (!content.trim()) return
+    if (!content.trim()) return;
 
     const userMessage: Message = {
       id: Date.now().toString(),
       content,
       sender: "user",
       timestamp: new Date(),
-    }
+    };
 
-    setMessages((prev) => [...prev, userMessage])
-    setInputValue("")
-    setIsTyping(true)
+    setMessages((prev) => [...prev, userMessage]);
+    setInputValue("");
+    setIsTyping(true);
 
     // Simulate AI response
     setTimeout(() => {
@@ -67,33 +77,37 @@ export function FloatingChatbot() {
         sender: "bot",
         timestamp: new Date(),
         suggestions: generateSuggestions(content),
-      }
-      setMessages((prev) => [...prev, botResponse])
-      setIsTyping(false)
-    }, 1500)
-  }
+      };
+      setMessages((prev) => [...prev, botResponse]);
+      setIsTyping(false);
+    }, 1500);
+  };
 
   const generateBotResponse = (userInput: string): string => {
-    const input = userInput.toLowerCase()
+    const input = userInput.toLowerCase();
 
     if (input.includes("skincare") || input.includes("skin")) {
-      return "🔍 **Current Skincare Trends Analysis:**\n\n• **#SkinCycling** - 847% growth, Peak phase (2-3 weeks remaining)\n• **Slugging** - Declining (-23% this month)\n• **Skin Minimalism** - Emerging (+156% mentions)\n\n**L'Oréal Opportunity:** Launch retinol education content to ride the #SkinCycling wave. Optimal engagement window: Next 10 days."
+      return "🔍 **Current Skincare Trends Analysis:**\n\n• **#SkinCycling** - 847% growth, Peak phase (2-3 weeks remaining)\n• **Slugging** - Declining (-23% this month)\n• **Skin Minimalism** - Emerging (+156% mentions)\n\n**L'Oréal Opportunity:** Launch retinol education content to ride the #SkinCycling wave. Optimal engagement window: Next 10 days.";
     }
 
     if (input.includes("cleangirl") || input.includes("clean girl")) {
-      return "📊 **#CleanGirl Movement Deep Dive:**\n\n**Lifecycle Status:** Mature (18 months active)\n**Current Phase:** Stable plateau\n**Audience:** 67% Gen Z, 28% Millennial\n\n**Key Insights:**\n• Evolved into 'Effortless Glam' micro-trends\n• High engagement in morning routines\n• Opportunity: Clean beauty product positioning"
+      return "📊 **#CleanGirl Movement Deep Dive:**\n\n**Lifecycle Status:** Mature (18 months active)\n**Current Phase:** Stable plateau\n**Audience:** 67% Gen Z, 28% Millennial\n\n**Key Insights:**\n• Evolved into 'Effortless Glam' micro-trends\n• High engagement in morning routines\n• Opportunity: Clean beauty product positioning";
     }
 
     if (input.includes("gen z") || input.includes("genz")) {
-      return "🎯 **Gen Z Beauty Preferences (Q4 2024):**\n\n**Top Categories:**\n1. Lip products (73% engagement)\n2. Brow styling (68%)\n3. Skin tints (61%)\n\n**Behavior Patterns:**\n• 3.2x more likely to try viral trends\n• Prefer authentic, unfiltered content\n• Value sustainability messaging (+45% engagement)"
+      return "🎯 **Gen Z Beauty Preferences (Q4 2024):**\n\n**Top Categories:**\n1. Lip products (73% engagement)\n2. Brow styling (68%)\n3. Skin tints (61%)\n\n**Behavior Patterns:**\n• 3.2x more likely to try viral trends\n• Prefer authentic, unfiltered content\n• Value sustainability messaging (+45% engagement)";
     }
 
-    if (input.includes("predict") || input.includes("next") || input.includes("viral")) {
-      return "🔮 **Next Viral Trend Prediction:**\n\n**High Probability (85% confidence):**\n**'Dopamine Makeup'** - Bright, mood-boosting colors\n\n**Early Signals:**\n• +234% mentions in past 2 weeks\n• Celebrity adoption (3 major influencers)\n• Peak timing: 3-4 weeks from now\n\n**Action Plan:** Prepare colorful eyeshadow content and partner with micro-influencers in wellness space."
+    if (
+      input.includes("predict") ||
+      input.includes("next") ||
+      input.includes("viral")
+    ) {
+      return "🔮 **Next Viral Trend Prediction:**\n\n**High Probability (85% confidence):**\n**'Dopamine Makeup'** - Bright, mood-boosting colors\n\n**Early Signals:**\n• +234% mentions in past 2 weeks\n• Celebrity adoption (3 major influencers)\n• Peak timing: 3-4 weeks from now\n\n**Action Plan:** Prepare colorful eyeshadow content and partner with micro-influencers in wellness space.";
     }
 
-    return "I can help you analyze beauty trends, predict viral movements, and identify opportunities for L'Oréal brands. Try asking about specific trends, demographics, or competitive analysis!"
-  }
+    return "I can help you analyze beauty trends, predict viral movements, and identify opportunities for L'Oréal brands. Try asking about specific trends, demographics, or competitive analysis!";
+  };
 
   const generateSuggestions = (userInput: string): string[] => {
     const suggestions = [
@@ -102,32 +116,38 @@ export function FloatingChatbot() {
       "Break down by demographic segments",
       "Find similar emerging trends",
       "Generate content strategy recommendations",
-    ]
-    return suggestions.slice(0, 3)
-  }
+    ];
+    return suggestions.slice(0, 3);
+  };
 
   if (!isOpen) {
     return (
       <Button
         onClick={() => setIsOpen(true)}
-        className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 pulse-glow z-50"
+        className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 pulse-glow z-50 bg-gradient-to-br from-background via-secondary/30 text-primary-foreground"
         size="icon"
       >
         <MessageCircle className="w-6 h-6" />
       </Button>
-    )
+    );
   }
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
-      <Card className={`w-96 shadow-2xl transition-all duration-300 ${isMinimized ? "h-14" : "h-[500px]"}`}>
-        <CardHeader className="p-4 border-b bg-primary text-primary-foreground rounded-t-lg">
+      <Card
+        className={`w-96 shadow-2xl transition-all duration-300 flex flex-col p-0 ${
+          isMinimized ? "h-14" : "h-[500px]"
+        }`}
+      >
+        <CardHeader className="p-4 bg-gradient-to-br from-background via-primary/90 to-background text-primary-foreground rounded-t-lg">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-primary-foreground/20 rounded-full flex items-center justify-center">
                 <Bot className="w-4 h-4" />
               </div>
-              <CardTitle className="text-sm font-semibold">TrendBot AI</CardTitle>
+              <CardTitle className="text-sm font-semibold">
+                TrendBot AI
+              </CardTitle>
             </div>
             <div className="flex items-center space-x-1">
               <Button
@@ -157,11 +177,25 @@ export function FloatingChatbot() {
                 {messages.map((message) => (
                   <div
                     key={message.id}
-                    className={`flex ${message.sender === "user" ? "justify-end" : "justify-start"}`}
+                    className={`flex ${
+                      message.sender === "user"
+                        ? "justify-end"
+                        : "justify-start"
+                    }`}
                   >
-                    <div className={`flex max-w-[85%] ${message.sender === "user" ? "flex-row-reverse" : "flex-row"}`}>
+                    <div
+                      className={`flex max-w-[85%] ${
+                        message.sender === "user"
+                          ? "flex-row-reverse"
+                          : "flex-row"
+                      }`}
+                    >
                       <div
-                        className={`w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 ${message.sender === "user" ? "bg-primary ml-2" : "bg-muted mr-2"}`}
+                        className={`w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 ${
+                          message.sender === "user"
+                            ? "bg-primary ml-2"
+                            : "bg-muted/50 mr-2"
+                        }`}
                       >
                         {message.sender === "user" ? (
                           <User className="w-3 h-3 text-primary-foreground" />
@@ -170,9 +204,15 @@ export function FloatingChatbot() {
                         )}
                       </div>
                       <div
-                        className={`rounded-lg p-3 text-xs ${message.sender === "user" ? "bg-primary text-primary-foreground" : "bg-muted"}`}
+                        className={`rounded-lg p-3 text-xs ${
+                          message.sender === "user"
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-muted/30"
+                        }`}
                       >
-                        <div className="whitespace-pre-line">{message.content}</div>
+                        <div className="whitespace-pre-line">
+                          {message.content}
+                        </div>
                         {message.suggestions && (
                           <div className="mt-2 space-y-1">
                             {message.suggestions.map((suggestion, index) => (
@@ -225,7 +265,9 @@ export function FloatingChatbot() {
                   value={inputValue}
                   onChange={(e) => setInputValue(e.target.value)}
                   placeholder="Ask about trends..."
-                  onKeyPress={(e) => e.key === "Enter" && handleSendMessage(inputValue)}
+                  onKeyPress={(e) =>
+                    e.key === "Enter" && handleSendMessage(inputValue)
+                  }
                   className="flex-1 text-xs h-8"
                 />
                 <Button
@@ -242,7 +284,9 @@ export function FloatingChatbot() {
                 <Badge
                   variant="secondary"
                   className="text-xs cursor-pointer h-5"
-                  onClick={() => handleSendMessage("What's trending in skincare?")}
+                  onClick={() =>
+                    handleSendMessage("What's trending in skincare?")
+                  }
                 >
                   <Sparkles className="w-2 h-2 mr-1" />
                   Skincare
@@ -250,7 +294,9 @@ export function FloatingChatbot() {
                 <Badge
                   variant="secondary"
                   className="text-xs cursor-pointer h-5"
-                  onClick={() => handleSendMessage("Analyze competitor strategies")}
+                  onClick={() =>
+                    handleSendMessage("Analyze competitor strategies")
+                  }
                 >
                   <Target className="w-2 h-2 mr-1" />
                   Competitors
@@ -269,5 +315,5 @@ export function FloatingChatbot() {
         )}
       </Card>
     </div>
-  )
+  );
 }

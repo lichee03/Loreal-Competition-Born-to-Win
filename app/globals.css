@@ -6,18 +6,20 @@
 :root {
   --background: oklch(1 0 0); /* Pure white */
   --foreground: oklch(0.35 0 0); /* Dark gray #4b5563 */
-  --card: oklch(0.98 0 0); /* Light gray #f9fafb */
+  --card: oklch(0.99 0 0); /* Light gray #f9fafb */
   --card-foreground: oklch(0.35 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.35 0 0);
-  --primary: oklch(0.55 0.15 210); /* Cyan-600 #0891b2 */
+  --primary: oklch(0.85 0.32 88); /* Gold #E3A545 */
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.65 0.15 160); /* Emerald-600 #10b981 */
+  --secondary: oklch(0.5 0.5 20); /* Red #FF0038 */
   --secondary-foreground: oklch(1 0 0);
-  --muted: oklch(0.97 0.02 200); /* Light cyan tint #ecfeff */
+  --muted: oklch(1 0.15 95.81); /* Light yellow */
   --muted-foreground: oklch(0.35 0 0);
-  --accent: oklch(0.65 0.15 160); /* Emerald-600 #10b981 */
-  --accent-foreground: oklch(1 0 0);
+  --accent: oklch(
+    0.92 0.08 90
+  ); /* Warm amber/orange, complements gold and red */
+  --accent-foreground: oklch(0.35 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(1 0 0);
   --border: oklch(0.85 0 0); /* Light border #d1d5db */
@@ -152,10 +154,10 @@
 @keyframes pulse-glow {
   0%,
   100% {
-    box-shadow: 0 0 5px rgba(8, 145, 178, 0.3);
+    box-shadow: 0 0 5px rgba(208, 21, 8, 0.3);
   }
   50% {
-    box-shadow: 0 0 20px rgba(8, 145, 178, 0.6);
+    box-shadow: 0 0 20px rgba(178, 62, 8, 0.6);
   }
 }
 

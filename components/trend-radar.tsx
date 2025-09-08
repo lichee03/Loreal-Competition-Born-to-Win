@@ -10,11 +10,11 @@ interface TrendData {
   trend_id: string;
   volume: number;
   engagement: number;
-  unique_creators: number;
-  current_stage: "emerging" | "peak" | "stable";
+  unique_creators: number | string | null;
+  current_stage: "emerging" | "peak" | "stable" | "declining";
   growth_rate_7d: number;
   acceleration: number;
-  sweet_spot_days_left: number;
+  sweet_spot_days_left: number | null;
   recommended_action: string;
   platform: string;
   x: number;
@@ -22,20 +22,12 @@ interface TrendData {
   size: number;
 }
 
-function hashToUnit(seed: string) {
-  let h = 0;
-  for (let i = 0; i < seed.length; i++) {
-    h = (h << 5) - h + seed.charCodeAt(i);
-    h |= 0;
-  }
-  return (h >>> 0) / 4294967295; // 0 → 1
-}
-
 export function TrendRadar() {
   const [trends, setTrends] = useState<TrendData[]>([]);
   const [selectedTrend, setSelectedTrend] = useState<TrendData | null>(null);
   const [isScanning, setIsScanning] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
+  const [selectedPlatform, setSelectedPlatform] = useState<string>("YouTube");
 
   // fetch JSON data
   useEffect(() => {
@@ -43,35 +35,71 @@ export function TrendRadar() {
       const res = await fetch("/trend_aggregated.json");
       const data = await res.json();
 
-      // Deduplicate by trend_id
-      const uniqueData = data.filter(
-        (item: any, idx: number, arr: any[]) =>
-          idx === arr.findIndex((t) => t.trend_id === item.trend_id)
-      );
-
-      const mapped: TrendData[] = uniqueData.map((d: any, idx: number) => {
-        const angle =
-          (2 * Math.PI * idx) / uniqueData.length +
-          hashToUnit(d.trend_id + "angle") * (Math.PI / 20);
-
-        // base radius by stage (structured rings)
-        let baseRadius = 30;
-        if (d.current_stage === "emerging") baseRadius = 25;
-        if (d.current_stage === "peak") baseRadius = 40;
-        if (d.current_stage === "declining") baseRadius = 10;
-
-        // jitter radius a bit so not all dots overlap
-        const radius = baseRadius + hashToUnit(d.trend_id + "radius") * 5 - 2.5; // ±2.5 variation
+      const mapped: TrendData[] = data.map((d: any) => {
+        const maxRadius = 40;
+        const r = Math.random() * maxRadius;
+        const angle = Math.random() * 2 * Math.PI;
 
         return {
           ...d,
-          x: 50 + radius * Math.cos(angle),
-          y: 50 + radius * Math.sin(angle),
-          size: Math.max(8, Math.min(60, d.volume / 30)),
+          x: 50 + r * Math.cos(angle),
+          y: 50 + r * Math.sin(angle),
+          size: 60,
         };
       });
 
-      setTrends(mapped);
+      const platforms = ["YouTube", "Instagram", "Twitter", "TikTok"];
+      const availableStages = ["emerging", "peak", "declining", "stable"];
+      const finalTrends: TrendData[] = [];
+
+      platforms.forEach((platform) => {
+        const trendsArr = mapped.filter(
+          (t) => t.platform.toLowerCase() === platform.toLowerCase()
+        );
+
+        if (!trendsArr.length) return;
+
+        const selected: TrendData[] = [];
+
+        // ensure at least one trend per stage
+        availableStages.forEach((stage) => {
+          const group = trendsArr.filter(
+            (t) => t.current_stage?.toLowerCase() === stage
+          );
+          if (group.length > 0) {
+            const top = [...group].sort(
+              (a, b) => b.growth_rate_7d - a.growth_rate_7d
+            )[0];
+            selected.push(top);
+          }
+        });
+
+        // fill up to 5
+        const alreadyIds = new Set(selected.map((t) => t.trend_id));
+        const rest = trendsArr
+          .filter((t) => !alreadyIds.has(t.trend_id))
+          .sort((a, b) => b.growth_rate_7d - a.growth_rate_7d)
+          .slice(0, 5 - selected.length);
+
+        const finalSelection = [...selected, ...rest];
+
+        // assign coords
+        const withCoords = finalSelection.map((t) => {
+          const r = Math.random() * 40;
+          const angle = Math.random() * 2 * Math.PI;
+          return {
+            ...t,
+            x: Math.min(95, Math.max(5, 50 + r * Math.cos(angle))),
+            y: Math.min(95, Math.max(5, 50 + r * Math.sin(angle))),
+            size: 80,
+          };
+        });
+
+        finalTrends.push(...withCoords);
+      });
+
+      setTrends(finalTrends);
+      console.log("Final Trends", finalTrends);
     };
 
     fetchData();
@@ -86,26 +114,30 @@ export function TrendRadar() {
   }, []);
 
   const getStageColor = (stage: string) => {
-    switch (stage) {
+    switch (stage.toLowerCase()) {
       case "emerging":
-        return "bg-accent";
-      case "peak":
         return "bg-primary";
+      case "peak":
+        return "bg-accent";
       case "declining":
         return "bg-destructive";
+      case "stable":
+        return "bg-muted";
       default:
         return "bg-muted";
     }
   };
 
   const getStageLabel = (stage: string) => {
-    switch (stage) {
+    switch (stage.toLowerCase()) {
       case "emerging":
         return "Emerging";
       case "peak":
         return "Peak";
       case "declining":
         return "Declining";
+      case "stable":
+        return "Stable";
       default:
         return "Unknown";
     }
@@ -125,7 +157,24 @@ export function TrendRadar() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Radar Display */}
         <div className="lg:col-span-2">
-          <Card className="p-6 bg-card">
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
+            <div className="flex gap-2 mb-4 justify-center">
+              {["YouTube", "Instagram", "Twitter", "TikTok"].map((platform) => (
+                <Button
+                  key={platform}
+                  size="sm"
+                  variant={
+                    selectedPlatform === platform
+                      ? "default_gradient"
+                      : "outline_gradient"
+                  }
+                  onClick={() => setSelectedPlatform(platform)}
+                >
+                  {platform}
+                </Button>
+              ))}
+            </div>
+
             <div className="relative w-full aspect-square max-w-lg mx-auto">
               {/* Radar Background */}
               <div className="absolute inset-0 rounded-full border-2 border-border">
@@ -146,23 +195,23 @@ export function TrendRadar() {
               </div>
 
               {/* Trend Dots */}
-              {trends.map((trend) => (
-                <button
-                  key={trend.trend_id}
-                  className={`absolute transform -translate-x-1/2 -translate-y-1/2 rounded-full ${getStageColor(
-                    trend.current_stage
-                  )} trend-wave cursor-pointer hover:scale-110 transition-transform`}
-                  style={{
-                    left: `${trend.x}%`,
-                    top: `${trend.y}%`,
-                    width: `${trend.size}px`,
-                    height: `${trend.size}px`,
-                  }}
-                  onClick={() => handleTrendClick(trend)}
-                >
-                  <span className="sr-only">{trend.trend_id}</span>
-                </button>
-              ))}
+              {trends
+                .filter((t) => t.platform === selectedPlatform.toLowerCase())
+                .map((trend) => (
+                  <button
+                    key={trend.trend_id}
+                    style={{
+                      left: `${trend.x}%`,
+                      top: `${trend.y}%`,
+                      width: `${trend.size}px`,
+                      height: `${trend.size}px`,
+                    }}
+                    className={`absolute transform -translate-x-1/2 -translate-y-1/2 rounded-full ${getStageColor(
+                      trend.current_stage
+                    )} cursor-pointer hover:scale-110 transition-transform`}
+                    onClick={() => handleTrendClick(trend)}
+                  />
+                ))}
 
               {/* Center Label */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
@@ -176,18 +225,22 @@ export function TrendRadar() {
             </div>
 
             {/* Legend */}
-            <div className="flex justify-center gap-6 mt-6">
+            <div className="flex justify-center gap-6 mt-6 flex-wrap">
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-accent"></div>
+                <div className="w-3 h-3 rounded-full bg-primary"></div>
                 <span className="text-sm text-muted-foreground">Emerging</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-primary"></div>
+                <div className="w-3 h-3 rounded-full bg-accent"></div>
                 <span className="text-sm text-muted-foreground">Peak</span>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 rounded-full bg-destructive"></div>
                 <span className="text-sm text-muted-foreground">Declining</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-3 h-3 rounded-full bg-muted"></div>
+                <span className="text-sm text-muted-foreground">Stable</span>
               </div>
             </div>
           </Card>
@@ -195,7 +248,7 @@ export function TrendRadar() {
 
         {/* Trend Details */}
         <div className="space-y-4">
-          <Card className="p-6">
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
             <h3 className="font-semibold text-foreground mb-4">
               Trend Details
             </h3>
@@ -205,7 +258,12 @@ export function TrendRadar() {
                   <h4 className="font-medium text-foreground">
                     {selectedTrend.trend_id}
                   </h4>
-                  <Badge variant="secondary" className="mt-1">
+                  <Badge
+                    variant="secondary"
+                    className={`${getStageColor(
+                      selectedTrend.current_stage
+                    )} text-white`}
+                  >
                     {getStageLabel(selectedTrend.current_stage)}
                   </Badge>
                 </div>
@@ -218,9 +276,15 @@ export function TrendRadar() {
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Audience:</span>
+                    <span className="text-muted-foreground">Volume:</span>
                     <span className="text-foreground">
-                      {selectedTrend.unique_creators}
+                      {selectedTrend.volume}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Engagement:</span>
+                    <span className="text-foreground">
+                      {selectedTrend.engagement}
                     </span>
                   </div>
                   <div className="flex justify-between">
@@ -228,7 +292,7 @@ export function TrendRadar() {
                     <span
                       className={
                         selectedTrend.growth_rate_7d > 0
-                          ? "text-accent"
+                          ? "text-primary"
                           : "text-destructive"
                       }
                     >
@@ -237,9 +301,16 @@ export function TrendRadar() {
                     </span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Days to Peak:</span>
-                    <span className="text-foreground">
-                      {selectedTrend.sweet_spot_days_left}
+                    <span className="text-muted-foreground">Acceleration:</span>
+                    <span
+                      className={
+                        selectedTrend.growth_rate_7d > 0
+                          ? "text-primary"
+                          : "text-destructive"
+                      }
+                    >
+                      {selectedTrend.acceleration > 0 ? "+" : ""}
+                      {selectedTrend.acceleration}%
                     </span>
                   </div>
                 </div>
@@ -255,34 +326,61 @@ export function TrendRadar() {
             )}
           </Card>
 
-          <Card className="p-6">
+          {/* Live Activity */}
+          <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
             <h3 className="font-semibold text-foreground mb-4">
               Live Activity
             </h3>
             <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-accent animate-pulse"></div>
-                <span className="text-sm text-muted-foreground">
-                  New trend detected: #MinimalMakeup
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-primary"></div>
-                <span className="text-sm text-muted-foreground">
-                  #GlassSkin reaching peak engagement
-                </span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 rounded-full bg-destructive"></div>
-                <span className="text-sm text-muted-foreground">
-                  #CleanGirl showing decline signals
-                </span>
-              </div>
+              {["emerging", "peak", "declining", "stable"].map((stage) => {
+                const trendsForStage = trends
+                  .filter(
+                    (t) =>
+                      t.platform.toLowerCase() ===
+                        selectedPlatform.toLowerCase() &&
+                      t.current_stage?.toLowerCase() === stage
+                  )
+                  .sort((a, b) => b.growth_rate_7d - a.growth_rate_7d);
+
+                if (trendsForStage.length === 0) return null;
+
+                const topTrend = trendsForStage[0];
+
+                return (
+                  <div
+                    key={topTrend.trend_id}
+                    className="flex items-center gap-3"
+                  >
+                    <div
+                      className={`w-2 h-2 rounded-full animate-pulse ${
+                        stage === "emerging"
+                          ? "bg-primary"
+                          : stage === "peak"
+                          ? "bg-accent"
+                          : stage === "declining"
+                          ? "bg-destructive"
+                          : "bg-muted"
+                      }`}
+                    ></div>
+                    <span className="text-sm text-muted-foreground">
+                      {topTrend.trend_id}{" "}
+                      {stage === "emerging"
+                        ? "emerging"
+                        : stage === "peak"
+                        ? "reaching peak engagement"
+                        : stage === "declining"
+                        ? "showing decline signals"
+                        : "stable signals"}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </Card>
         </div>
       </div>
 
+      {/* Popup */}
       {showPopup && selectedTrend && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
           <Card className="w-full max-w-md bg-card border shadow-lg">
@@ -314,21 +412,19 @@ export function TrendRadar() {
                 <div className="space-y-3">
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-muted-foreground">
-                      Audience Driving It:
+                      Volume:
                     </span>
                     <span className="text-sm font-semibold text-foreground">
-                      {selectedTrend.unique_creators}
+                      {selectedTrend.volume}
                     </span>
                   </div>
 
                   <div className="flex justify-between items-center">
                     <span className="text-sm font-medium text-muted-foreground">
-                      Days Before Saturation:
+                      Engagement:
                     </span>
                     <span className="text-sm font-semibold text-foreground">
-                      {selectedTrend.sweet_spot_days_left === 0
-                        ? "Saturated"
-                        : `${selectedTrend.sweet_spot_days_left} days`}
+                      {selectedTrend.engagement}
                     </span>
                   </div>
 
@@ -348,7 +444,7 @@ export function TrendRadar() {
                     <span
                       className={`text-sm font-semibold ${
                         selectedTrend.growth_rate_7d > 0
-                          ? "text-accent"
+                          ? "text-primary"
                           : "text-destructive"
                       }`}
                     >
@@ -356,15 +452,31 @@ export function TrendRadar() {
                       {selectedTrend.growth_rate_7d}%
                     </span>
                   </div>
-                </div>
 
-                <div className="border-t pt-4">
-                  <h5 className="text-sm font-medium text-muted-foreground mb-2">
-                    Suggested L'Oréal Product:
-                  </h5>
-                  <p className="text-sm font-semibold text-foreground bg-muted p-3 rounded-lg">
-                    {selectedTrend.platform}
-                  </p>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      Acceleration:
+                    </span>
+                    <span
+                      className={`text-sm font-semibold ${
+                        selectedTrend.acceleration > 0
+                          ? "text-primary"
+                          : "text-destructive"
+                      }`}
+                    >
+                      {selectedTrend.acceleration > 0 ? "+" : ""}
+                      {selectedTrend.acceleration}%
+                    </span>
+                  </div>
+
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      Recomemded Actions:
+                    </span>
+                    <span className="text-sm font-semibold text-foreground">
+                      {selectedTrend.recommended_action}
+                    </span>
+                  </div>
                 </div>
 
                 <div className="flex gap-2 pt-2">
