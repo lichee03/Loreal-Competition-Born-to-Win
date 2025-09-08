@@ -1,16 +1,17 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Play, Pause, RotateCcw, CheckCircle } from "lucide-react"
+import { useState } from "react";
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Play, Pause, RotateCcw, CheckCircle } from "lucide-react";
 
 const storySteps = [
   {
     id: 1,
     title: "Trend Detection",
-    description: "TrendLens AI spots #SkinCycling mentions growing 340% week-over-week",
+    description:
+      "TrendLens AI spots #SkinCycling mentions growing 340% week-over-week",
     timestamp: "Day 0",
     status: "detected",
     data: {
@@ -23,7 +24,8 @@ const storySteps = [
   {
     id: 2,
     title: "Audience Analysis",
-    description: "AI identifies 80% Gen Z adoption with high engagement in skincare community",
+    description:
+      "AI identifies 80% Gen Z adoption with high engagement in skincare community",
     timestamp: "Day 3",
     status: "analyzing",
     data: {
@@ -36,7 +38,8 @@ const storySteps = [
   {
     id: 3,
     title: "Sweet Spot Alert",
-    description: "System predicts optimal engagement window: 10-14 days before peak saturation",
+    description:
+      "System predicts optimal engagement window: 10-14 days before peak saturation",
     timestamp: "Day 7",
     status: "alert",
     data: {
@@ -49,7 +52,8 @@ const storySteps = [
   {
     id: 4,
     title: "L'Oréal Action",
-    description: "CeraVe launches #SkinCycling content series, capturing 2.3M views in first week",
+    description:
+      "CeraVe launches #SkinCycling content series, capturing 2.3M views in first week",
     timestamp: "Day 10",
     status: "success",
     data: {
@@ -59,51 +63,53 @@ const storySteps = [
       roi: "340%",
     },
   },
-]
+];
 
 export function StorytellingDemo() {
-  const [currentStep, setCurrentStep] = useState(0)
-  const [isPlaying, setIsPlaying] = useState(false)
+  const [currentStep, setCurrentStep] = useState(0);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const nextStep = () => {
     if (currentStep < storySteps.length - 1) {
-      setCurrentStep(currentStep + 1)
+      setCurrentStep(currentStep + 1);
     } else {
-      setCurrentStep(0)
+      setCurrentStep(0);
     }
-  }
+  };
 
   const resetDemo = () => {
-    setCurrentStep(0)
-    setIsPlaying(false)
-  }
+    setCurrentStep(0);
+    setIsPlaying(false);
+  };
 
   const togglePlay = () => {
-    setIsPlaying(!isPlaying)
+    setIsPlaying(!isPlaying);
     if (!isPlaying) {
       const interval = setInterval(() => {
         setCurrentStep((prev) => {
           if (prev < storySteps.length - 1) {
-            return prev + 1
+            return prev + 1;
           } else {
-            setIsPlaying(false)
-            clearInterval(interval)
-            return prev
+            setIsPlaying(false);
+            clearInterval(interval);
+            return prev;
           }
-        })
-      }, 3000)
+        });
+      }, 3000);
     }
-  }
+  };
 
-  const step = storySteps[currentStep]
+  const step = storySteps[currentStep];
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
       {/* Story Visualization */}
       <div className="lg:col-span-2">
-        <Card className="p-6">
+        <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
           <div className="flex items-center justify-between mb-6">
-            <h3 className="text-xl font-semibold text-foreground">Success Story Timeline</h3>
+            <h3 className="text-xl font-semibold text-foreground">
+              Success Story Timeline
+            </h3>
             <div className="flex gap-2">
               <Button
                 variant="outline"
@@ -111,7 +117,11 @@ export function StorytellingDemo() {
                 onClick={togglePlay}
                 className="flex items-center gap-2 bg-transparent"
               >
-                {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+                {isPlaying ? (
+                  <Pause className="w-4 h-4" />
+                ) : (
+                  <Play className="w-4 h-4" />
+                )}
                 {isPlaying ? "Pause" : "Play"}
               </Button>
               <Button
@@ -143,11 +153,13 @@ export function StorytellingDemo() {
                       index < currentStep
                         ? "bg-accent border-accent"
                         : index === currentStep
-                          ? "bg-primary border-primary animate-pulse"
-                          : "bg-background border-border"
+                        ? "bg-primary border-primary animate-pulse"
+                        : "bg-background border-border"
                     }`}
                   >
-                    {index < currentStep && <CheckCircle className="w-3 h-3 text-white absolute -top-px -left-px" />}
+                    {index < currentStep && (
+                      <CheckCircle className="w-3 h-3 text-white absolute -top-px -left-px" />
+                    )}
                   </div>
 
                   <div className="flex-1 pb-8">
@@ -155,20 +167,31 @@ export function StorytellingDemo() {
                       <Badge variant="outline" className="text-xs">
                         {timelineStep.timestamp}
                       </Badge>
-                      <h4 className="font-medium text-foreground">{timelineStep.title}</h4>
+                      <h4 className="font-medium text-foreground">
+                        {timelineStep.title}
+                      </h4>
                     </div>
-                    <p className="text-sm text-muted-foreground mb-3">{timelineStep.description}</p>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      {timelineStep.description}
+                    </p>
 
                     {index === currentStep && (
                       <div className="grid grid-cols-2 gap-2 text-xs">
-                        {Object.entries(timelineStep.data).map(([key, value]) => (
-                          <div key={key} className="flex justify-between p-2 bg-muted/50 rounded">
-                            <span className="text-muted-foreground capitalize">
-                              {key.replace(/([A-Z])/g, " $1").trim()}:
-                            </span>
-                            <span className="text-foreground font-medium">{value}</span>
-                          </div>
-                        ))}
+                        {Object.entries(timelineStep.data).map(
+                          ([key, value]) => (
+                            <div
+                              key={key}
+                              className="flex justify-between p-2 bg-muted/50 rounded"
+                            >
+                              <span className="text-muted-foreground capitalize">
+                                {key.replace(/([A-Z])/g, " $1").trim()}:
+                              </span>
+                              <span className="text-foreground font-medium">
+                                {value}
+                              </span>
+                            </div>
+                          )
+                        )}
                       </div>
                     )}
                   </div>
@@ -181,19 +204,23 @@ export function StorytellingDemo() {
 
       {/* Current Step Details */}
       <div className="space-y-6">
-        <Card className="p-6">
+        <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
           <h3 className="font-semibold text-foreground mb-4">Current Step</h3>
           <div className="space-y-4">
             <div>
               <Badge className="mb-2">{step.timestamp}</Badge>
               <h4 className="font-medium text-foreground">{step.title}</h4>
-              <p className="text-sm text-muted-foreground mt-1">{step.description}</p>
+              <p className="text-sm text-muted-foreground mt-1">
+                {step.description}
+              </p>
             </div>
 
             <div className="space-y-2">
               {Object.entries(step.data).map(([key, value]) => (
                 <div key={key} className="flex justify-between text-sm">
-                  <span className="text-muted-foreground capitalize">{key.replace(/([A-Z])/g, " $1").trim()}:</span>
+                  <span className="text-muted-foreground capitalize">
+                    {key.replace(/([A-Z])/g, " $1").trim()}:
+                  </span>
                   <span className="text-foreground font-medium">{value}</span>
                 </div>
               ))}
@@ -201,7 +228,7 @@ export function StorytellingDemo() {
           </div>
         </Card>
 
-        <Card className="p-6">
+        <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
           <h3 className="font-semibold text-foreground mb-4">Impact Metrics</h3>
           <div className="space-y-3">
             <div className="flex justify-between">
@@ -230,5 +257,5 @@ export function StorytellingDemo() {
         </div>
       </div>
     </div>
-  )
+  );
 }
