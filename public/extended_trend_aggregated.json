@@ -1,0 +1,76 @@
+{
+  "audience_breakdown": {
+    "tiktok": {
+      "gen_z": 161.24,
+      "millennials": 67.76
+    },
+    "instagram": {
+      "gen_z": 78.86,
+      "millennials": 34.14
+    },
+    "twitter": {
+      "gen_z": 37.07,
+      "millennials": 40.93
+    },
+    "youtube": {
+      "gen_z": 50.47,
+      "millennials": 32.93
+    }
+  },
+  "geo_trends": {
+    "instagram": {
+      "Africa": {
+        "active_trends": 1,
+        "avg_growth": 24.0
+      },
+      "Asia": {
+        "active_trends": 2,
+        "avg_growth": 6.5
+      },
+      "Europe": {
+        "active_trends": 8,
+        "avg_growth": 17.5
+      },
+      "Middle East": {
+        "active_trends": 2,
+        "avg_growth": 8.0
+      },
+      "North America": {
+        "active_trends": 3,
+        "avg_growth": 19.0
+      },
+      "Other": {
+        "active_trends": 57,
+        "avg_growth": 16.23
+      },
+      "South America": {
+        "active_trends": 1,
+        "avg_growth": 18.0
+      }
+    },
+    "tiktok": {
+      "North America": {
+        "active_trends": 229,
+        "avg_growth": 23.91
+      }
+    },
+    "twitter": {
+      "Asia": {
+        "active_trends": 33,
+        "avg_growth": 0.94
+      },
+      "Europe": {
+        "active_trends": 11,
+        "avg_growth": 1.0
+      },
+      "North America": {
+        "active_trends": 24,
+        "avg_growth": 0.45
+      },
+      "Other": {
+        "active_trends": 10,
+        "avg_growth": 2.51
+      }
+    }
+  }
+}

@@ -49,8 +49,6 @@
 //   { trend: "#KBeauty", currentPhase: "Growing", peakIn: 8, confidence: 85 },
 // ];
 
-
-
 // export function TrendLifecycle() {
 //   const primaryColor = getComputedStyle(
 //     document.documentElement
@@ -155,7 +153,6 @@
 //           </Select>
 //         </div>
 //         </div>
-        
 
 //         <div className="space-y-4">
 //           {predictiveData.map((item, index) => (
@@ -401,7 +398,7 @@ export function TrendLifecycle() {
                   </div>
                   <div>
                     <span className="text-muted-foreground">Engagement:</span>
-                    <div className="font-medium text-accent">
+                    <div className="font-medium text-primary">
                       {item.engagement.toLocaleString()}
                     </div>
                   </div>
@@ -423,4 +420,3 @@ export function TrendLifecycle() {
     </div>
   );
 }
-

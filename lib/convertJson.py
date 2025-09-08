@@ -1,21 +1,18 @@
 import pandas as pd
 import os
 
-# folder where your CSVs live
-data_folder = os.path.join("app", "data")
+# input CSV path
+csv_path = os.path.join("app", "data", "trend_aggregated.csv")
 
-# loop through all files in app/data
-for filename in os.listdir(data_folder):
-    if filename.endswith(".csv"):
-        csv_path = os.path.join(data_folder, filename)
-        json_path = os.path.join(
-            data_folder, filename.replace(".csv", ".json")
-        )
+# output JSON path
+json_path = os.path.join("public", "trend_aggregated.json")
 
-        # read csv
-        df = pd.read_csv(csv_path)
+# safest option: utf-8 with errors ignored
+df = pd.read_csv(csv_path, encoding="latin1")
 
-        # convert to JSON (list of objects)
-        df.to_json(json_path, orient="records", indent=2)
 
-        print(f"Converted {filename} → {os.path.basename(json_path)}")
+
+# convert to JSON (list of objects)
+df.to_json(json_path, orient="records", indent=2)
+
+print(f"Converted {os.path.basename(csv_path)} → {os.path.basename(json_path)}")
