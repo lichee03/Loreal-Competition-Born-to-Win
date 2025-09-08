@@ -43,6 +43,14 @@ const predictiveData = [
 ];
 
 export function TrendLifecycle() {
+  const primaryColor = getComputedStyle(
+    document.documentElement
+  ).getPropertyValue("--primary");
+
+  const accentColor = getComputedStyle(
+    document.documentElement
+  ).getPropertyValue("--accent");
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* Lifecycle Chart */}
@@ -78,7 +86,7 @@ export function TrendLifecycle() {
               />
               <Tooltip
                 contentStyle={{
-                  backgroundColor: "hsl(var(--card))",
+                  backgroundColor: primaryColor + "EE",
                   border: "1px solid hsl(var(--border))",
                   borderRadius: "8px",
                 }}
@@ -86,15 +94,15 @@ export function TrendLifecycle() {
               <Area
                 type="monotone"
                 dataKey="mentions"
-                stroke="hsl(var(--primary))"
-                fill="hsl(var(--primary) / 0.2)"
+                stroke={primaryColor}
+                fill={primaryColor + "33"}
                 strokeWidth={2}
               />
               <Area
                 type="monotone"
                 dataKey="engagement"
-                stroke="hsl(var(--accent))"
-                fill="hsl(var(--accent) / 0.2)"
+                stroke={accentColor}
+                fill={accentColor + "33"}
                 strokeWidth={2}
               />
             </AreaChart>
@@ -128,7 +136,7 @@ export function TrendLifecycle() {
           {predictiveData.map((item, index) => (
             <div
               key={index}
-              className="p-4 rounded-lg border border-border bg-muted/30"
+              className="p-4 rounded-lg border border-border bg-muted/20"
             >
               <div className="flex items-center justify-between mb-2">
                 <h4 className="font-medium text-foreground">{item.trend}</h4>
