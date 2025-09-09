@@ -1,0 +1,402 @@
+[
+  {
+    "product": "lipstick",
+    "count": 25727
+  },
+  {
+    "product": "foundation",
+    "count": 16074
+  },
+  {
+    "product": "blush",
+    "count": 15486
+  },
+  {
+    "product": "eyeliner",
+    "count": 14604
+  },
+  {
+    "product": "eyeshadow",
+    "count": 14101
+  },
+  {
+    "product": "contour",
+    "count": 13951
+  },
+  {
+    "product": "concealer",
+    "count": 10868
+  },
+  {
+    "product": "serum",
+    "count": 8741
+  },
+  {
+    "product": "mascara",
+    "count": 7613
+  },
+  {
+    "product": "comb",
+    "count": 6198
+  },
+  {
+    "product": "highlighter",
+    "count": 6050
+  },
+  {
+    "product": "bronzer",
+    "count": 5085
+  },
+  {
+    "product": "hair treatment",
+    "count": 4619
+  },
+  {
+    "product": "primer",
+    "count": 4499
+  },
+  {
+    "product": "perfume",
+    "count": 4192
+  },
+  {
+    "product": "sunscreen",
+    "count": 3389
+  },
+  {
+    "product": "lip liner",
+    "count": 3104
+  },
+  {
+    "product": "moisturizer",
+    "count": 2759
+  },
+  {
+    "product": "setting spray",
+    "count": 2686
+  },
+  {
+    "product": "face mask",
+    "count": 2446
+  },
+  {
+    "product": "lip gloss",
+    "count": 2288
+  },
+  {
+    "product": "shampoo",
+    "count": 2093
+  },
+  {
+    "product": "toner",
+    "count": 1772
+  },
+  {
+    "product": "gua sha",
+    "count": 1615
+  },
+  {
+    "product": "BB cream",
+    "count": 1247
+  },
+  {
+    "product": "lip balm",
+    "count": 1135
+  },
+  {
+    "product": "body mist",
+    "count": 1114
+  },
+  {
+    "product": "hair oil",
+    "count": 1078
+  },
+  {
+    "product": "body lotion",
+    "count": 1072
+  },
+  {
+    "product": "hair mask",
+    "count": 1055
+  },
+  {
+    "product": "conditioner",
+    "count": 1033
+  },
+  {
+    "product": "hair serum",
+    "count": 942
+  },
+  {
+    "product": "matte lipstick",
+    "count": 878
+  },
+  {
+    "product": "liquid lipstick",
+    "count": 839
+  },
+  {
+    "product": "CC cream",
+    "count": 836
+  },
+  {
+    "product": "keratin treatment",
+    "count": 808
+  },
+  {
+    "product": "body scrub",
+    "count": 776
+  },
+  {
+    "product": "setting powder",
+    "count": 722
+  },
+  {
+    "product": "hair spray",
+    "count": 664
+  },
+  {
+    "product": "brow pencil",
+    "count": 657
+  },
+  {
+    "product": "face palette",
+    "count": 506
+  },
+  {
+    "product": "loose powder",
+    "count": 500
+  },
+  {
+    "product": "foundation stick",
+    "count": 493
+  },
+  {
+    "product": "hair dryer",
+    "count": 492
+  },
+  {
+    "product": "hair clip",
+    "count": 470
+  },
+  {
+    "product": "makeup brush",
+    "count": 454
+  },
+  {
+    "product": "night cream",
+    "count": 444
+  },
+  {
+    "product": "nail polish",
+    "count": 418
+  },
+  {
+    "product": "eyebrow pencil",
+    "count": 407
+  },
+  {
+    "product": "eyebrow pen",
+    "count": 407
+  },
+  {
+    "product": "headband",
+    "count": 394
+  },
+  {
+    "product": "curling iron",
+    "count": 380
+  },
+  {
+    "product": "makeup remover",
+    "count": 332
+  },
+  {
+    "product": "vitamin C serum",
+    "count": 329
+  },
+  {
+    "product": "cream blush",
+    "count": 320
+  },
+  {
+    "product": "lip tint",
+    "count": 319
+  },
+  {
+    "product": "body oil",
+    "count": 311
+  },
+  {
+    "product": "brow gel",
+    "count": 308
+  },
+  {
+    "product": "face powder",
+    "count": 300
+  },
+  {
+    "product": "lip pencil",
+    "count": 299
+  },
+  {
+    "product": "lip oil",
+    "count": 298
+  },
+  {
+    "product": "eye cream",
+    "count": 287
+  },
+  {
+    "product": "hair styling cream",
+    "count": 282
+  },
+  {
+    "product": "powder blush",
+    "count": 281
+  },
+  {
+    "product": "deodorant",
+    "count": 279
+  },
+  {
+    "product": "acne treatment",
+    "count": 271
+  },
+  {
+    "product": "body wash",
+    "count": 264
+  },
+  {
+    "product": "body polish",
+    "count": 239
+  },
+  {
+    "product": "face scrub",
+    "count": 224
+  },
+  {
+    "product": "compact powder",
+    "count": 221
+  },
+  {
+    "product": "liquid foundation",
+    "count": 217
+  },
+  {
+    "product": "liquid eyeliner",
+    "count": 205
+  },
+  {
+    "product": "lip crayon",
+    "count": 199
+  },
+  {
+    "product": "nail polish remover",
+    "count": 198
+  },
+  {
+    "product": "stick foundation",
+    "count": 194
+  },
+  {
+    "product": "sheet mask",
+    "count": 193
+  },
+  {
+    "product": "makeup palette",
+    "count": 183
+  },
+  {
+    "product": "body cream",
+    "count": 180
+  },
+  {
+    "product": "eyelash curler",
+    "count": 172
+  },
+  {
+    "product": "face oil",
+    "count": 168
+  },
+  {
+    "product": "gel eyeliner",
+    "count": 166
+  },
+  {
+    "product": "hair brush",
+    "count": 164
+  },
+  {
+    "product": "illuminator",
+    "count": 160
+  },
+  {
+    "product": "hair gel",
+    "count": 158
+  },
+  {
+    "product": "waterproof mascara",
+    "count": 156
+  },
+  {
+    "product": "beauty blender",
+    "count": 143
+  },
+  {
+    "product": "body serum",
+    "count": 139
+  },
+  {
+    "product": "face mist",
+    "count": 136
+  },
+  {
+    "product": "lip scrub",
+    "count": 136
+  },
+  {
+    "product": "hair growth serum",
+    "count": 130
+  },
+  {
+    "product": "sunblock",
+    "count": 129
+  },
+  {
+    "product": "skin cream",
+    "count": 127
+  },
+  {
+    "product": "whitening cream",
+    "count": 127
+  },
+  {
+    "product": "body shimmer",
+    "count": 126
+  },
+  {
+    "product": "acrylic nails",
+    "count": 119
+  },
+  {
+    "product": "exfoliator",
+    "count": 115
+  },
+  {
+    "product": "lip mask",
+    "count": 114
+  },
+  {
+    "product": "brightening serum",
+    "count": 112
+  },
+  {
+    "product": "body spray",
+    "count": 110
+  },
+  {
+    "product": "brush set",
+    "count": 110
+  }
+]

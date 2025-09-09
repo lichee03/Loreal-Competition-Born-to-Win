@@ -190,7 +190,7 @@ const handlePlatformChange = (platform: string) => {
             .map((item, index) => (
               <div
                 key={index}
-                className="p-4 rounded-lg border border-border bg-muted/20 cursor-pointer"
+                className="p-4 rounded-lg border border-border cursor-pointer"
                 onClick={() =>
                   setSelectedHashtag(item.trend_id.replace("##", ""))
                 }
