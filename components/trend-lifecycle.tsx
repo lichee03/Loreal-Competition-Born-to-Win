@@ -369,7 +369,7 @@ export function TrendLifecycle() {
             .map((item, index) => (
               <div
                 key={index}
-                className="p-4 rounded-lg border border-border bg-muted/20"
+                className="p-4 rounded-lg border border-border"
               >
                 <div className="flex items-center justify-between mb-2">
                   <h4 className="font-medium text-foreground">
