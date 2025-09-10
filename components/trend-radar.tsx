@@ -480,14 +480,7 @@ export function TrendRadar() {
                 </div>
 
                 <div className="flex gap-2 pt-2">
-                  <Button size="sm" className="flex-1">
-                    View Campaign Ideas
-                  </Button>
-                  <Button
-                    size="sm"
-                    variant="outline"
-                    className="flex-1 bg-transparent"
-                  >
+                  <Button size="sm" variant="default" className="flex-1">
                     Export Report
                   </Button>
                 </div>
