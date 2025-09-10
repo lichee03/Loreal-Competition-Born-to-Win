@@ -32,15 +32,45 @@ import { Building2 } from "lucide-react";
 
 const emergingBrandsData = [
   { name: "Glossier", value: 18, color: "#FF1744", category: "Clean Beauty" },
-  { name: "Fenty Beauty", value: 16, color: "#D4AF37", category: "Inclusive Beauty" },
-  { name: "Rare Beauty", value: 14, color: "#FF6B9D", category: "Mental Health" },
-  { name: "Drunk Elephant", value: 12, color: "#FFB74D", category: "Skincare Science" },
-  { name: "The Ordinary", value: 10, color: "#9C27B0", category: "Affordable Actives" },
+  {
+    name: "Fenty Beauty",
+    value: 16,
+    color: "#D4AF37",
+    category: "Inclusive Beauty",
+  },
+  {
+    name: "Rare Beauty",
+    value: 14,
+    color: "#FF6B9D",
+    category: "Mental Health",
+  },
+  {
+    name: "Drunk Elephant",
+    value: 12,
+    color: "#FFB74D",
+    category: "Skincare Science",
+  },
+  {
+    name: "The Ordinary",
+    value: 10,
+    color: "#9C27B0",
+    category: "Affordable Actives",
+  },
   { name: "Glow Recipe", value: 8, color: "#4CAF50", category: "K-Beauty" },
-  { name: "Summer Fridays", value: 7, color: "#FF5722", category: "Lifestyle Beauty" },
+  {
+    name: "Summer Fridays",
+    value: 7,
+    color: "#FF5722",
+    category: "Lifestyle Beauty",
+  },
   { name: "Tower 28", value: 6, color: "#795548", category: "Sensitive Skin" },
   { name: "Ilia Beauty", value: 5, color: "#607D8B", category: "Clean Makeup" },
-  { name: "Youth to the People", value: 4, color: "#E91E63", category: "Vegan Skincare" },
+  {
+    name: "Youth to the People",
+    value: 4,
+    color: "#E91E63",
+    category: "Vegan Skincare",
+  },
 ];
 
 function generateInsight(platformData: any) {
@@ -71,12 +101,10 @@ export function BeautyInsights() {
   const [trendData, setTrendData] = useState<any[]>([]);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
-  const top10Products = trendProducts
-    .slice(0, 10)
-    .map((item) => ({
-      product: item.product.charAt(0).toUpperCase() + item.product.slice(1),
-      mentions: item.count,
-    }));
+  const top10Products = trendProducts.slice(0, 10).map((item) => ({
+    product: item.product.charAt(0).toUpperCase() + item.product.slice(1),
+    mentions: item.count,
+  }));
 
   // Extract top 10 brands from JSON
   const top10Brands = trendBrands.slice(0, 10).map((b) => ({
@@ -251,19 +279,18 @@ export function BeautyInsights() {
 
         <div className="space-y-4  overflow-y-auto">
           {trendData.map((item, index) => (
-            <div
-              key={index}
-              className="p-4 rounded-lg border border-border"
-            >
+            <div key={index} className="p-4 rounded-lg border border-border">
               <div className="flex items-center justify-between mb-2">
-                <h4 className="font-medium text-foreground">{item.trend_id.replace(/^##?/, "#")}</h4>
+                <h4 className="font-medium text-foreground">
+                  {item.trend_id.replace(/^##?/, "#")}
+                </h4>
                 <Badge
                   variant={
                     item.current_stage === "emerging"
                       ? "default"
                       : item.current_stage === "peak"
-                        ? "secondary"
-                        : "outline"
+                      ? "secondary"
+                      : "outline"
                   }
                 >
                   {item.current_stage}
@@ -273,9 +300,7 @@ export function BeautyInsights() {
               <div className="space-y-1 text-sm">
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Growth (7d):</span>
-                  <span className="text-primary">
-                    +{(item.growth_rate_7d * 100).toFixed(1)}%
-                  </span>
+                  <span className="text-primary">+{item.growth_rate_7d}%</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">
@@ -326,12 +351,23 @@ export function BeautyInsights() {
               >
                 <defs>
                   <linearGradient id="barGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="oklch(0.769 0.188 70.08)" stopOpacity={0.3} />
-                    <stop offset="100%" stopColor="oklch(0.769 0.188 70.08)" stopOpacity={1} />
+                    <stop
+                      offset="0%"
+                      stopColor="oklch(0.769 0.188 70.08)"
+                      stopOpacity={0.3}
+                    />
+                    <stop
+                      offset="100%"
+                      stopColor="oklch(0.769 0.188 70.08)"
+                      stopOpacity={1}
+                    />
                   </linearGradient>
                 </defs>
 
-                <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  stroke="hsl(var(--border))"
+                />
                 <XAxis
                   dataKey="product"
                   angle={-45}
@@ -341,14 +377,12 @@ export function BeautyInsights() {
                   stroke="hsl(var(--foreground))"
                 />
                 <YAxis stroke="hsl(var(--foreground))" fontSize={11} />
-                <ChartTooltip
-                  content={<ChartTooltipContent />}
-                />
+                <ChartTooltip content={<ChartTooltipContent />} />
                 <Bar
                   dataKey="mentions"
                   fill="url(#barGradient)"
                   radius={[4, 4, 0, 0]}
-                // barSize={50}
+                  // barSize={50}
                 />
               </BarChart>
             </ResponsiveContainer>
@@ -367,7 +401,9 @@ export function BeautyInsights() {
       <Card className="p-6 lg:col-span-2 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="flex items-center gap-2 mb-4">
           <Building2 className="w-5 h-5 text-primary" />
-          <h3 className="font-semibold text-foreground">Top 10 Emerging Brands for Collaboration</h3>
+          <h3 className="font-semibold text-foreground">
+            Top 10 Emerging Brands for Collaboration
+          </h3>
           <Badge variant="outline" className="text-xs">
             YouTube Only
           </Badge>
@@ -394,7 +430,9 @@ export function BeautyInsights() {
                     dataKey="value"
                     nameKey="name"
                     label={({ name, value }) =>
-                      `${name} (${(((value ?? 0) / totalTop10) * 100).toFixed(1)}%)`
+                      `${name} (${(((value ?? 0) / totalTop10) * 100).toFixed(
+                        1
+                      )}%)`
                     }
                     onMouseEnter={(_, index) => setActiveIndex(index)}
                     onMouseLeave={() => setActiveIndex(null)}
@@ -407,8 +445,12 @@ export function BeautyInsights() {
                         stroke={activeIndex === index ? "#000" : "none"}
                         strokeWidth={activeIndex === index ? 2 : 0}
                         style={{
-                          filter: activeIndex === index ? "brightness(1.1)" : "brightness(1)",
-                          transform: activeIndex === index ? "scale(1.05)" : "scale(1)",
+                          filter:
+                            activeIndex === index
+                              ? "brightness(1.1)"
+                              : "brightness(1)",
+                          transform:
+                            activeIndex === index ? "scale(1.05)" : "scale(1)",
                           transformOrigin: "center",
                           transition: "all 0.2s ease-in-out",
                         }}
@@ -421,10 +463,15 @@ export function BeautyInsights() {
                         const data = payload[0].payload;
                         return (
                           <div className="bg-background border border-border rounded-lg p-3 shadow-lg">
-                            <p className="font-semibold text-foreground">{data.name}</p>
-                            <p className="text-sm font-medium text-primary">{data.value} mentions</p>
+                            <p className="font-semibold text-foreground">
+                              {data.name}
+                            </p>
+                            <p className="text-sm font-medium text-primary">
+                              {data.value} mentions
+                            </p>
                             <p className="text-xs text-muted-foreground">
-                              {((data.value / totalTop10) * 100).toFixed(1)}% of top 10
+                              {((data.value / totalTop10) * 100).toFixed(1)}% of
+                              top 10
                             </p>
                           </div>
                         );
@@ -443,17 +490,25 @@ export function BeautyInsights() {
               {top10Brands.map((brand, index) => (
                 <div
                   key={index}
-                  className={`flex items-center justify-between p-3 rounded-lg border transition-all duration-200 cursor-pointer ${activeIndex === index
-                    ? "border-primary bg-primary/5 shadow-sm"
-                    : "border-border hover:border-primary/50 hover:bg-muted/30"
-                    }`}
+                  className={`flex items-center justify-between p-3 rounded-lg border transition-all duration-200 cursor-pointer ${
+                    activeIndex === index
+                      ? "border-primary bg-primary/5 shadow-sm"
+                      : "border-border hover:border-primary/50 hover:bg-muted/30"
+                  }`}
                   onMouseEnter={() => setActiveIndex(index)}
                   onMouseLeave={() => setActiveIndex(null)}
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-3 h-3 rounded-full flex-shrink-0" style={{ backgroundColor: PIE_COLORS[index % PIE_COLORS.length] }} />
+                    <div
+                      className="w-3 h-3 rounded-full flex-shrink-0"
+                      style={{
+                        backgroundColor: PIE_COLORS[index % PIE_COLORS.length],
+                      }}
+                    />
                     <div>
-                      <div className="font-medium text-foreground text-sm">{brand.name}</div>
+                      <div className="font-medium text-foreground text-sm">
+                        {brand.name}
+                      </div>
                     </div>
                   </div>
                   <Badge variant="outline" className="text-xs text-foreground">
@@ -467,8 +522,9 @@ export function BeautyInsights() {
 
         <div className="mt-4 p-3 bg-muted/50 rounded-lg">
           <p className="text-xs text-muted-foreground">
-            <strong className="text-foreground">Insight:</strong> {top10Brands[0]?.name} and {top10Brands[1]?.name} show highest collaboration
-            potential based on social mentions.
+            <strong className="text-foreground">Insight:</strong>{" "}
+            {top10Brands[0]?.name} and {top10Brands[1]?.name} show highest
+            collaboration potential based on social mentions.
           </p>
         </div>
       </Card>
