@@ -1,5 +1,3 @@
-
-
 "use client";
 import { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
@@ -44,17 +42,17 @@ export function TrendLifecycle() {
         const predData = await resPred.json();
         setTrendData(Array.isArray(predData) ? predData : [predData]);
         //if wan choose top 5
-//         const sortedTrends = Array.isArray(predData)
-//   ? predData
-//       .filter((t: any) => t.growth_rate_7d != null)
-//       .sort((a: any, b: any) => b.growth_rate_7d - a.growth_rate_7d)
-//   : [];
-// setTrendData(sortedTrends);
+        //         const sortedTrends = Array.isArray(predData)
+        //   ? predData
+        //       .filter((t: any) => t.growth_rate_7d != null)
+        //       .sort((a: any, b: any) => b.growth_rate_7d - a.growth_rate_7d)
+        //   : [];
+        // setTrendData(sortedTrends);
         // lifecycle timeseries
         const resTs = await fetch("first5_hashtags_timeseries.json");
         const tsData = await resTs.json();
         setTimeseries(tsData);
-        
+
         const platformsTs = await fetch("platform_timeseries.json");
         const platformsData = await platformsTs.json();
         setPlatformTimeseries(platformsData);
@@ -69,8 +67,8 @@ export function TrendLifecycle() {
 
     fetchData();
   }, []);
-  
-const handlePlatformChange = (platform: string) => {
+
+  const handlePlatformChange = (platform: string) => {
     setPredictionPlatform(platform);
     if (platform === "youtube") {
       const first = Object.keys(timeseries)[0];
@@ -87,18 +85,15 @@ const handlePlatformChange = (platform: string) => {
       ? timeseries
       : platformTimeseries[predictionPlatform] || {};
 
-    const lifecycleData = selectedHashtag
+  const lifecycleData = selectedHashtag
     ? currentTimeseries[selectedHashtag]?.filter((d: any) => {
-      console.log("selected hashtag",selectedHashtag);
+        console.log("selected hashtag", selectedHashtag);
         const today = new Date();
         const oneMonthAgo = new Date();
         oneMonthAgo.setDate(today.getDate() - 90);
         return new Date(d.day) >= oneMonthAgo;
       })
     : [];
-
-
-  
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -116,7 +111,10 @@ const handlePlatformChange = (platform: string) => {
         <div className="h-80">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={lifecycleData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+              <CartesianGrid
+                strokeDasharray="3 3"
+                stroke="hsl(var(--border))"
+              />
               <XAxis
                 dataKey="day"
                 stroke="hsl(var(--muted-foreground))"
@@ -196,11 +194,15 @@ const handlePlatformChange = (platform: string) => {
                 }
               >
                 <div className="flex items-center justify-between mb-2">
-                  <h4 className="font-medium text-foreground">{item.trend_id.replace(/^##?/, "#")}</h4>
+                  <h4 className="font-medium text-foreground">
+                    {item.trend_id.replace(/^##?/, "#")}
+                  </h4>
                   <Badge
                     variant={
                       item.current_stage?.toLowerCase() === "peak"
-                        ? "default"
+                        ? "accent"
+                        : item.current_stage?.toLowerCase() === "emerging"
+                        ? "primary"
                         : "secondary"
                     }
                     className="text-xs"
