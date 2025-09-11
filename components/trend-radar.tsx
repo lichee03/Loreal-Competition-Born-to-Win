@@ -28,6 +28,7 @@ export function TrendRadar() {
   const [isScanning, setIsScanning] = useState(true);
   const [showPopup, setShowPopup] = useState(false);
   const [selectedPlatform, setSelectedPlatform] = useState<string>("YouTube");
+  const [maxTrends, setMaxTrends] = useState<number>(5);
 
   // fetch JSON data
   useEffect(() => {
@@ -79,7 +80,7 @@ export function TrendRadar() {
         const rest = trendsArr
           .filter((t) => !alreadyIds.has(t.trend_id))
           .sort((a, b) => b.growth_rate_7d - a.growth_rate_7d)
-          .slice(0, 5 - selected.length);
+          .slice(0, maxTrends - selected.length);
 
         const finalSelection = [...selected, ...rest];
 
@@ -103,7 +104,7 @@ export function TrendRadar() {
     };
 
     fetchData();
-  }, []);
+  }, [maxTrends]);
 
   // Scanning animation toggle
   useEffect(() => {
@@ -171,6 +172,18 @@ export function TrendRadar() {
                   onClick={() => setSelectedPlatform(platform)}
                 >
                   {platform}
+                </Button>
+              ))}
+            </div>
+            <div className="flex gap-2 mb-4 justify-center">
+              {[5, 8, 10].map((count) => (
+                <Button
+                  key={count}
+                  size="sm"
+                  variant={maxTrends === count ? "default" : "outline"}
+                  onClick={() => setMaxTrends(count)}
+                >
+                  {count} Trends
                 </Button>
               ))}
             </div>
