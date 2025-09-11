@@ -11,7 +11,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.72), 'millennials': np.float64(0.28)}"
+    "audience_signals":"{'gen_z': 0.72, 'millennials': 0.28}"
   },
   {
     "trend_id":"#abigboldbeautifuljourney",
@@ -25,7 +25,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.8), 'millennials': np.float64(0.2)}"
+    "audience_signals":"{'gen_z': 0.8, 'millennials': 0.2}"
   },
   {
     "trend_id":"#ad",
@@ -39,7 +39,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.54), 'millennials': np.float64(0.46)}"
+    "audience_signals":"{'gen_z': 0.54, 'millennials': 0.46}"
   },
   {
     "trend_id":"#adobepartner",
@@ -53,7 +53,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.61), 'millennials': np.float64(0.39)}"
+    "audience_signals":"{'gen_z': 0.61, 'millennials':0.39}"
   },
   {
     "trend_id":"#adobephotoshoppartner",
@@ -67,7 +67,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.64), 'millennials': np.float64(0.36)}"
+    "audience_signals":"{'gen_z': 0.64, 'millennials': 0.36}"
   },
   {
     "trend_id":"#aeroforall",
@@ -81,7 +81,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#applecidervinegar",
@@ -95,7 +95,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.72), 'millennials': np.float64(0.28)}"
+    "audience_signals":"{'gen_z': 0.72, 'millennials': 0.28}"
   },
   {
     "trend_id":"#autismawareness",
@@ -109,7 +109,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#bbq",
@@ -123,7 +123,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z':0.6, 'millennials': 0.4}"
   },
   {
     "trend_id":"#benandjerrys",
@@ -137,7 +137,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.78), 'millennials': np.float64(0.22)}"
+    "audience_signals":"{'gen_z': 0.78, 'millennials': 0.22}"
   },
   {
     "trend_id":"#bikelife",
@@ -151,7 +151,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#blink",
@@ -165,7 +165,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#bluebuffalo",
@@ -179,7 +179,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#bluebuffalopartner",
@@ -193,7 +193,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#bmw",
@@ -207,7 +207,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#bombpop",
@@ -221,7 +221,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.61), 'millennials': np.float64(0.39)}"
+    "audience_signals":"{'gen_z': 0.61, 'millennials': 0.39}"
   },
   {
     "trend_id":"#bombpopextremes",
@@ -235,7 +235,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#cancer",
@@ -249,7 +249,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.64), 'millennials': np.float64(0.36)}"
+    "audience_signals":"{'gen_z': 0.64, 'millennials': 0.36}"
   },
   {
     "trend_id":"#capcut",
@@ -263,7 +263,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.55), 'millennials': np.float64(0.45)}"
+    "audience_signals":"{'gen_z': 0.55, 'millennials': 0.45}"
   },
   {
     "trend_id":"#car",
@@ -277,7 +277,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#cascade_partner",
@@ -291,7 +291,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#cascadeplatinumplus",
@@ -305,7 +305,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.8), 'millennials': np.float64(0.2)}"
+    "audience_signals":"{'gen_z': 0.8, 'millennials': 0.2}"
   },
   {
     "trend_id":"#ceravepartner",
@@ -319,7 +319,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#cereal",
@@ -333,7 +333,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#cleaningredients",
@@ -347,7 +347,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.86), 'millennials': np.float64(0.14)}"
+    "audience_signals":"{'gen_z': 0.86, 'millennials': 0.1)}"
   },
   {
     "trend_id":"#cliniquepartner",
@@ -361,7 +361,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials':0.33}"
   },
   {
     "trend_id":"#closefriendsonly",
@@ -375,7 +375,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#coldone",
@@ -389,7 +389,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#colinfarrell",
@@ -403,7 +403,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#college",
@@ -417,7 +417,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.7), 'millennials': np.float64(0.3)}"
+    "audience_signals":"{'gen_z': 0.7, 'millennials': 0.3}"
   },
   {
     "trend_id":"#cooking",
@@ -431,7 +431,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#cottagecheese",
@@ -445,7 +445,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.76), 'millennials': np.float64(0.24)}"
+    "audience_signals":"{'gen_z': 0.76, 'millennials': 0.24}"
   },
   {
     "trend_id":"#cow",
@@ -459,7 +459,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#creativeportraits",
@@ -473,7 +473,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#crestpartner",
@@ -487,7 +487,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.5), 'millennials': np.float64(0.5)}"
+    "audience_signals":"{'gen_z': 0.5, 'millennials': 0.5}"
   },
   {
     "trend_id":"#crestrealitycheckup",
@@ -501,7 +501,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#cruise",
@@ -515,7 +515,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.6, 'millennials': 0.4}"
   },
   {
     "trend_id":"#cruisetok",
@@ -529,7 +529,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#cruisevlog",
@@ -543,7 +543,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.53), 'millennials': np.float64(0.47)}"
+    "audience_signals":"{'gen_z': 0.53, 'millennials': 0.47}"
   },
   {
     "trend_id":"#crunchy",
@@ -557,7 +557,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.55), 'millennials': np.float64(0.45)}"
+    "audience_signals":"{'gen_z': 0.55, 'millennials': 0.45}"
   },
   {
     "trend_id":"#dateideas",
@@ -571,7 +571,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#daughter",
@@ -585,7 +585,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.74), 'millennials': np.float64(0.26)}"
+    "audience_signals":"{'gen_z': 0.74, 'millennials': 0.26}"
   },
   {
     "trend_id":"#dawn_partner",
@@ -599,7 +599,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#dawnpowersuds",
@@ -613,7 +613,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.86), 'millennials': np.float64(0.14)}"
+    "audience_signals":"{'gen_z': 0.86, 'millennials': 0.14}"
   },
   {
     "trend_id":"#dawnpowerwash",
@@ -627,7 +627,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.61), 'millennials': np.float64(0.39)}"
+    "audience_signals":"{'gen_z': 0.61, 'millennials': 0.39}"
   },
   {
     "trend_id":"#dayinthelife",
@@ -641,7 +641,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.57), 'millennials': np.float64(0.43)}"
+    "audience_signals":"{'gen_z': 0.57, 'millennials': 0.43}"
   },
   {
     "trend_id":"#dazspartner",
@@ -655,7 +655,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#dealforyoudays",
@@ -669,7 +669,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#deltapartner",
@@ -683,7 +683,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#dinner",
@@ -697,7 +697,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#dinnerideas",
@@ -711,7 +711,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#dishwasher",
@@ -725,7 +725,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.61), 'millennials': np.float64(0.39)}"
+    "audience_signals":"{'gen_z': 0.61, 'millennials': 0.39}"
   },
   {
     "trend_id":"#disneychannel",
@@ -739,7 +739,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#disneyplus",
@@ -753,7 +753,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#diyhouse",
@@ -767,7 +767,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.84), 'millennials': np.float64(0.16)}"
+    "audience_signals":"{'gen_z': 0.84, 'millennials': 0.16}"
   },
   {
     "trend_id":"#diytips",
@@ -781,7 +781,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.83), 'millennials': np.float64(0.17)}"
+    "audience_signals":"{'gen_z': 0.83, 'millennials': 0.17}"
   },
   {
     "trend_id":"#dogfoodreview",
@@ -795,7 +795,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.60, 'millennials': 0.40}"
   },
   {
     "trend_id":"#dogsnacks",
@@ -809,7 +809,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#dominoscreatorcollective",
@@ -823,7 +823,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#dreamhouse",
@@ -837,7 +837,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#dropshipping",
@@ -851,7 +851,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.74), 'millennials': np.float64(0.26)}"
+    "audience_signals":"{'gen_z': 0.74, 'millennials': 0.26}"
   },
   {
     "trend_id":"#easydinnerideas",
@@ -865,7 +865,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#ecommerce",
@@ -879,7 +879,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#emptynest",
@@ -893,7 +893,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#engagement",
@@ -907,7 +907,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#entrepreneur",
@@ -921,7 +921,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.63), 'millennials': np.float64(0.37)}"
+    "audience_signals":"{'gen_z': 0.63, 'millennials': 0.37}"
   },
   {
     "trend_id":"#family",
@@ -935,7 +935,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#farmcall",
@@ -949,7 +949,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#fashion",
@@ -963,7 +963,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#fitcheck",
@@ -977,7 +977,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.64), 'millennials': np.float64(0.36)}"
+    "audience_signals":"{'gen_z': 0.64, 'millennials': 0.36}"
   },
   {
     "trend_id":"#freakierfriday",
@@ -991,7 +991,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#fridgegoals",
@@ -1005,7 +1005,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#fridgeorganization",
@@ -1019,7 +1019,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#funhouse",
@@ -1033,7 +1033,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#funny",
@@ -1047,7 +1047,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.55), 'millennials': np.float64(0.45)}"
+    "audience_signals":"{'gen_z': 0.55, 'millennials': 0.45}"
   },
   {
     "trend_id":"#fyp",
@@ -1061,7 +1061,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.57), 'millennials': np.float64(0.43)}"
+    "audience_signals":"{'gen_z': 0.57, 'millennials': 0.43}"
   },
   {
     "trend_id":"#fyp\u00e3\u0082\u00b7",
@@ -1075,7 +1075,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.72), 'millennials': np.float64(0.28)}"
+    "audience_signals":"{'gen_z': 0.72, 'millennials': 0.28}"
   },
   {
     "trend_id":"#galaxyzflip7",
@@ -1089,7 +1089,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#galaxyzfold7",
@@ -1103,7 +1103,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#gerberpartner",
@@ -1117,7 +1117,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#glycolicgloss",
@@ -1131,7 +1131,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.81), 'millennials': np.float64(0.19)}"
+    "audience_signals":"{'gen_z': 0.81, 'millennials': 0.19}"
   },
   {
     "trend_id":"#gonudehoney",
@@ -1145,7 +1145,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.64), 'millennials': np.float64(0.36)}"
+    "audience_signals":"{'gen_z': 0.64, 'millennials': 0.36}"
   },
   {
     "trend_id":"#gowithgoli",
@@ -1159,7 +1159,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.9), 'millennials': np.float64(0.1)}"
+    "audience_signals":"{'gen_z': 0.90, 'millennials': 0.10}"
   },
   {
     "trend_id":"#grillcleanup",
@@ -1173,7 +1173,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#guthealth",
@@ -1187,7 +1187,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok, instagram",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.53), 'millennials': np.float64(0.47)}"
+    "audience_signals":"{'gen_z': 0.53, 'millennials': 0.47}"
   },
   {
     "trend_id":"#handmade",
@@ -1201,7 +1201,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#hdslowsunday",
@@ -1215,7 +1215,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#healthcare",
@@ -1229,7 +1229,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#healthydogshappydogs",
@@ -1243,7 +1243,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#healthysmile",
@@ -1257,7 +1257,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#helpme",
@@ -1271,7 +1271,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#hiltonpartner",
@@ -1285,7 +1285,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#homedepotpartner",
@@ -1299,7 +1299,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#hotelvibes",
@@ -1313,7 +1313,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#house",
@@ -1327,7 +1327,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#hydroboost",
@@ -1341,7 +1341,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#hyundai",
@@ -1355,7 +1355,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#hyundaipartner",
@@ -1369,7 +1369,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.74), 'millennials': np.float64(0.26)}"
+    "audience_signals":"{'gen_z': 0.74, 'millennials': 0.26}"
   },
   {
     "trend_id":"#icecream",
@@ -1383,7 +1383,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#igpartner",
@@ -1397,7 +1397,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#inspiration",
@@ -1411,7 +1411,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.79), 'millennials': np.float64(0.21)}"
+    "audience_signals":"{'gen_z': 0.79, 'millennials': 0.21}"
   },
   {
     "trend_id":"#justinflom",
@@ -1425,7 +1425,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.66), 'millennials': np.float64(0.34)}"
+    "audience_signals":"{'gen_z': 0.66, 'millennials': 0.34}"
   },
   {
     "trend_id":"#jwmarriottdesertsprings",
@@ -1439,7 +1439,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#kindness",
@@ -1453,7 +1453,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#knorrito",
@@ -1467,7 +1467,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#knorrpartner",
@@ -1481,7 +1481,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#knorrunlimitedtimemenu",
@@ -1495,7 +1495,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#kpopdemonhunters",
@@ -1509,7 +1509,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#larocheposaypartner",
@@ -1523,7 +1523,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.63), 'millennials': np.float64(0.37)}"
+    "audience_signals":"{'gen_z': 0.63, 'millennials': 0.37}"
   },
   {
     "trend_id":"#larocheposayusa",
@@ -1537,7 +1537,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#layers",
@@ -1551,7 +1551,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#levelup",
@@ -1565,7 +1565,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#lollaaccused",
@@ -1579,7 +1579,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#longdistance",
@@ -1593,7 +1593,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.79), 'millennials': np.float64(0.21)}"
+    "audience_signals":"{'gen_z': 0.79, 'millennials': 0.21}"
   },
   {
     "trend_id":"#longdistancerelationship",
@@ -1607,7 +1607,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.8), 'millennials': np.float64(0.2)}"
+    "audience_signals":"{'gen_z': 0.80, 'millennials': 0.20}"
   },
   {
     "trend_id":"#lorealparis",
@@ -1621,7 +1621,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#luxuryforless",
@@ -1635,7 +1635,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.60, 'millennials': 0.40}"
   },
   {
     "trend_id":"#madebygoogle",
@@ -1649,7 +1649,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#madewithlightroom",
@@ -1663,7 +1663,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#magic",
@@ -1677,7 +1677,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#magician",
@@ -1691,7 +1691,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.63), 'millennials': np.float64(0.37)}"
+    "audience_signals":"{'gen_z': 0.63, 'millennials': 0.37}"
   },
   {
     "trend_id":"#makeiticonic",
@@ -1705,7 +1705,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#margotrobbie",
@@ -1719,7 +1719,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.75), 'millennials': np.float64(0.25)}"
+    "audience_signals":"{'gen_z': 0.75, 'millennials': 0.25}"
   },
   {
     "trend_id":"#matcha",
@@ -1733,7 +1733,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#matchalatte",
@@ -1747,7 +1747,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.86), 'millennials': np.float64(0.14)}"
+    "audience_signals":"{'gen_z': 0.86, 'millennials': 0.14}"
   },
   {
     "trend_id":"#mclarenmastercard",
@@ -1761,7 +1761,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.60, 'millennials': 0.40}"
   },
   {
     "trend_id":"#mealinspo",
@@ -1775,7 +1775,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.75), 'millennials': np.float64(0.25)}"
+    "audience_signals":"{'gen_z': 0.75, 'millennials': 0.25}"
   },
   {
     "trend_id":"#medicalassistant",
@@ -1789,7 +1789,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.75), 'millennials': np.float64(0.25)}"
+    "audience_signals":"{'gen_z': 0.75, 'millennials': 0.25}"
   },
   {
     "trend_id":"#medicalhumor",
@@ -1803,7 +1803,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#medstudent",
@@ -1817,7 +1817,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.52), 'millennials': np.float64(0.48)}"
+    "audience_signals":"{'gen_z': 0.52, 'millennials': 0.48}"
   },
   {
     "trend_id":"#milkshake",
@@ -1831,7 +1831,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.78), 'millennials': np.float64(0.22)}"
+    "audience_signals":"{'gen_z': 0.78, 'millennials': 0.22}"
   },
   {
     "trend_id":"#millionairemindset",
@@ -1845,7 +1845,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#mindset",
@@ -1859,7 +1859,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#miniature",
@@ -1873,7 +1873,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#minibricks",
@@ -1887,7 +1887,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.79), 'millennials': np.float64(0.21)}"
+    "audience_signals":"{'gen_z': 0.79, 'millennials': 0.21}"
   },
   {
     "trend_id":"#momlife",
@@ -1901,7 +1901,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.53), 'millennials': np.float64(0.47)}"
+    "audience_signals":"{'gen_z': 0.53, 'millennials': 0.47}"
   },
   {
     "trend_id":"#momsbelike",
@@ -1915,7 +1915,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.76), 'millennials': np.float64(0.24)}"
+    "audience_signals":"{'gen_z': 0.76, 'millennials': 0.24}"
   },
   {
     "trend_id":"#money",
@@ -1929,7 +1929,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.81), 'millennials': np.float64(0.19)}"
+    "audience_signals":"{'gen_z': 0.81, 'millennials': 0.19}"
   },
   {
     "trend_id":"#moomoments",
@@ -1943,7 +1943,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.76), 'millennials': np.float64(0.24)}"
+    "audience_signals":"{'gen_z': 0.76, 'millennials': 0.24}"
   },
   {
     "trend_id":"#mother",
@@ -1957,7 +1957,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.9), 'millennials': np.float64(0.1)}"
+    "audience_signals":"{'gen_z': 0.9, 'millennials': 0.1}"
   },
   {
     "trend_id":"#motherhoodunfiltered",
@@ -1971,7 +1971,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#motivation",
@@ -1985,7 +1985,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#motorcycle",
@@ -1999,7 +1999,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#movie",
@@ -2013,7 +2013,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#mukbang",
@@ -2027,7 +2027,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.83), 'millennials': np.float64(0.17)}"
+    "audience_signals":"{'gen_z': 0.83, 'millennials': 0.17}"
   },
   {
     "trend_id":"#mukbangeatingshow",
@@ -2041,7 +2041,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.78), 'millennials': np.float64(0.22)}"
+    "audience_signals":"{'gen_z': 0.78, 'millennials': 0.22}"
   },
   {
     "trend_id":"#mylivemystory",
@@ -2055,7 +2055,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#neutrogenapartner",
@@ -2069,7 +2069,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.75), 'millennials': np.float64(0.25)}"
+    "audience_signals":"{'gen_z': 0.75, 'millennials': 0.25}"
   },
   {
     "trend_id":"#newgirl",
@@ -2083,7 +2083,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.72), 'millennials': np.float64(0.28)}"
+    "audience_signals":"{'gen_z': 0.72, 'millennials': 0.28}"
   },
   {
     "trend_id":"#nextlevelgloss",
@@ -2097,7 +2097,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.67), 'millennials': np.float64(0.33)}"
+    "audience_signals":"{'gen_z': 0.67, 'millennials': 0.33}"
   },
   {
     "trend_id":"#nightmoovision",
@@ -2111,7 +2111,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#nowincewhitening",
@@ -2125,7 +2125,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.57), 'millennials': np.float64(0.43)}"
+    "audience_signals":"{'gen_z': 0.57, 'millennials': 0.43}"
   },
   {
     "trend_id":"#olaypartner",
@@ -2139,7 +2139,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#oldspicepartner",
@@ -2153,7 +2153,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#pasta",
@@ -2167,7 +2167,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.86), 'millennials': np.float64(0.14)}"
+    "audience_signals":"{'gen_z': 0.86, 'millennials': 0.14}"
   },
   {
     "trend_id":"#pastalover",
@@ -2181,7 +2181,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': (0.44}"
   },
   {
     "trend_id":"#pastatiktok",
@@ -2195,7 +2195,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.63), 'millennials': np.float64(0.37)}"
+    "audience_signals":"{'gen_z': 0.63, 'millennials': 0.37}"
   },
   {
     "trend_id":"#philadelphiacreamcheese",
@@ -2209,7 +2209,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.53), 'millennials': np.float64(0.47)}"
+    "audience_signals":"{'gen_z': 0.53, 'millennials': 0.47}"
   },
   {
     "trend_id":"#photoshootwithstrangers",
@@ -2223,7 +2223,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.85), 'millennials': np.float64(0.15)}"
+    "audience_signals":"{'gen_z': 0.85, 'millennials': 0.15}"
   },
   {
     "trend_id":"#plumber",
@@ -2237,7 +2237,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#plumbertips",
@@ -2251,7 +2251,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.86), 'millennials': np.float64(0.14)}"
+    "audience_signals":"{'gen_z': 0.86, 'millennials': 0.14}"
   },
   {
     "trend_id":"#priceless",
@@ -2265,7 +2265,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#pubgmobile",
@@ -2279,7 +2279,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#razr",
@@ -2293,7 +2293,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#recipe",
@@ -2307,7 +2307,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#relationship",
@@ -2321,7 +2321,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.64), 'millennials': np.float64(0.36)}"
+    "audience_signals":"{'gen_z': 0.64, 'millennials': 0.36}"
   },
   {
     "trend_id":"#royalcaribbean",
@@ -2335,7 +2335,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#s1k",
@@ -2349,7 +2349,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#saveinstyle",
@@ -2363,7 +2363,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.87), 'millennials': np.float64(0.13)}"
+    "audience_signals":"{'gen_z': 0.87, 'millennials': 0.13}"
   },
   {
     "trend_id":"#scammed",
@@ -2377,7 +2377,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.52), 'millennials': np.float64(0.48)}"
+    "audience_signals":"{'gen_z': 0.52, 'millennials': 0.48}"
   },
   {
     "trend_id":"#scoopapalooza",
@@ -2391,7 +2391,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.74), 'millennials': np.float64(0.26)}"
+    "audience_signals":"{'gen_z': 0.74, 'millennials': 0.26}"
   },
   {
     "trend_id":"#searchlightpartner",
@@ -2405,7 +2405,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.57), 'millennials': np.float64(0.43)}"
+    "audience_signals":"{'gen_z': 0.57, 'millennials': 0.43}"
   },
   {
     "trend_id":"#searchlightpictures",
@@ -2419,7 +2419,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#securitymoonitoring",
@@ -2433,7 +2433,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.5), 'millennials': np.float64(0.5)}"
+    "audience_signals":"{'gen_z': 0.5, 'millennials': 0.5}"
   },
   {
     "trend_id":"#sensodyne",
@@ -2447,7 +2447,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#sensodyneclinicalwhite",
@@ -2461,7 +2461,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.79), 'millennials': np.float64(0.21)}"
+    "audience_signals":"{'gen_z': 0.79, 'millennials': 0.21}"
   },
   {
     "trend_id":"#shein",
@@ -2475,7 +2475,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#sheinforall",
@@ -2489,7 +2489,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#shrek",
@@ -2503,7 +2503,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.52), 'millennials': np.float64(0.48)}"
+    "audience_signals":"{'gen_z': 0.52, 'millennials': 0.48}"
   },
   {
     "trend_id":"#skirtsteaktacos",
@@ -2517,7 +2517,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#statefarmpartner",
@@ -2531,7 +2531,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#stealing",
@@ -2545,7 +2545,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#strawberrymatchalatte",
@@ -2559,7 +2559,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.68), 'millennials': np.float64(0.32)}"
+    "audience_signals":"{'gen_z': 0.68, 'millennials': 0.32}"
   },
   {
     "trend_id":"#strawberryshake",
@@ -2573,7 +2573,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#streetbike",
@@ -2587,7 +2587,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.66), 'millennials': np.float64(0.34)}"
+    "audience_signals":"{'gen_z': 0.66, 'millennials': 0.34}"
   },
   {
     "trend_id":"#summerpowerperiod",
@@ -2601,7 +2601,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.52), 'millennials': np.float64(0.48)}"
+    "audience_signals":"{'gen_z': 0.52, 'millennials': 0.48}"
   },
   {
     "trend_id":"#sundae",
@@ -2615,7 +2615,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#talentifirsttaste",
@@ -2629,7 +2629,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#talentipartner",
@@ -2643,7 +2643,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.81), 'millennials': np.float64(0.19)}"
+    "audience_signals":"{'gen_z': 0.81, 'millennials': 0.19}"
   },
   {
     "trend_id":"#talentisorbetto",
@@ -2657,7 +2657,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#taylorswift",
@@ -2671,7 +2671,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.8), 'millennials': np.float64(0.2)}"
+    "audience_signals":"{'gen_z': 0.8, 'millennials': 0.2}"
   },
   {
     "trend_id":"#teacherfit",
@@ -2685,7 +2685,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#teacheroutfit",
@@ -2699,7 +2699,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.6, 'millennials': 0.4}"
   },
   {
     "trend_id":"#teachersoftiktok",
@@ -2713,7 +2713,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#teamwater",
@@ -2727,7 +2727,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.74), 'millennials': np.float64(0.26)}"
+    "audience_signals":"{'gen_z': 0.74, 'millennials': 0.26}"
   },
   {
     "trend_id":"#teethwhitening",
@@ -2741,7 +2741,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.54), 'millennials': np.float64(0.46)}"
+    "audience_signals":"{'gen_z':0.54, 'millennials': 0.46}"
   },
   {
     "trend_id":"#tenders",
@@ -2755,7 +2755,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.63), 'millennials': np.float64(0.37)}"
+    "audience_signals":"{'gen_z': 0.63, 'millennials': 0.37}"
   },
   {
     "trend_id":"#tennis",
@@ -2769,7 +2769,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#thatsavagekitchen",
@@ -2783,7 +2783,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.83), 'millennials': np.float64(0.17)}"
+    "audience_signals":"{'gen_z': 0.83, 'millennials': 0.17}"
   },
   {
     "trend_id":"#thatsdazs",
@@ -2797,7 +2797,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.65), 'millennials': np.float64(0.35)}"
+    "audience_signals":"{'gen_z': 0.65, 'millennials': 0.35}"
   },
   {
     "trend_id":"#theroses",
@@ -2811,7 +2811,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.66), 'millennials': np.float64(0.34)}"
+    "audience_signals":"{'gen_z': 0.66, 'millennials': 0.34}"
   },
   {
     "trend_id":"#throwback",
@@ -2825,7 +2825,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#tinyhouse",
@@ -2839,7 +2839,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.77), 'millennials': np.float64(0.23)}"
+    "audience_signals":"{'gen_z': 0.77, 'millennials': 0.23}"
   },
   {
     "trend_id":"#toddlermom",
@@ -2853,7 +2853,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#traveltok",
@@ -2867,7 +2867,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#treattime",
@@ -2881,7 +2881,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#vetsoftiktok",
@@ -2895,7 +2895,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.62), 'millennials': np.float64(0.38)}"
+    "audience_signals":"{'gen_z': 0.62, 'millennials': 0.38}"
   },
   {
     "trend_id":"#viral",
@@ -2909,7 +2909,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.6, 'millennials': 0.4}"
   },
   {
     "trend_id":"#waterpark",
@@ -2923,7 +2923,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#waterslide",
@@ -2937,7 +2937,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.59), 'millennials': np.float64(0.41)}"
+    "audience_signals":"{'gen_z': 0.59, 'millennials': 0.41}"
   },
   {
     "trend_id":"#waywo",
@@ -2951,7 +2951,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#wedding",
@@ -2965,7 +2965,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#weekendreset",
@@ -2979,7 +2979,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.71), 'millennials': np.float64(0.29)}"
+    "audience_signals":"{'gen_z': 0.71, 'millennials': 0.29}"
   },
   {
     "trend_id":"#weekendvibes",
@@ -2993,7 +2993,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#wendyspartner",
@@ -3007,7 +3007,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.8), 'millennials': np.float64(0.2)}"
+    "audience_signals":"{'gen_z': 0.8, 'millennials': 0.2}"
   },
   {
     "trend_id":"#whatareyouworkingon",
@@ -3021,7 +3021,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#whatnot",
@@ -3035,7 +3035,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.78), 'millennials': np.float64(0.22)}"
+    "audience_signals":"{'gen_z': 0.78, 'millennials': 0.22}"
   },
   {
     "trend_id":"#whatnotapp",
@@ -3049,7 +3049,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.89), 'millennials': np.float64(0.11)}"
+    "audience_signals":"{'gen_z': 0.89, 'millennials': 0.11}"
   },
   {
     "trend_id":"#whatnothaul",
@@ -3063,7 +3063,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.69), 'millennials': np.float64(0.31)}"
+    "audience_signals":"{'gen_z': 0.69, 'millennials': 0.31}"
   },
   {
     "trend_id":"#whatnotpartner",
@@ -3077,7 +3077,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.73), 'millennials': np.float64(0.27)}"
+    "audience_signals":"{'gen_z': 0.73, 'millennials': 0.27}"
   },
   {
     "trend_id":"#whitesmile",
@@ -3091,7 +3091,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.51), 'millennials': np.float64(0.49)}"
+    "audience_signals":"{'gen_z': 0.51, 'millennials': 0.49}"
   },
   {
     "trend_id":"#wholetthecowout",
@@ -3105,7 +3105,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.81), 'millennials': np.float64(0.19)}"
+    "audience_signals":"{'gen_z': 0.81, 'millennials': 0.19}"
   },
   {
     "trend_id":"#wingstop",
@@ -3119,7 +3119,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.54), 'millennials': np.float64(0.46)}"
+    "audience_signals":"{'gen_z': 0.54, 'millennials': 0.46}"
   },
   {
     "trend_id":"#wingstopmukbang",
@@ -3133,7 +3133,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.6), 'millennials': np.float64(0.4)}"
+    "audience_signals":"{'gen_z': 0.6, 'millennials': 0.4}"
   },
   {
     "trend_id":"#wingstoppartner",
@@ -3147,7 +3147,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#wingstoptenders",
@@ -3161,7 +3161,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.82), 'millennials': np.float64(0.18)}"
+    "audience_signals":"{'gen_z': 0.82, 'millennials': 0.18}"
   },
   {
     "trend_id":"#wizardsbeyond",
@@ -3175,7 +3175,7 @@
     "recommended_action":"Hop in now",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.56), 'millennials': np.float64(0.44)}"
+    "audience_signals":"{'gen_z': 0.56, 'millennials': 0.44}"
   },
   {
     "trend_id":"#workingmom",
@@ -3189,7 +3189,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.9), 'millennials': np.float64(0.1)}"
+    "audience_signals":"{'gen_z': 0.9, 'millennials': 0.1}"
   },
   {
     "trend_id":"#workingmomlife",
@@ -3203,7 +3203,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.88), 'millennials': np.float64(0.12)}"
+    "audience_signals":"{'gen_z': 0.88, 'millennials': 0.12}"
   },
   {
     "trend_id":"#zerosugar",
@@ -3217,7 +3217,7 @@
     "recommended_action":"Leverage while peak",
     "platform":"tiktok",
     "geo":"US",
-    "audience_signals":"{'gen_z': np.float64(0.58), 'millennials': np.float64(0.42)}"
+    "audience_signals":"{'gen_z': 0.58, 'millennials': 0.42}"
   },
   {
     "trend_id":"#sustainablefashion",

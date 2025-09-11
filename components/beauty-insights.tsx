@@ -77,18 +77,18 @@ function generateInsight(platformData: any) {
   if (!platformData) return "";
 
   let majoritySegment = "";
-  let maxPercentage = 0;
+  let maxValue = 0;
 
   for (const [segment, value] of Object.entries(platformData)) {
-    if ((value as number) > maxPercentage) {
-      maxPercentage = value as number;
+    if ((value as number) > maxValue) {
+      maxValue = value as number;
       majoritySegment = segment;
     }
   }
 
-  return `${majoritySegment} is the dominant audience segment for this platform (${maxPercentage.toFixed(
-    1
-  )}%).`;
+  return `${majoritySegment} is the dominant audience segment for this platform (${(
+    maxValue * 100
+  ).toFixed(1)}%).`;
 }
 
 export function BeautyInsights() {
@@ -163,8 +163,8 @@ export function BeautyInsights() {
   const formatAudienceData = (platform: string) => {
     const platformData = audienceData[platform] || {};
     return Object.entries(platformData).map(([segment, value]) => ({
-      segment,
-      percentage: Math.round(value as number),
+      segment: segment.replace("_", " "), // optional: prettier labels
+      percentage: Math.round((value as number) * 100), // convert to %
     }));
   };
 
@@ -174,7 +174,7 @@ export function BeautyInsights() {
     return Object.entries(geo).map(([region, obj]: any) => ({
       region,
       trends: obj.active_trends,
-      growth: `${obj.avg_growth}%`,
+      growth: `${obj.avg_growth.toFixed(1)}%`, // keep 1 decimal
     }));
   };
 
