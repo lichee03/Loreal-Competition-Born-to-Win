@@ -17,7 +17,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TrendLens - AI-Powered Beauty Trend Detection",
   description: "Advanced trend detection platform for L'Oréal with predictive analytics and competitive intelligence",
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -27,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <link rel="icon" href="/trendlens.png" type="image/png" />
+      </head>
       <body className="antialiased">
         {children}
         <FloatingChatbot />
