@@ -13,6 +13,10 @@ const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({ origin: "http://localhost:3000" })); // <-- add this line
+// app.options('*', cors({ origin: 'http://localhost:3000' }));
+
+
+
 app.use(express.json());
 
 // Connect DB
