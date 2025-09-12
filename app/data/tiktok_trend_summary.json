@@ -1,0 +1,472 @@
+[
+  {
+    "trend_id":"ad",
+    "volume":11,
+    "engagement":1924684,
+    "current_stage":"peak",
+    "growth_rate_7d":26.3142180287,
+    "acceleration":-2.0886175896,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"astuce",
+    "volume":2,
+    "engagement":60158,
+    "current_stage":"peak",
+    "growth_rate_7d":8.9080054052,
+    "acceleration":-5.791805045,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"benandjerrys",
+    "volume":2,
+    "engagement":308233,
+    "current_stage":"peak",
+    "growth_rate_7d":0.907963146,
+    "acceleration":3.4042522585,
+    "sweet_spot_days_left":7,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"bonplan",
+    "volume":3,
+    "engagement":134270,
+    "current_stage":"peak",
+    "growth_rate_7d":34.4024401935,
+    "acceleration":-9.6301082608,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"bossmekdi",
+    "volume":2,
+    "engagement":176613,
+    "current_stage":"peak",
+    "growth_rate_7d":32.2663582871,
+    "acceleration":2.3127908579,
+    "sweet_spot_days_left":6,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"cosrx",
+    "volume":2,
+    "engagement":129028,
+    "current_stage":"peak",
+    "growth_rate_7d":10.0309745425,
+    "acceleration":3.851257213,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"cosrxmy",
+    "volume":2,
+    "engagement":129028,
+    "current_stage":"peak",
+    "growth_rate_7d":2.1041155085,
+    "acceleration":4.280856173,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"creatorsearchinsights",
+    "volume":3,
+    "engagement":2413626,
+    "current_stage":"peak",
+    "growth_rate_7d":27.0416191563,
+    "acceleration":9.0339156538,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"fyp",
+    "volume":7,
+    "engagement":18310926,
+    "current_stage":"peak",
+    "growth_rate_7d":2.5449212048,
+    "acceleration":1.8949037118,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"granolabiscuits",
+    "volume":2,
+    "engagement":85029,
+    "current_stage":"peak",
+    "growth_rate_7d":32.1626905506,
+    "acceleration":9.6527897501,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"huawei",
+    "volume":2,
+    "engagement":74363,
+    "current_stage":"peak",
+    "growth_rate_7d":43.3166804372,
+    "acceleration":-4.4744226941,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"huaweimatepad",
+    "volume":2,
+    "engagement":74363,
+    "current_stage":"peak",
+    "growth_rate_7d":33.0678719966,
+    "acceleration":7.3945083783,
+    "sweet_spot_days_left":1,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"huaweimy",
+    "volume":2,
+    "engagement":74363,
+    "current_stage":"peak",
+    "growth_rate_7d":3.3769214352,
+    "acceleration":-1.21451616,
+    "sweet_spot_days_left":8,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"insectesstop",
+    "volume":1,
+    "engagement":62032,
+    "current_stage":"emerging",
+    "growth_rate_7d":21.0823301397,
+    "acceleration":-0.492429084,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Hop in now"
+  },
+  {
+    "trend_id":"katyperry",
+    "volume":3,
+    "engagement":121522,
+    "current_stage":"peak",
+    "growth_rate_7d":10.5160357931,
+    "acceleration":-3.2822921247,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"larocheposay",
+    "volume":2,
+    "engagement":254597,
+    "current_stage":"peak",
+    "growth_rate_7d":43.3428188451,
+    "acceleration":8.8231906208,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"lidlfrance",
+    "volume":4,
+    "engagement":279518,
+    "current_stage":"peak",
+    "growth_rate_7d":29.4147384468,
+    "acceleration":9.6938733434,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"lifetimestour",
+    "volume":3,
+    "engagement":243044,
+    "current_stage":"peak",
+    "growth_rate_7d":26.7070731795,
+    "acceleration":-2.5582225612,
+    "sweet_spot_days_left":6,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"makeup",
+    "volume":2,
+    "engagement":203064,
+    "current_stage":"peak",
+    "growth_rate_7d":24.290993013,
+    "acceleration":-2.7552104072,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"mamanenmission",
+    "volume":1,
+    "engagement":62032,
+    "current_stage":"emerging",
+    "growth_rate_7d":3.3640249143,
+    "acceleration":-6.6687428294,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Hop in now"
+  },
+  {
+    "trend_id":"matemyway",
+    "volume":2,
+    "engagement":74363,
+    "current_stage":"peak",
+    "growth_rate_7d":9.64326812,
+    "acceleration":2.5318061236,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"milkammmax",
+    "volume":3,
+    "engagement":121522,
+    "current_stage":"peak",
+    "growth_rate_7d":20.5552172603,
+    "acceleration":9.8682774994,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"momlife",
+    "volume":1,
+    "engagement":62032,
+    "current_stage":"emerging",
+    "growth_rate_7d":23.4745786708,
+    "acceleration":-2.3459544888,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Hop in now"
+  },
+  {
+    "trend_id":"musiconstage",
+    "volume":2,
+    "engagement":491988,
+    "current_stage":"peak",
+    "growth_rate_7d":10.3183699023,
+    "acceleration":4.6803850117,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"neutrogenapartner",
+    "volume":2,
+    "engagement":119261,
+    "current_stage":"peak",
+    "growth_rate_7d":49.6140548931,
+    "acceleration":7.6998372883,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"nyxcosmeticsfrance",
+    "volume":3,
+    "engagement":200546,
+    "current_stage":"peak",
+    "growth_rate_7d":22.5049149237,
+    "acceleration":2.0266260127,
+    "sweet_spot_days_left":2,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"nyxprofessionalmakeup",
+    "volume":3,
+    "engagement":200546,
+    "current_stage":"peak",
+    "growth_rate_7d":13.206722001,
+    "acceleration":1.5013892177,
+    "sweet_spot_days_left":6,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"raidessentialspi\u00e8gelumineux",
+    "volume":2,
+    "engagement":111571,
+    "current_stage":"peak",
+    "growth_rate_7d":7.0394122449,
+    "acceleration":4.5057839572,
+    "sweet_spot_days_left":7,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"redditfrance",
+    "volume":2,
+    "engagement":44484,
+    "current_stage":"peak",
+    "growth_rate_7d":40.5920397236,
+    "acceleration":-0.632559649,
+    "sweet_spot_days_left":6,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"shopeelagimurah",
+    "volume":3,
+    "engagement":87129,
+    "current_stage":"peak",
+    "growth_rate_7d":5.3363907252,
+    "acceleration":1.1122462702,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"shopeemenang",
+    "volume":3,
+    "engagement":87129,
+    "current_stage":"peak",
+    "growth_rate_7d":46.5862639602,
+    "acceleration":-1.9373911102,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"shopeemy99",
+    "volume":3,
+    "engagement":87129,
+    "current_stage":"peak",
+    "growth_rate_7d":45.9234796798,
+    "acceleration":-7.5041191183,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"shopify",
+    "volume":2,
+    "engagement":141953,
+    "current_stage":"peak",
+    "growth_rate_7d":21.2286928916,
+    "acceleration":4.5412724775,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"skincare",
+    "volume":2,
+    "engagement":254597,
+    "current_stage":"peak",
+    "growth_rate_7d":0.6830212834,
+    "acceleration":-4.8746743255,
+    "sweet_spot_days_left":4,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"tablet",
+    "volume":2,
+    "engagement":74363,
+    "current_stage":"peak",
+    "growth_rate_7d":25.0103894308,
+    "acceleration":-6.2703765957,
+    "sweet_spot_days_left":1,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"test\u00e9approuv\u00e9",
+    "volume":2,
+    "engagement":111571,
+    "current_stage":"peak",
+    "growth_rate_7d":18.0682416846,
+    "acceleration":-6.7187201067,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"tiktokhack",
+    "volume":1,
+    "engagement":37487,
+    "current_stage":"emerging",
+    "growth_rate_7d":29.5220326316,
+    "acceleration":6.8947008081,
+    "sweet_spot_days_left":7,
+    "recommended_action":"Hop in now"
+  },
+  {
+    "trend_id":"tiktoklivekorea",
+    "volume":2,
+    "engagement":40799,
+    "current_stage":"peak",
+    "growth_rate_7d":33.7582668871,
+    "acceleration":-4.935256709,
+    "sweet_spot_days_left":7,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"tiktokmaison",
+    "volume":1,
+    "engagement":62032,
+    "current_stage":"emerging",
+    "growth_rate_7d":18.8998769493,
+    "acceleration":-0.8941413062,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Hop in now"
+  },
+  {
+    "trend_id":"\uacf5\ud3ec",
+    "volume":2,
+    "engagement":53359,
+    "current_stage":"peak",
+    "growth_rate_7d":24.1744057422,
+    "acceleration":4.035244357,
+    "sweet_spot_days_left":3,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\uacf5\ud3ec\uc601\ud654",
+    "volume":2,
+    "engagement":53359,
+    "current_stage":"peak",
+    "growth_rate_7d":23.333065667,
+    "acceleration":2.4699185675,
+    "sweet_spot_days_left":8,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\uad34\ub2f4",
+    "volume":2,
+    "engagement":53359,
+    "current_stage":"peak",
+    "growth_rate_7d":12.0196969177,
+    "acceleration":9.4036261809,
+    "sweet_spot_days_left":6,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\uc18c\ub984",
+    "volume":2,
+    "engagement":53359,
+    "current_stage":"peak",
+    "growth_rate_7d":27.6976336006,
+    "acceleration":5.0982841323,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\uc96c\ud130\ubdf0",
+    "volume":3,
+    "engagement":380235,
+    "current_stage":"peak",
+    "growth_rate_7d":35.8304088122,
+    "acceleration":-5.5021027988,
+    "sweet_spot_days_left":8,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\ucd94\ucc9c",
+    "volume":3,
+    "engagement":127110,
+    "current_stage":"peak",
+    "growth_rate_7d":29.0548761221,
+    "acceleration":-9.1274048311,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\ud589\ubcf5\ud55c\uc904\uc54c\uc5b4",
+    "volume":2,
+    "engagement":317218,
+    "current_stage":"peak",
+    "growth_rate_7d":27.0244119347,
+    "acceleration":2.57773882,
+    "sweet_spot_days_left":5,
+    "recommended_action":"Leverage while peak"
+  },
+  {
+    "trend_id":"\ud638\ub7ec",
+    "volume":2,
+    "engagement":53359,
+    "current_stage":"peak",
+    "growth_rate_7d":49.7194292622,
+    "acceleration":-2.312504327,
+    "sweet_spot_days_left":9,
+    "recommended_action":"Leverage while peak"
+  }
+]
