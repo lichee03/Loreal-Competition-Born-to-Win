@@ -40,7 +40,7 @@ export function TrendLifecycle() {
         // predictions (aggregated)
         const resPred = await fetch("trend_aggregated.json");
         const predData = await resPred.json();
-        setTrendData(Array.isArray(predData) ? predData : [predData]);
+         setTrendData(Array.isArray(predData) ? predData : [predData]);
         //if wan choose top 5
         //         const sortedTrends = Array.isArray(predData)
         //   ? predData
@@ -89,9 +89,9 @@ export function TrendLifecycle() {
     ? currentTimeseries[selectedHashtag]?.filter((d: any) => {
         console.log("selected hashtag", selectedHashtag);
         const today = new Date();
-        const oneMonthAgo = new Date();
-        oneMonthAgo.setDate(today.getDate() - 90);
-        return new Date(d.day) >= oneMonthAgo;
+        const threeMonthAgo = new Date();
+        threeMonthAgo.setDate(today.getDate() - 90);
+        return new Date(d.day) >= threeMonthAgo;
       })
     : [];
 
@@ -184,13 +184,13 @@ export function TrendLifecycle() {
         <div className="overflow-y-auto flex-1 pr-2 space-y-4">
           {trendData
             .filter((item) => item.platform === predictionPlatform)
-            .slice(0, 5) // first 5 predictions
+          
             .map((item, index) => (
               <div
                 key={index}
                 className="p-4 rounded-lg border border-border cursor-pointer"
                 onClick={() =>
-                  setSelectedHashtag(item.trend_id.replace("##", ""))
+                  setSelectedHashtag(item.trend_id.replace(/^##/, ""))
                 }
               >
                 <div className="flex items-center justify-between mb-2">
