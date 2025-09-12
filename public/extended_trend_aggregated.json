@@ -1,9 +1,5 @@
 {
   "audience_breakdown": {
-    "tiktok": {
-      "gen_z": 0.7,
-      "millennials": 0.3
-    },
     "instagram": {
       "gen_z": 0.7,
       "millennials": 0.3
@@ -13,8 +9,12 @@
       "millennials": 0.52
     },
     "youtube": {
-      "gen_z": 0.32,
-      "millennials": 0.68
+      "gen_z": 0.76,
+      "millennials": 0.24
+    },
+    "tiktok": {
+      "gen_z": 0.61,
+      "millennials": 0.39
     }
   },
   "geo_trends": {
@@ -49,9 +49,21 @@
       }
     },
     "tiktok": {
+      "Asia": {
+        "active_trends": 11,
+        "avg_growth": 23.33
+      },
+      "Europe": {
+        "active_trends": 23,
+        "avg_growth": 22.53
+      },
       "North America": {
-        "active_trends": 229,
-        "avg_growth": 23.91
+        "active_trends": 2,
+        "avg_growth": 25.26
+      },
+      "Korea": {
+        "active_trends": 11,
+        "avg_growth": 23.69
       }
     },
     "twitter": {
