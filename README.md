@@ -1,5 +1,5 @@
 # ✅ Solution Delivered  
-# Cross-Platform AI Trend Intelligence System  
+# TrendLens: Cross-Platform AI Trend Intelligence System  
 
 ## 1. Automated Multi-Platform Data Collection  
 - TikTok, Instagram & Twitter via RapidAPI  
