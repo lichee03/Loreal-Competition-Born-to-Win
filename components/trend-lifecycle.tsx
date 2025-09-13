@@ -104,6 +104,15 @@ export function TrendLifecycle() {
       : `#${ selectedHashtag }`;
   }
 
+  function formatHashtag(selectedHashtag: string | null | undefined): string {
+  if (!selectedHashtag || selectedHashtag.trim() === "") {
+    return "#hashtag"; // fallback
+  }
+  return selectedHashtag.startsWith("#")
+    ? selectedHashtag
+    : `#${selectedHashtag}`;
+}
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* Lifecycle Chart */}

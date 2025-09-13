@@ -29,7 +29,7 @@ export default function Home() {
             (t: any) => t.platform === "youtube" && t.growth_rate_7d != null
           )
           .sort((a: any, b: any) => b.growth_rate_7d - a.growth_rate_7d)
-          .slice(0, 5);
+          .slice(0, 4);
         setTrendData(youtubeTrends);
         if (youtubeTrends.length > 0) setSelectedTrend(youtubeTrends[0].trend_id);
       });
