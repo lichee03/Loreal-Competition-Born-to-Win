@@ -101,7 +101,7 @@ function calculateImpactMetrics(
     engagementLift,
     roi,
     brandMentionsLift,
-  };
+  };
 }
 
 
@@ -139,8 +139,8 @@ export function StorytellingDemo({ selectedTrend }: { selectedTrend: string }) {
   );
 
   
-  const impactMetrics = useMemo<ImpactMetrics>(() => {
-  if (!trend.trend_id || Object.keys(timeSeries).length === 0) {
+const impactMetrics = useMemo<ImpactMetrics>(() => {
+  if (!trend?.trend_id) {
     return {
       timeToMarket: "N/A",
       engagementLift: 0,
@@ -253,7 +253,7 @@ const mainCategory = (() => {
       {
   id: 4,
   title: "L'Oréal Action",
-  description: `L'Oréal launches campaign using ${trend.trend_id.replace(/^##/, "#")}, capturing over ${(trend.engagement / 1_000_000).toFixed(1)}M engagements, achieving ROI of ${trend.roi || "320%"} and ${trend.brandMentions || "+89%"} more brand mentions.`,
+  description: `L'Oréal launches campaign using ${trend.trend_id.replace(/^##/, "#")}, capturing over ${(trend.engagement / 1_000_000).toFixed(1)}M engagements, achieving ROI of ${impactMetrics.roi || "320%"} and ${impactMetrics.brandMentionsLift || "+89%"} more brand mentions.`,
   timestamp: "Day 10",
   status: "success",
   data: {
@@ -448,19 +448,19 @@ const mainCategory = (() => {
     <div className="space-y-3">
       <div className="flex justify-between">
         <span className="text-muted-foreground">Time to Market:</span>
-        <span className="text-accent font-medium">{impactMetrics.timeToMarket}</span>
+        <span className="text-primary font-medium">{impactMetrics.timeToMarket}</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">Engagement Lift:</span>
-        <span className="text-accent font-medium">{impactMetrics.engagementLift.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.engagementLift.toFixed(1)}%</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">ROI:</span>
-        <span className="text-accent font-medium">{impactMetrics.roi.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.roi.toFixed(1)}%</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">Brand Mentions:</span>
-        <span className="text-accent font-medium">{impactMetrics.brandMentionsLift.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.brandMentionsLift.toFixed(1)}%</span>
       </div>
     </div>
   </Card>

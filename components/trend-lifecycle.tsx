@@ -34,13 +34,14 @@ export function TrendLifecycle() {
   const [selectedHashtag, setSelectedHashtag] = useState<string | null>(null);
   const [platformTimeseries, setPlatformTimeseries] = useState<any>({});
 
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         // predictions (aggregated)
         const resPred = await fetch("trend_aggregated.json");
         const predData = await resPred.json();
-         setTrendData(Array.isArray(predData) ? predData : [predData]);
+        setTrendData(Array.isArray(predData) ? predData : [predData]);
         //if wan choose top 5
         //         const sortedTrends = Array.isArray(predData)
         //   ? predData
@@ -87,13 +88,21 @@ export function TrendLifecycle() {
 
   const lifecycleData = selectedHashtag
     ? currentTimeseries[selectedHashtag]?.filter((d: any) => {
-        console.log("selected hashtag", selectedHashtag);
-        const today = new Date();
-        const threeMonthAgo = new Date();
-        threeMonthAgo.setDate(today.getDate() - 90);
-        return new Date(d.day) >= threeMonthAgo;
-      })
+      console.log("selected hashtag", selectedHashtag);
+      const today = new Date();
+      const threeMonthAgo = new Date();
+      threeMonthAgo.setDate(today.getDate() - 90);
+      return new Date(d.day) >= threeMonthAgo;
+    })
     : [];
+  function formatHashtag(selectedHashtag: string | null | undefined): string {
+    if (!selectedHashtag || selectedHashtag.trim() === "") {
+      return "#hashtag"; // fallback
+    }
+    return selectedHashtag.startsWith("#")
+      ? selectedHashtag
+      : `#${ selectedHashtag }`;
+  }
 
   function formatHashtag(selectedHashtag: string | null | undefined): string {
   if (!selectedHashtag || selectedHashtag.trim() === "") {
@@ -193,7 +202,7 @@ export function TrendLifecycle() {
         <div className="overflow-y-auto flex-1 pr-2 space-y-4">
           {trendData
             .filter((item) => item.platform === predictionPlatform)
-          
+
             .map((item, index) => (
               <div
                 key={index}
@@ -211,8 +220,10 @@ export function TrendLifecycle() {
                       item.current_stage?.toLowerCase() === "peak"
                         ? "accent"
                         : item.current_stage?.toLowerCase() === "emerging"
-                        ? "primary"
-                        : "secondary"
+                          ? "primary"
+                            : item.current_stage?.toLowerCase() === "stable"
+                            ? "muted"
+                            : "secondary"
                     }
                     className="text-xs"
                   >
