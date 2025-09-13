@@ -95,13 +95,22 @@ export function TrendLifecycle() {
       })
     : [];
 
+  function formatHashtag(selectedHashtag: string | null | undefined): string {
+  if (!selectedHashtag || selectedHashtag.trim() === "") {
+    return "#hashtag"; // fallback
+  }
+  return selectedHashtag.startsWith("#")
+    ? selectedHashtag
+    : `#${selectedHashtag}`;
+}
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {/* Lifecycle Chart */}
       <Card className="p-6 bg-gradient-to-br from-background via-muted/20 to-background">
         <div className="mb-6">
           <h3 className="text-xl font-semibold text-foreground mb-2">
-            Trend Lifecycle: #{selectedHashtag}
+            Trend Lifecycle: {formatHashtag(selectedHashtag)}
           </h3>
           <p className="text-sm text-muted-foreground">
             Real-time analysis of trend momentum and engagement patterns
