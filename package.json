@@ -8,6 +8,7 @@
   "lint": "next lint",
   "start": "next start",
   "start:backend": "npm start --prefix backend",
+  "install:all": "pnpm install && npm install --prefix backend",
   "start:all": "concurrently -k -n FRONTEND,BACKEND -c magenta,cyan \"pnpm run dev\" \"npm run start:backend\""
 },
   "dependencies": {
