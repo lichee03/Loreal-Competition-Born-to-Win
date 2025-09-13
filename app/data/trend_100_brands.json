@@ -1,0 +1,402 @@
+[
+  {
+    "brand": "MAC",
+    "count": 4566
+  },
+  {
+    "brand": "Lawless",
+    "count": 4520
+  },
+  {
+    "brand": "Fresh",
+    "count": 3798
+  },
+  {
+    "brand": "OPI",
+    "count": 3365
+  },
+  {
+    "brand": "Maybelline",
+    "count": 3060
+  },
+  {
+    "brand": "Ilia",
+    "count": 2552
+  },
+  {
+    "brand": "Rare Beauty",
+    "count": 2178
+  },
+  {
+    "brand": "Lumin",
+    "count": 1717
+  },
+  {
+    "brand": "NYX",
+    "count": 1649
+  },
+  {
+    "brand": "Dior",
+    "count": 1298
+  },
+  {
+    "brand": "Morphe",
+    "count": 1195
+  },
+  {
+    "brand": "Fenty Beauty",
+    "count": 1056
+  },
+  {
+    "brand": "Huda Beauty",
+    "count": 999
+  },
+  {
+    "brand": "Olaplex",
+    "count": 941
+  },
+  {
+    "brand": "Chanel",
+    "count": 934
+  },
+  {
+    "brand": "Pixi",
+    "count": 833
+  },
+  {
+    "brand": "Technic",
+    "count": 802
+  },
+  {
+    "brand": "Essence",
+    "count": 714
+  },
+  {
+    "brand": "U Beauty",
+    "count": 621
+  },
+  {
+    "brand": "Charlotte Tilbury",
+    "count": 590
+  },
+  {
+    "brand": "Axe",
+    "count": 504
+  },
+  {
+    "brand": "Matrix",
+    "count": 503
+  },
+  {
+    "brand": "ColourPop",
+    "count": 502
+  },
+  {
+    "brand": "Etang",
+    "count": 462
+  },
+  {
+    "brand": "Excel",
+    "count": 415
+  },
+  {
+    "brand": "Garnier",
+    "count": 411
+  },
+  {
+    "brand": "Revlon",
+    "count": 312
+  },
+  {
+    "brand": "Addiction",
+    "count": 289
+  },
+  {
+    "brand": "Milani",
+    "count": 271
+  },
+  {
+    "brand": "Clinique",
+    "count": 268
+  },
+  {
+    "brand": "Kryolan",
+    "count": 263
+  },
+  {
+    "brand": "Wet n Wild",
+    "count": 255
+  },
+  {
+    "brand": "Pola",
+    "count": 251
+  },
+  {
+    "brand": "Mugler",
+    "count": 239
+  },
+  {
+    "brand": "Saie",
+    "count": 219
+  },
+  {
+    "brand": "Inglot",
+    "count": 211
+  },
+  {
+    "brand": "Redken",
+    "count": 202
+  },
+  {
+    "brand": "Becca",
+    "count": 194
+  },
+  {
+    "brand": "Hourglass",
+    "count": 189
+  },
+  {
+    "brand": "Anastasia Beverly Hills",
+    "count": 187
+  },
+  {
+    "brand": "Emina",
+    "count": 186
+  },
+  {
+    "brand": "Laneige",
+    "count": 183
+  },
+  {
+    "brand": "Too Faced",
+    "count": 164
+  },
+  {
+    "brand": "IT Cosmetics",
+    "count": 163
+  },
+  {
+    "brand": "CeraVe",
+    "count": 161
+  },
+  {
+    "brand": "YSL Beauty",
+    "count": 157
+  },
+  {
+    "brand": "Rimmel",
+    "count": 145
+  },
+  {
+    "brand": "Smashbox",
+    "count": 140
+  },
+  {
+    "brand": "Kosas",
+    "count": 137
+  },
+  {
+    "brand": "Amika",
+    "count": 127
+  },
+  {
+    "brand": "K18",
+    "count": 125
+  },
+  {
+    "brand": "Kylie Cosmetics",
+    "count": 123
+  },
+  {
+    "brand": "Urban Decay",
+    "count": 121
+  },
+  {
+    "brand": "CosRX",
+    "count": 120
+  },
+  {
+    "brand": "Laura Mercier",
+    "count": 119
+  },
+  {
+    "brand": "Anthony",
+    "count": 119
+  },
+  {
+    "brand": "Kerastase",
+    "count": 117
+  },
+  {
+    "brand": "Armani Beauty",
+    "count": 113
+  },
+  {
+    "brand": "Bobbi Brown",
+    "count": 105
+  },
+  {
+    "brand": "GLAMGLOW",
+    "count": 102
+  },
+  {
+    "brand": "The Ordinary",
+    "count": 101
+  },
+  {
+    "brand": "Shiseido",
+    "count": 97
+  },
+  {
+    "brand": "Moroccanoil",
+    "count": 94
+  },
+  {
+    "brand": "Wardah",
+    "count": 90
+  },
+  {
+    "brand": "Essie",
+    "count": 85
+  },
+  {
+    "brand": "Zoya",
+    "count": 84
+  },
+  {
+    "brand": "Estee Lauder",
+    "count": 82
+  },
+  {
+    "brand": "Physicians Formula",
+    "count": 80
+  },
+  {
+    "brand": "Innisfree",
+    "count": 78
+  },
+  {
+    "brand": "Oribe",
+    "count": 77
+  },
+  {
+    "brand": "Glow Recipe",
+    "count": 75
+  },
+  {
+    "brand": "Kayali",
+    "count": 74
+  },
+  {
+    "brand": "Rhode Skin",
+    "count": 67
+  },
+  {
+    "brand": "Aveda",
+    "count": 66
+  },
+  {
+    "brand": "Tatcha",
+    "count": 63
+  },
+  {
+    "brand": "Flower Beauty",
+    "count": 62
+  },
+  {
+    "brand": "No7",
+    "count": 60
+  },
+  {
+    "brand": "Natasha Denona",
+    "count": 60
+  },
+  {
+    "brand": "CoverGirl",
+    "count": 58
+  },
+  {
+    "brand": "Peripera",
+    "count": 53
+  },
+  {
+    "brand": "Guerlain",
+    "count": 52
+  },
+  {
+    "brand": "Catrice",
+    "count": 50
+  },
+  {
+    "brand": "Kopari",
+    "count": 48
+  },
+  {
+    "brand": "The Face Shop",
+    "count": 46
+  },
+  {
+    "brand": "Sisley",
+    "count": 46
+  },
+  {
+    "brand": "Aussie",
+    "count": 46
+  },
+  {
+    "brand": "Dermalogica",
+    "count": 45
+  },
+  {
+    "brand": "Hims",
+    "count": 45
+  },
+  {
+    "brand": "SheaMoisture",
+    "count": 44
+  },
+  {
+    "brand": "Kiko Milano",
+    "count": 42
+  },
+  {
+    "brand": "Black Radiance",
+    "count": 40
+  },
+  {
+    "brand": "Tom Ford Beauty",
+    "count": 40
+  },
+  {
+    "brand": "Honest Beauty",
+    "count": 40
+  },
+  {
+    "brand": "Gucci Beauty",
+    "count": 39
+  },
+  {
+    "brand": "Summer Fridays",
+    "count": 38
+  },
+  {
+    "brand": "OSEA",
+    "count": 38
+  },
+  {
+    "brand": "TonyMoly",
+    "count": 38
+  },
+  {
+    "brand": "Byredo",
+    "count": 37
+  },
+  {
+    "brand": "Canmake",
+    "count": 36
+  },
+  {
+    "brand": "Tula",
+    "count": 35
+  }
+]

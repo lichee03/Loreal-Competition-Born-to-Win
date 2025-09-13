@@ -40,23 +40,27 @@ df["audience_dict"] = df["audience_signals"].apply(parse_audience)
 
 # Aggregate per platform
 platform_totals = {}
+platform_counts = {}
 for _, row in df.iterrows():
-    platform = row["platform"].lower()
+    platform = str(row["platform"]).lower()
     if platform not in platform_totals:
-        platform_totals[platform] = {}
-    for k, v in row["audience_dict"].items():
-        try:
-            v = float(v)
-        except:
-            continue
-        platform_totals[platform][k] = platform_totals[platform].get(k, 0) + v
+        platform_totals[platform] = {"gen_z": 0, "millennials": 0}
+        platform_counts[platform] = 0
 
-# Round for readability
+    d = row["audience_dict"]
+    if d:
+        platform_totals[platform]["gen_z"] += float(d.get("gen_z", 0))
+        platform_totals[platform]["millennials"] += float(d.get("millennials", 0))
+        platform_counts[platform] += 1
+
+# Convert sums → averages (normalized so ≈1)
 for platform in platform_totals:
-    platform_totals[platform] = {k: round(v, 2) for k, v in platform_totals[platform].items()}
-
-# Aggregate per geo (trends + avg growth)
-import pycountry
+    count = platform_counts[platform]
+    if count > 0:
+        platform_totals[platform] = {
+            "gen_z": round(platform_totals[platform]["gen_z"] / count, 2),
+            "millennials": round(platform_totals[platform]["millennials"] / count, 2),
+        }
 
 # -------------------
 # GEO normalization
