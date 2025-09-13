@@ -269,7 +269,7 @@ export function TrendRadar() {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-medium text-foreground">
-                    {selectedTrend.trend_id}
+                    {selectedTrend.trend_id.replace(/^##?/, "#")}
                   </h4>
                   <Badge
                     variant="secondary"
@@ -376,7 +376,7 @@ export function TrendRadar() {
                       }`}
                     ></div>
                     <span className="text-sm text-muted-foreground">
-                      {topTrend.trend_id}{" "}
+                      {topTrend.trend_id.replace(/^##?/, "#")}{" "}
                       {stage === "emerging"
                         ? "emerging"
                         : stage === "peak"
@@ -410,7 +410,7 @@ export function TrendRadar() {
               <div className="space-y-4">
                 <div>
                   <h4 className="text-xl font-bold text-foreground mb-2">
-                    {selectedTrend.trend_id}
+                    {selectedTrend.trend_id.replace(/^##?/, "#")}
                   </h4>
                   <Badge
                     variant="secondary"

@@ -448,19 +448,19 @@ const mainCategory = (() => {
     <div className="space-y-3">
       <div className="flex justify-between">
         <span className="text-muted-foreground">Time to Market:</span>
-        <span className="text-accent font-medium">{impactMetrics.timeToMarket}</span>
+        <span className="text-primary font-medium">{impactMetrics.timeToMarket}</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">Engagement Lift:</span>
-        <span className="text-accent font-medium">{impactMetrics.engagementLift.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.engagementLift.toFixed(1)}%</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">ROI:</span>
-        <span className="text-accent font-medium">{impactMetrics.roi.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.roi.toFixed(1)}%</span>
       </div>
       <div className="flex justify-between">
         <span className="text-muted-foreground">Brand Mentions:</span>
-        <span className="text-accent font-medium">{impactMetrics.brandMentionsLift.toFixed(1)}%</span>
+        <span className="text-primary font-medium">{impactMetrics.brandMentionsLift.toFixed(1)}%</span>
       </div>
     </div>
   </Card>

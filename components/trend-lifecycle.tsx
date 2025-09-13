@@ -212,7 +212,9 @@ export function TrendLifecycle() {
                         ? "accent"
                         : item.current_stage?.toLowerCase() === "emerging"
                           ? "primary"
-                          : "secondary"
+                            : item.current_stage?.toLowerCase() === "stable"
+                            ? "muted"
+                            : "secondary"
                     }
                     className="text-xs"
                   >
